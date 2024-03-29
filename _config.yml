@@ -1,6 +1,6 @@
 # Site settings
 title: Xin Jin`s Homepage
-baseurl: "/ap"
+# baseurl:
 url: "https://jinxins.github.io"
 # google_analytics: # Tracking ID, e.g. "UA-000000-01"
 
@@ -8,8 +8,8 @@ url: "https://jinxins.github.io"
 author:
   name: Xin Jin (金 鑫)
   desc: Hello nice to meet you
-  email: 158398730@qq.com or Jinxin20001118@163.com
-  selfie: assets/img/profile.jpg
+  email: Jinxin20001118@163.com
+  selfie: assets/img/xinjin.jpg
 
 # social
 social:
