@@ -1,29 +1,29 @@
 # Site settings
-title: A.P
+title: Xin Jin`s Homepage
 baseurl: "/ap"
-url: "https://kssim.github.io"
-google_analytics: # Tracking ID, e.g. "UA-000000-01"
+url: "https://jinxins.github.io"
+# google_analytics: # Tracking ID, e.g. "UA-000000-01"
 
 # Author
 author:
-  name: KyeongSeob Sim
+  name: Xin Jin (金 鑫)
   desc: Hello nice to meet you
-  email: ksub0912@gmail.com
+  email: 158398730@qq.com or Jinxin20001118@163.com
   selfie: assets/img/profile.jpg
 
 # social
 social:
-  email: true
+  email: 158398730@qq.com
   behance:
   bitbucket:
   dribbble:
   facebook: Test
   flickr:
-  github: kssim
+  github: https://github.com/JinXins
   google_plus:
   instagram:
   keybase:
-  linkedin: https://www.linkedin.com/in/kssim/ 
+  # linkedin: https://www.linkedin.com/in/kssim/ 
   pinterest:
   reddit:
   soundcloud:
@@ -31,7 +31,7 @@ social:
   steam:
   tumblr:
   gitlab:
-  twitter: Test
+  twitter: https://twitter.com/Xander_K1ng
   vimeo:
   wordpress:
   youtube:
