@@ -3,13 +3,13 @@ layout: about
 ---
 
 # About Me
-There is no specific format here. You can fill out the form you want.  
-For example, you might want to write a brief introduction about your self, experience, interests, publications, and other information.  
-I wrote "about me", "career", and "interests" on this page as an example.  
+I am currently a second-year Master's Degree Candidate at Chongqing Technology and Business University. Supervised by Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN). I obtained B.S. degree in Internet of Things Engineering from Pass Collage of Chongqing Technology and Business University in 2022.
+
+I am interested in Computer Vision and Biometric Identification. My current work focuses on Mixup data augmentation and vein identification.
 
 <br/>
 
-# Career
+# Experiences
 * Second Company (2012/01 ~ )
   * Web Application Firewall
     * Developed TCP network acceleration module.
@@ -19,6 +19,15 @@ I wrote "about me", "career", and "interests" on this page as an example.
   * Team Leader of VPN Development Div.
 
 <br/>
+
+# Publications
+
+# Services
+Not yet.
+
+# Awards
+ - Academic Progress Award, CTBU. 2023
+
 
 # Interests
 I am interested in technology trends.  
