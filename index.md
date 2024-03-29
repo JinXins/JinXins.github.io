@@ -7,7 +7,7 @@ I am currently a second-year Master's Degree Candidate at Chongqing Technology a
 
 I am interested in Computer Vision and Biometric Identification. My current work focuses on Mixup Data Augmentation and Vein Identification.
 
-<i font="font-weight: bold; font-size: 14px">Welcome to contacting me about research. Please drop me emails (Jinxin20001118 AT 163.com) or WeChat me (xinxinxinxin_j).</i>
+<i><font size=16px>Welcome to contacting me about research. Please drop me emails (Jinxin20001118@163.com) or WeChat me (xinxinxinxin_j).</font></i>
 
 # News 💬 
 <!-- <div style="height:200px;overflow-y:auto;background:#ffffff;"> -->
