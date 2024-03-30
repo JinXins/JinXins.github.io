@@ -56,7 +56,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
     <img src="https://github.com/JinXins/Awesome-FingerVein/assets/124172716/4d8ecbff-1326-4ccd-a312-97a24a9e8ca3" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="330px" />&nbsp;</td>
     <td align="left"><p>
         <font size="4pt" face="Georgia"><b><a target="_blank" style="color:#2a7ce0">EmMixformer: Mix Transformer for Eye Movement Recognition</a></b></font><br>
-        <i> Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Qun Song, Mounim A. El-Yacoubi, and <i>Fellow, IEEE</i> Xinbo Gao </i>
+        <i> Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Qun Song, Mounim A. El-Yacoubi, and <i>IEEE Fellow</i> Xinbo Gao </i>
         <br><i>arXiv, 2024 </i><br>
         [<a href="https://arxiv.org/abs/2401.04956" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="https://github.com/zzx734570533/CTBU-EMglasses-database" target="_blank" style="color:#2a7ce0">Database</a>]
