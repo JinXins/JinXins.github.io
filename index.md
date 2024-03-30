@@ -43,7 +43,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 <table class="imgtable"><tr><td>
     <img src="./assets/img/AdAutoMix.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" height="130px" />&nbsp;</td>
     <td align="left"><p>
-        <font size="4pt" face="Georgia"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>
+        <font face="Georgia"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>
         <i> Huafeng Qin<sup>*,†</sup>, <b>Xin Jin</b><sup>*</sup>, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao </i>
         <br><i>International Conference on Learning Representations(<b>ICLR</b>), 2024 <b>(<font color="#FF0000">Spotlight</font>)</b></i><br>
         [<a href="https://arxiv.org/abs/2312.11954" target="_blank" style="color:#2a7ce0">PDF</a>]
@@ -55,7 +55,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 <table class="imgtable"><tr><td>
     <img src="./assets/img/EmMixFomer.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" height="130px" />&nbsp;</td>
     <td align="left"><p>
-        <font size="4pt" face="Georgia"><b><a target="_blank" style="color:#2a7ce0">EmMixformer: Mix Transformer for Eye Movement Recognition</a></b></font><br>
+        <font face="Georgia"><b><a target="_blank" style="color:#2a7ce0">EmMixformer: Mix Transformer for Eye Movement Recognition</a></b></font><br>
         <i> Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Qun Song, Mounim A. El-Yacoubi, and <i>IEEE Fellow</i> Xinbo Gao </i>
         <br><i>arXiv, 2024 </i><br>
         [<a href="https://arxiv.org/abs/2401.04956" target="_blank" style="color:#2a7ce0">PDF</a>]
@@ -68,7 +68,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 <table class="imgtable"><tr><td>
     <img src="./assets/img/AdCL.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" height="130px" />&nbsp;</td>
     <td align="left"><p>
-        <font size="4pt" face="Georgia"><b><a target="_blank" style="color:#2a7ce0">Adversarial Contrastive Learning Based on Image Generation for Palm Vein Recognition</a></b></font><br>
+        <font face="Georgia"><b><a target="_blank" style="color:#2a7ce0">Adversarial Contrastive Learning Based on Image Generation for Palm Vein Recognition</a></b></font><br>
         <i> Yiquan Wu, Hongchao Liao, Hongyu Zhu, <b>Xin Jin</b>, Shuqiang Yang, Huafeng Qin </i>
         <br><i>AIIIP, 2023 </i><br>
         [<a href="https://ieeexplore.ieee.org/abstract/document/10417336/" target="_blank" style="color:#2a7ce0">PDF</a>]
@@ -80,7 +80,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 <table class="imgtable"><tr><td>
     <img src="./assets/img/CGAN-DA.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" height="130px" />&nbsp;</td>
     <td align="left"><p>
-        <font size="4pt" face="Georgia"><b><a target="_blank" style="color:#2a7ce0">CGAN-DA: A Cross-Modality Domain Adaptation Model for Hand-Vein Biometric-based Authentication</a></b></font><br>
+        <font face="Georgia"><b><a target="_blank" style="color:#2a7ce0">CGAN-DA: A Cross-Modality Domain Adaptation Model for Hand-Vein Biometric-based Authentication</a></b></font><br>
         <i> Shuqiang Yang, Yiquan Wu, <b>Xin Jin</b>, Mounim A. El-Yacoubi, Huafeng Qin </i>
         <br><i>Journal of Cyber-Physical-Social Intelligence, 2022 </i><br>
         [<a href="https://hal.science/hal-04304430/" target="_blank" style="color:#2a7ce0">PDF</a>]
