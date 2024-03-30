@@ -7,7 +7,7 @@ I am currently a second-year Master's Degree Candidate at Chongqing Technology a
 
 I am interested in Computer Vision and Biometric Identification. My current work focuses on Mixup Data Augmentation and Vein Identification.
 
-<i><b><font size=3.5px>Welcome to contacting me about research. Please drop me emails (jinxin20001118@163.com) or WeChat me (xinxinxinxin_j).</font></b></i>
+<i><b><font size=2px>Welcome to contacting me about research. Please drop me emails (jinxin20001118@163.com) or WeChat me (xinxinxinxin_j).</font></b></i>
 
 # News 💬 
 <!-- <div style="height:200px;overflow-y:auto;background:#ffffff;"> -->
@@ -52,7 +52,6 @@ I am interested in Computer Vision and Biometric Identification. My current work
 </p></td></tr>
 </table>
 
-<!-- EmMixformer: Mix Transformer for Eye Movement Recognition -->
 <table class="imgtable"><tr><td>
     <img src="./assets/img/EmMixFomer.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" height="130px" />&nbsp;</td>
     <td align="left"><p>
