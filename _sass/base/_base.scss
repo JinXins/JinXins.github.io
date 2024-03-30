@@ -69,14 +69,15 @@ blockquote {
 
 img {
   display: block;
-  margin: 0 0 1rem;
+  // margin: 0 0 1rem;
+  // margin: 0 0 1rem;
   max-width: 100%;
 }
 
-// img.top {
-//   vertical-align: text-top;
-// }
+img.top {
+  vertical-align: text-top;
+}
 
-// td {
-//   vertical-align: top;
-// }
+td {
+  vertical-align: top;
+}
