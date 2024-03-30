@@ -48,7 +48,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
         <br><i>International Conference on Learning Representations(<b>ICLR</b>), 2024 <b>(<font color="#FF0000">Spotlight</font>)</b></i><br>
         [<a href="https://arxiv.org/abs/2312.11954" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="https://github.com/JinXins/Adversarial-AutoMixup" target="_blank" style="color:#2a7ce0">Code</a>]
-        [<a href="./assets/bibtex/ICLR_2024_AdAutoMix_bibtext" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+        [<a href="./assets/bibtex/ICLR_2024_AdAutoMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
 </p></td></tr>
 </table>
 
