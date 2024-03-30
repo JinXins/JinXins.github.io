@@ -69,7 +69,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
     <td align="left"><p>
         <font size="4pt" face="Georgia"><b><a target="_blank" style="color:#2a7ce0">Adversarial Contrastive Learning Based on Image Generation for Palm Vein Recognition</a></b></font><br>
         <i> Yiquan Wu, Hongchao Liao, Hongyu Zhu, <b>Xin Jin</b>, Shuqiang Yang, Huafeng Qin </i>
-        <br><i>arXiv, 2024 </i><br>
+        <br><i>AIIIP, 2023 </i><br>
         [<a href="https://ieeexplore.ieee.org/abstract/document/10417336/" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="./assets/bibtex/AIIIP_2023_AdCL_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
 </p></td></tr></table>
@@ -80,7 +80,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
     <td align="left"><p>
         <font size="4pt" face="Georgia"><b><a target="_blank" style="color:#2a7ce0">CGAN-DA: A Cross-Modality Domain Adaptation Model for Hand-Vein Biometric-based Authentication</a></b></font><br>
         <i> Shuqiang Yang, Yiquan Wu, <b>Xin Jin</b>, Mounim A. El-Yacoubi, Huafeng Qin </i>
-        <br><i>arXiv, 2024 </i><br>
+        <br><i>Journal of Cyber-Physical-Social Intelligence, 2022 </i><br>
         [<a href="https://hal.science/hal-04304430/" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="./assets/bibtex/JCPSI_2022_CGAN-DA_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
 </p></td></tr></table>
