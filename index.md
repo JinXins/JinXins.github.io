@@ -37,7 +37,6 @@ I am interested in Computer Vision and Biometric Identification. My current work
 
 
 # Publications 📖
-### Conferences (*: Equal Contribution. †: Corresponding Author.):
 
 <!-- Adversarial AutoMixup -->
 <table class="imgtable"><tr><td>
