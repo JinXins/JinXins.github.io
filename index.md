@@ -41,7 +41,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 
 <!-- Adversarial AutoMixup -->
 <table class="imgtable"><tr><td>
-    <img src="https://github.com/JinXins/Adversarial-AutoMixup/assets/124172716/c8b2f194-41b1-4117-8965-68c9c20d3c83" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" height="165px" />&nbsp;</td>
+    <img src="./assets/img/AdAutoMix.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" height="130px" />&nbsp;</td>
     <td align="left"><p>
         <font size="4pt" face="Georgia"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>
         <i> Huafeng Qin<sup>*,†</sup>, <b>Xin Jin</b><sup>*</sup>, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao </i>
@@ -54,7 +54,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 
 <!-- EmMixformer: Mix Transformer for Eye Movement Recognition -->
 <table class="imgtable"><tr><td>
-    <img src="https://github.com/JinXins/Awesome-FingerVein/assets/124172716/4d8ecbff-1326-4ccd-a312-97a24a9e8ca3" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" height="165px" />&nbsp;</td>
+    <img src="./assets/img/EmMixFomer.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" height="130px" />&nbsp;</td>
     <td align="left"><p>
         <font size="4pt" face="Georgia"><b><a target="_blank" style="color:#2a7ce0">EmMixformer: Mix Transformer for Eye Movement Recognition</a></b></font><br>
         <i> Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Qun Song, Mounim A. El-Yacoubi, and <i>IEEE Fellow</i> Xinbo Gao </i>
@@ -67,7 +67,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 
 <!-- Adversarial Contrastive Learning Based on Image Generation for Palm Vein Recognition -->
 <table class="imgtable"><tr><td>
-    <img src="https://github.com/JinXins/Awesome-FingerVein/assets/124172716/22b24f6a-a2b2-4b33-ab94-34a72592982d" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" height="165px" />&nbsp;</td>
+    <img src="./assets/img/AdCL.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" height="130px" />&nbsp;</td>
     <td align="left"><p>
         <font size="4pt" face="Georgia"><b><a target="_blank" style="color:#2a7ce0">Adversarial Contrastive Learning Based on Image Generation for Palm Vein Recognition</a></b></font><br>
         <i> Yiquan Wu, Hongchao Liao, Hongyu Zhu, <b>Xin Jin</b>, Shuqiang Yang, Huafeng Qin </i>
@@ -79,7 +79,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 
 <!-- CGAN-DA: A Cross-Modality Domain Adaptation Model for Hand-Vein Biometric-based Authentication -->
 <table class="imgtable"><tr><td>
-    <img src="https://github.com/JinXins/Awesome-FingerVein/assets/124172716/061b2285-7533-486e-bb4c-67ce8c6873bc" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" height="165px" />&nbsp;</td>
+    <img src="./assets/img/CGAN-DA.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" height="130px" />&nbsp;</td>
     <td align="left"><p>
         <font size="4pt" face="Georgia"><b><a target="_blank" style="color:#2a7ce0">CGAN-DA: A Cross-Modality Domain Adaptation Model for Hand-Vein Biometric-based Authentication</a></b></font><br>
         <i> Shuqiang Yang, Yiquan Wu, <b>Xin Jin</b>, Mounim A. El-Yacoubi, Huafeng Qin </i>
