@@ -49,7 +49,8 @@ I am interested in Computer Vision and Biometric Identification. My current work
         [<a href="https://arxiv.org/abs/2312.11954" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="https://github.com/JinXins/Adversarial-AutoMixup" target="_blank" style="color:#2a7ce0">Code</a>]
         [<a href="./assets/bibtex/ICLR_2024_AdAutoMix_bibtext" target="_blank" style="color:#2a7ce0">BibTeX</a>]
-</p></td></tr></table>
+</p></td></tr>
+</table>
 
 <!-- EmMixformer: Mix Transformer for Eye Movement Recognition -->
 <table class="imgtable"><tr><td>
@@ -61,7 +62,8 @@ I am interested in Computer Vision and Biometric Identification. My current work
         [<a href="https://arxiv.org/abs/2401.04956" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="https://github.com/zzx734570533/CTBU-EMglasses-database" target="_blank" style="color:#2a7ce0">Database</a>]
         [<a href="./assets/bibtex/ArXiv_2024_EMMixFomer_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
-</p></td></tr></table>
+</p></td></tr>
+</table>
 
 <!-- Adversarial Contrastive Learning Based on Image Generation for Palm Vein Recognition -->
 <table class="imgtable"><tr><td>
@@ -72,7 +74,8 @@ I am interested in Computer Vision and Biometric Identification. My current work
         <br><i>AIIIP, 2023 </i><br>
         [<a href="https://ieeexplore.ieee.org/abstract/document/10417336/" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="./assets/bibtex/AIIIP_2023_AdCL_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
-</p></td></tr></table>
+</p></td></tr>
+</table>
 
 <!-- CGAN-DA: A Cross-Modality Domain Adaptation Model for Hand-Vein Biometric-based Authentication -->
 <table class="imgtable"><tr><td>
@@ -83,7 +86,8 @@ I am interested in Computer Vision and Biometric Identification. My current work
         <br><i>Journal of Cyber-Physical-Social Intelligence, 2022 </i><br>
         [<a href="https://hal.science/hal-04304430/" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="./assets/bibtex/JCPSI_2022_CGAN-DA_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
-</p></td></tr></table>
+</p></td></tr>
+</table>
 
 # Services 🧸
  - **Conference Reviewer:**  
