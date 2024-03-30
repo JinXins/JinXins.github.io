@@ -22,7 +22,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 # Experiences 📝 
 <!-- Chongqing Institute of Financial Technology -->
 <table class="imgtable"><tr><td>
-    <img src="./assets/img/CQFI.jpg" class="bottom" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
+    <img src="./assets/img/CQFI.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
     <td align="left"><p>
         <font face="Georgia">
           <b> Research Intern </b> | <a target="_blank" style="color:#2a7ce0">
@@ -39,7 +39,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 # Publications 📖
 ### Conferences (*: Equal Contribution. †: Corresponding Author.):
 <table class="imgtable"><tr><td>
-    <img src="https://github.com/JinXins/Adversarial-AutoMixup/assets/124172716/c8b2f194-41b1-4117-8965-68c9c20d3c83" class="bottom" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
+    <img src="https://github.com/JinXins/Adversarial-AutoMixup/assets/124172716/c8b2f194-41b1-4117-8965-68c9c20d3c83" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
     <td align="left"><p>
         <font size="4pt" face="Georgia"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>
         <i> Huafeng Qin<sup>*,†</sup>, <b>Xin Jin</b><sup>*</sup>, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao </i>
