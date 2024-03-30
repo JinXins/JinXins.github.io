@@ -41,7 +41,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 <table class="imgtable"><tr><td>
     <img src="https://github.com/JinXins/Adversarial-AutoMixup/assets/124172716/c8b2f194-41b1-4117-8965-68c9c20d3c83" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
     <td align="left"><p>
-        <font size="2pt" face="Georgia"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>
+        <font size="4pt" face="Georgia"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>
         <i> Huafeng Qin<sup>*,†</sup>, <b>Xin Jin</b><sup>*</sup>, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao </i>
         <br><i><b>ICLR 2024 (<font color="#FF0000">Spotlight</font>)</b></i><br>
         [<a href="https://arxiv.org/abs/2312.11954" target="_blank" style="color:#2a7ce0">PDF</a>]
