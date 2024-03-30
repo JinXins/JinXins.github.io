@@ -29,7 +29,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
             Chongqing Institute of Financial Technology
           </a>
         </font>
-        <br>Time: July 2023 - Step 2023. Advisor: <a href="https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN">  Prof. Huafeng Qin.<br>
+        <br>Time: July 2023 - Step 2023. Advisor: <a href="https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN">  Prof. Huafeng Qin</a>.<br>
         </p></td></tr>
 </table>
           
