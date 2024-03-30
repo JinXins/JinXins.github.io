@@ -22,7 +22,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 # Experiences 📝 
 <!-- Chongqing Institute of Financial Technology -->
 <table class="imgtable"><tr><td>
-    <img src="./assets/img/CQFI.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
+    <img src="./assets/img/CQFI.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="340px" />&nbsp;</td>
     <td align="left"><p>
         <font face="Georgia">
           <b> Research Intern </b> | <a target="_blank" style="color:#2a7ce0">
