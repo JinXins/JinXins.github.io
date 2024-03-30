@@ -1,4 +1,4 @@
-![1711800896927](https://github.com/JinXins/JinXins.github.io/assets/124172716/505991b6-e994-4831-b539-d5d801da9c65)---
+---
 layout: about 
 ---
 
