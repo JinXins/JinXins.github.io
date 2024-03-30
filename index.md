@@ -19,13 +19,10 @@ I am interested in Computer Vision and Biometric Identification. My current work
   </ul>
 </div>
 
-
-<br/>
-
 # Experiences 📝 
 <!-- Chongqing Institute of Financial Technology -->
 <table class="imgtable"><tr><td>
-    <img src="https://github.com/JinXins/JinXins.github.io/tree/master/assets/img/CQFI" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
+    <img src="./assets/img/CQFI.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
     <td align="left"><p>
         <font face="Georgia">
           <b> Research Associate </b> | <a target="_blank" style="color:#2a7ce0">
@@ -35,20 +32,9 @@ I am interested in Computer Vision and Biometric Identification. My current work
         <br>Time: July 2023 - Step 2023. Advisor: <a href="https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN">  Prof. Huafeng Qin.<br>
         </p></td></tr>
 </table>
+          
 <!-- Westlake University -->
-<!-- <table class="imgtable"><tr><td>
-    <img src="https://github.com/Lupin1998/Awesome-MIM/assets/44519745/ec3f11eb-b12d-4ebc-a129-fc951018ddcd" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
-    <td align="left"><p>
-        <font face="Georgia">
-          <b> Research Associate </b> | <a target="_blank" style="color:#2a7ce0">
-            Chongqing Fintech Institute
-          </a>
-        </font>
-        <br>Time: July 2023 - Step 2023. Advisor: <a href="https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN">  Prof. Huafeng Qin.<br>
-        </p></td></tr>
-</table> -->
 
-<br/>
 
 # Publications 📖
 
