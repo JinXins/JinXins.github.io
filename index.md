@@ -40,8 +40,8 @@ I am interested in Computer Vision and Biometric Identification. My current work
 ### Conferences (*: Equal Contribution. †: Corresponding Author.):
 
 <!-- Adversarial AutoMixup -->
-<table class="imgtable"><tr><td>
-    <img src="./assets/img/AdAutoMix.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px";height="130px"/>&nbsp;</td>
+<table class="imgtable"><tr><td style="width:220px;height:130px">
+    <img src="./assets/img/AdAutoMix.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Georgia"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>
         <i> Huafeng Qin<sup>*,†</sup>, <b>Xin Jin</b><sup>*</sup>, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao </i>
@@ -52,8 +52,8 @@ I am interested in Computer Vision and Biometric Identification. My current work
 </p></td></tr>
 </table>
 
-<table class="imgtable"><tr><td>
-    <img src="./assets/img/EmMixFomer.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px";height="130px"/>&nbsp;</td>
+<table class="imgtable"><tr><td style="width:220px;height:130px">
+    <img src="./assets/img/EmMixFomer.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Georgia"><b><a target="_blank" style="color:#2a7ce0">EmMixformer: Mix Transformer for Eye Movement Recognition</a></b></font><br>
         <i> Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Qun Song, Mounim A. El-Yacoubi, and <i>IEEE Fellow</i> Xinbo Gao </i>
@@ -65,8 +65,8 @@ I am interested in Computer Vision and Biometric Identification. My current work
 </table>
 
 <!-- Adversarial Contrastive Learning Based on Image Generation for Palm Vein Recognition -->
-<table class="imgtable"><tr><td>
-    <img src="./assets/img/AdCL.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px";height="130px"/>&nbsp;</td>
+<table class="imgtable"><tr><td style="width:220px;height:130px">
+    <img src="./assets/img/AdCL.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Georgia"><b><a target="_blank" style="color:#2a7ce0">Adversarial Contrastive Learning Based on Image Generation for Palm Vein Recognition</a></b></font><br>
         <i> Yiquan Wu, Hongchao Liao, Hongyu Zhu, <b>Xin Jin</b>, Shuqiang Yang, Huafeng Qin </i>
