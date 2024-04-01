@@ -75,6 +75,37 @@ img {
   vertical-align: text-top;
 }
 
+table.imgtable, table.imgtable td {
+    border: none;
+    text-align: left;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+table + table {
+    margin-top: 1em;
+}
+
+tr.heading {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+img {
+    border: none;
+}
+
 td {
   vertical-align: top;
 }
