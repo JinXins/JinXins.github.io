@@ -84,6 +84,7 @@ table.table-row{
     display:flex;
     flex-direction:row;
 }
+
 @median screen and (max-width: 767px){
   table.table-row{
     flex-direction:colum;
@@ -96,7 +97,7 @@ table {
 }
 
 td {
-    padding: 2px;
+    padding: 0px;
     padding-left: 0.5em;
     padding-right: 0.5em;
     text-align: center;
