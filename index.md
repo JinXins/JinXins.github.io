@@ -40,7 +40,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 ### Conferences (*: Equal Contribution. †: Corresponding Author.):
 
 <!-- Adversarial AutoMixup -->
-<table class="imgtable"><tr><td style="width:220px;height:130px">
+<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
     <img src="./assets/img/AdAutoMix.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>
