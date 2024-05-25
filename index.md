@@ -46,7 +46,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
         <b>Xin Jin</b>, Hongyu Zhu, Mounim A. El-Yacoubi, Hongchao Liao, Huafeng Qin, and Yun Jiang 
         <br><i>arXiv, 2024 </i><br>
         [<a href="https://arxiv.org/abs/2405.12721" target="_blank" style="color:#2a7ce0">PDF</a>]
-        [<a href="./assets/bibtex/ArXiv_2024_EMMixFomer_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+        [<a href="./assets/bibtex/ArXiv_2024_StarLKNet_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
 </p></td></tr>
 </table>
 
