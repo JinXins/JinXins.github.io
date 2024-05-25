@@ -40,7 +40,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 ### Selective Papers:
 
 <table class="imgtable"><tr><td style="width:220px;height:130px">
-    <img src="./assets/img/EmMixFomer.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <img src="./assets/img/StarLKNet.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">StarLKNet: Star Mixup with Large Kernel Networks for Palm Vein Identification</a></b></font><br>
         <b>Xin Jin</b>, Hongyu Zhu, Mounim A. El-Yacoubi, Hongchao Liao, Huafeng Qin, and Yun Jiang 
