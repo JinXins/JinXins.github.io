@@ -37,18 +37,16 @@ I am interested in Computer Vision and Biometric Identification. My current work
 
 
 # Publications 📖
-### Conferences (*: Equal Contribution. †: Corresponding Author.):
+### Selective Papers:
 
-<!-- Adversarial AutoMixup -->
-<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
-    <img src="./assets/img/AdAutoMix.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+<table class="imgtable"><tr><td style="width:220px;height:130px">
+    <img src="./assets/img/EmMixFomer.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
     <td align="left"><p>
-        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>
-        Huafeng Qin<sup>*,†</sup>, <b>Xin Jin</b><sup>*</sup>, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao
-        <br><i><b>ICLR</b>, 2024 <b>(<font color="#FF0000">Spotlight</font>)</b></i><br>
-        [<a href="https://arxiv.org/abs/2312.11954" target="_blank" style="color:#2a7ce0">PDF</a>]
-        [<a href="https://github.com/JinXins/Adversarial-AutoMixup" target="_blank" style="color:#2a7ce0">Code</a>]
-        [<a href="./assets/bibtex/ICLR_2024_AdAutoMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">StarLKNet: Star Mixup with Large Kernel Networks for Palm Vein Identification</a></b></font><br>
+        <b>Xin Jin</b>, Hongyu Zhu, Mounim A. El-Yacoubi, Hongchao Liao, Huafeng Qin, and Yun Jiang 
+        <br><i>arXiv, 2024 </i><br>
+        [<a href="https://arxiv.org/abs/2405.12721" target="_blank" style="color:#2a7ce0">PDF</a>]
+        [<a href="./assets/bibtex/ArXiv_2024_EMMixFomer_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
 </p></td></tr>
 </table>
 
@@ -64,6 +62,21 @@ I am interested in Computer Vision and Biometric Identification. My current work
 </p></td></tr>
 </table>
 
+### Conferences (*: Equal Contribution. †: Corresponding Author.):
+
+<!-- Adversarial AutoMixup -->
+<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
+    <img src="./assets/img/AdAutoMix.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <td align="left"><p>
+        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>
+        Huafeng Qin<sup>*,†</sup>, <b>Xin Jin</b><sup>*</sup>, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao
+        <br><i><b>ICLR</b>, 2024 <b>(<font color="#FF0000">Spotlight</font>)</b></i><br>
+        [<a href="https://arxiv.org/abs/2312.11954" target="_blank" style="color:#2a7ce0">PDF</a>]
+        [<a href="https://github.com/JinXins/Adversarial-AutoMixup" target="_blank" style="color:#2a7ce0">Code</a>]
+        [<a href="./assets/bibtex/ICLR_2024_AdAutoMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+</p></td></tr>
+</table>
+
 <!-- Adversarial Contrastive Learning Based on Image Generation for Palm Vein Recognition -->
 <table class="imgtable"><tr><td style="width:220px;height:130px">
     <img src="./assets/img/AdCL.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
@@ -75,6 +88,8 @@ I am interested in Computer Vision and Biometric Identification. My current work
         [<a href="./assets/bibtex/AIIIP_2023_AdCL_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
 </p></td></tr>
 </table>
+
+### Journal Papers (*: Equal Contribution. †: Corresponding Author.):
 
 <!-- CGAN-DA: A Cross-Modality Domain Adaptation Model for Hand-Vein Biometric-based Authentication -->
 <table class="imgtable"><tr><td style="width:220px;height:130px">
