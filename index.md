@@ -62,7 +62,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 </p></td></tr>
 </table>
 
-### Conferences (*: Equal Contribution. †: Corresponding Author.):
+### Conference Papers (*: Equal Contribution. †: Corresponding Author.):
 
 <!-- Adversarial AutoMixup -->
 <table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
