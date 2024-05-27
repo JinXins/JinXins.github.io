@@ -37,7 +37,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 
 
 # Publications 📖
-### Selective Papers:
+### Selected Preprints:
 
 <table class="imgtable"><tr><td style="width:220px;height:130px">
     <img src="./assets/img/StarLKNet.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
@@ -62,7 +62,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 </p></td></tr>
 </table>
 
-### Conference Papers (*: Equal Contribution. †: Corresponding Author.):
+### Conferences (*: Equal Contribution. †: Corresponding Author.):
 
 <!-- Adversarial AutoMixup -->
 <table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
@@ -89,7 +89,7 @@ I am interested in Computer Vision and Biometric Identification. My current work
 </p></td></tr>
 </table>
 
-### Journal Papers (*: Equal Contribution. †: Corresponding Author.):
+### Journals (*: Equal Contribution. †: Corresponding Author.):
 
 <!-- CGAN-DA: A Cross-Modality Domain Adaptation Model for Hand-Vein Biometric-based Authentication -->
 <table class="imgtable"><tr><td style="width:220px;height:130px">
