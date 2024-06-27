@@ -46,7 +46,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
     <img src="./assets/img/StarLKNet.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">StarLKNet: Star Mixup with Large Kernel Networks for Palm Vein Identification</a></b></font><br>
-        <b>Xin Jin</b>, Hongyu Zhu, Mounim A. El-Yacoubi, Hongchao Liao, Huafeng Qin, and Yun Jiang 
+        <b>Xin Jin</b><sup>*</sup>, Hongyu Zhu<sup>*</sup>, Mounim A. El-Yacoubi, Hongchao Liao, Huafeng Qin, and Yun Jiang<sup>†</sup> 
         <br><i>arXiv, 2024 </i><br>
         [<a href="https://arxiv.org/abs/2405.12721" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="./assets/bibtex/ArXiv_2024_StarLKNet_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
