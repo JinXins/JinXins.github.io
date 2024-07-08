@@ -67,6 +67,19 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 
 ### Conferences (*: Equal Contribution. †: Corresponding Author.):
 
+<!-- SUMix: Mixup with Semantic and Uncertain Information -->
+<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
+    <img src="./assets/img/SUMix.png" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <td align="left"><p>
+        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">SUMix: Mixup with Semantic and Uncertain Information</a></b></font><br>
+        Huafeng Qin<sup>*,†</sup>, <b>Xin Jin</b><sup>*</sup>, <b>Hongyu Zhu</b><sup>*</sup>, Hongchao Liao, Mounim A. El-Yacoubi, Xinbo Gao
+        <br><i><b>ECCV</b>, 2024</i><br>
+        [<a href="https://arxiv.org/abs/2312.11954" target="_blank" style="color:#2a7ce0">PDF</a>]
+        [<a href="https://github.com/JinXins/Adversarial-AutoMixup" target="_blank" style="color:#2a7ce0">Code</a>]
+       <!-- [<a href="./assets/bibtex/ICLR_2024_AdAutoMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>] -->
+</p></td></tr>
+</table>
+
 <!-- Adversarial AutoMixup -->
 <table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
     <img src="./assets/img/AdAutoMix.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
