@@ -24,13 +24,13 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 </div>
 
 # Experiences 📝 
-<!-- Chongqing Institute of Financial Technology -->
+<!-- Chongqing Financial Institute -->
 <table class="imgtable"><tr><td>
     <img src="./assets/img/CQFI.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
           <b> Research Intern </b> | <a target="_blank" style="color:#2a7ce0">
-            Chongqing Institute of Financial Technology
+            Chongqing Financial Institute
           </a>
         </font>
         <br>Time: July 2023 - Step 2023. Advisor: <a href="https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN">  Prof. Huafeng Qin</a>.<br>
