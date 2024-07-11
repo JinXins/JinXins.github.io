@@ -15,7 +15,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 <!-- <div style="height:200px;overflow-y:auto;background:#ffffff;"> -->
   <div style="height:200px;overflow-y:auto;">
   <ul>
-    <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on <i>mixup data augmentation</i>, <i><a href="https://arxiv.org/abs/2312.11954"> SUMix</a></i>, is accepted by <b>ECCV 2024</b>. </li>
+    <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on <i>mixup data augmentation</i>, <i><a href="https://arxiv.org/abs/2407.07805"> SUMix</a></i>, is accepted by <b>ECCV 2024</b>. </li>
     <li><b> <font color="#b80000">[2024.05]</font> </b> One file about <i><a href="https://github.com/JinXins/JinXins.github.io/blob/master/assets/mixup%20methods%20for%20SL.pdf"> Sample and Label Policies for Mixup in Supervised Learning</a></i>, published. </li>
     <li><b> <font color="#b80000">[2024.01]</font> </b> One paper on <i>mixup data augmentation</i>, <i><a href="https://arxiv.org/abs/2312.11954"> AdAutoMix</a></i>, is accepted by <b>ICLR 2024 (<font color="#FF0000">Spotlight</font>)</b>. </li>
     <li><b> <font color="#b80000">[2023.10]</font> </b> Co-author paper on <i>vein identification</i>, <i><a href="https://ieeexplore.ieee.org/abstract/document/10417336/"> AdCL</a></i>, is accepted by <b>AIIIP 2023</b>, congrats to <font color="#2a7ce0">Yiquan Wu</font>. </li>
