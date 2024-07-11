@@ -90,6 +90,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
         <br><i><b>ICLR</b>, 2024 <b>(<font color="#FF0000">Spotlight</font>)</b></i><br>
         [<a href="https://arxiv.org/abs/2312.11954" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="https://github.com/JinXins/Adversarial-AutoMixup" target="_blank" style="color:#2a7ce0">Code</a>]
+        [<a href="./assets/poster/AdAutoMix_poster_v2" target="_blank" style="color:#2a7ce0">Poster</a>]
         [<a href="./assets/bibtex/ICLR_2024_AdAutoMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
 </p></td></tr>
 </table>
