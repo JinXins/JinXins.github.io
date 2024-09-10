@@ -15,6 +15,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 <!-- <div style="height:200px;overflow-y:auto;background:#ffffff;"> -->
   <div style="height:200px;overflow-y:auto;">
   <ul>
+    <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on <i>mixup data augmentation</i>, <i><a href="https://arxiv.org/abs/2409.05202"> Survey</a></i>, is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on <i>mixup data augmentation</i>, <i><a href="https://arxiv.org/abs/2407.07805"> SUMix</a></i>, is accepted by <b>ECCV 2024</b>. </li>
     <li><b> <font color="#b80000">[2024.05]</font> </b> Co-author paper on <i>vein identification</i>, <i><a href="https://hsi2024.welcometohsi.org/"> GANet</a></i>, is accepted by <b>HSI 2024</b>, congrats to <font color="#2a7ce0">Hongchao Liao</font>. </li>
     <li><b> <font color="#b80000">[2024.05]</font> </b> One file about <i><a href="https://github.com/JinXins/JinXins.github.io/blob/master/assets/mixup%20methods%20for%20SL.pdf"> Sample and Label Policies for Mixup in Supervised Learning</a></i>, published. </li>
@@ -43,12 +44,23 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 
 # Publications 📖
 ### Selected Preprints:
+<table class="imgtable"><tr><td style="width:220px;height:130px">
+    <img src="./assets/img/F4.png" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <td align="left"><p>
+        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">A Survey on Mixup Augmentations and Beyond</a></b></font><br>
+        <b>Xin Jin</b><sup>*</sup>, Hongyu Zhu<sup>*</sup>, Siyuan Li<sup>*</sup>, Zedong Wang, Zicheng Liu, Chang Yu, Huafeng Qin, and <i>IEEE Fellow</i> Stan. Z. Li<sup>†</sup>
+        <br><i>arXiv, 2024 </i><br>
+        [<a href="https://arxiv.org/abs/2409.05202" target="_blank" style="color:#2a7ce0">PDF</a>]
+        [<a herf="https://github.com/Westlake-AI/Awesome-Mixup" target="_blank" style="color:#2a7ce0">Awesome</a>]
+        [<a href="./assets/bibtex/ArXiv_2024_StarLKNet_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+</p></td></tr>
+</table>
 
 <table class="imgtable"><tr><td style="width:220px;height:130px">
     <img src="./assets/img/StarLKNet.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">StarLKNet: Star Mixup with Large Kernel Networks for Palm Vein Identification</a></b></font><br>
-        <b>Xin Jin</b><sup>*</sup>, Hongyu Zhu<sup>*</sup>, Mounim A. El-Yacoubi, Hongchao Liao, Huafeng Qin, and Yun Jiang<sup>†</sup> 
+        <b>Xin Jin</b><sup>*</sup>, Hongyu Zhu<sup>*</sup>, Mounim A. El-Yacoubi, Hongchao Liao, Huafeng Qin, and Yun Jiang<sup>†</sup>  
         <br><i>arXiv, 2024 </i><br>
         [<a href="https://arxiv.org/abs/2405.12721" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="./assets/bibtex/ArXiv_2024_StarLKNet_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
