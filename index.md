@@ -51,7 +51,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
         <b>Xin Jin</b><sup>*</sup>, Hongyu Zhu<sup>*</sup>, Siyuan Li<sup>*</sup>, Zedong Wang, Zicheng Liu, Chang Yu, Huafeng Qin, and <i>IEEE Fellow</i> Stan. Z. Li<sup>†</sup>
         <br><i>arXiv, 2024 </i><br>
         [<a href="https://arxiv.org/abs/2409.05202" target="_blank" style="color:#2a7ce0">PDF</a>]
-        [<a herf="https://github.com/Westlake-AI/Awesome-Mixup" target="_blank" style="color:#2a7ce0">Awesome</a>]
+        [<a href="https://github.com/Westlake-AI/Awesome-Mixup" target="_blank" style="color:#2a7ce0">Awesome</a>]
         [<a href="./assets/bibtex/ArXiv_2024_StarLKNet_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
 </p></td></tr>
 </table>
