@@ -136,9 +136,12 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 
 # Services 🧸
  - **Conference Reviewer:**  
-ICLR (2025).
+2024 - International Conference on Learning Representations (ICLR), 2025  
  - **Journal Reviewer:**  
 Not yet.
+ - **Membership**  
+2024 - Student Member of IEEE  
+2024 - Student Member of China Computer Federation (CCF)
 
 # Awards 🏆 
  - Academic Progress Award, CTBU. 2023
