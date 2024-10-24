@@ -40,7 +40,17 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 </table>
           
 <!-- Westlake University -->
-
+<table class="imgtable"><tr><td>
+    <img src="./assets/img/westlake_logo.png" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
+    <td style="text-align:left; vertical-align:top"><p>
+        <font face="Lato">
+          <b> Research Intern </b> | <a target="_blank" style="color:#2a7ce0">
+            Wsetlake University
+          </a>
+        </font>
+        <br>Time: Mar. 2024 -- Present. Advisor: <a href="https://scholar.google.com/citations?user=Y-nyLGIAAAAJ&hl=zh-CN">  Prof. Stan Z. Li</a>.<br>
+        </p></td></tr>
+</table>
 
 # Publications 📖
 ### Selected Preprints:
