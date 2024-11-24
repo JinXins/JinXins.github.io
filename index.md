@@ -9,7 +9,7 @@ I am interested in **Computer Vision** and **Biometric Identification**. My curr
 
 I'm also a **photography amateur** and love to take **scenery and starry sky photos**. Of course, I don't only e-camera, I also use **film camera** to take photos.
 
-<i><b><font size=2px>Welcome to contacting me about research. Please drop me emails (jinxin20001118@163.com) or WeChat me (xinxinxinxin_j).</font></b></i>
+<i><b><font size=2px>Welcome to contacting me about research. Please drop me emails (jinxin20001118@163.com).</font></b></i>
 
 # News 💬 
 <!-- <div style="height:200px;overflow-y:auto;background:#ffffff;"> -->
