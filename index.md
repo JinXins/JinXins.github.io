@@ -77,18 +77,6 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 </p></td></tr>
 </table>
 
-<table class="imgtable"><tr><td style="width:220px;height:130px">
-    <img src="./assets/img/EmMixFomer.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
-    <td align="left"><p>
-        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">EmMixformer: Mix Transformer for Eye Movement Recognition</a></b></font><br>
-        Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Qun Song, Mounim A. El-Yacoubi, and <i>IEEE Fellow</i> Xinbo Gao 
-        <br><i>arXiv, 2024 </i><br>
-        [<a href="https://arxiv.org/abs/2401.04956" target="_blank" style="color:#2a7ce0">PDF</a>]
-        [<a href="https://github.com/zzx734570533/CTBU-EMglasses-database" target="_blank" style="color:#2a7ce0">Database</a>]
-        [<a href="./assets/bibtex/ArXiv_2024_EMMixFomer_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
-</p></td></tr>
-</table>
-
 ### Conferences (*: Equal Contribution. †: Corresponding Author.):
 
 <!-- SUMix: Mixup with Semantic and Uncertain Information -->
@@ -131,6 +119,19 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 </table>
 
 ### Journals (*: Equal Contribution. †: Corresponding Author.):
+
+<!-- EmMixformer: Mix Transformer for Eye Movement Recognition -->
+<table class="imgtable"><tr><td style="width:220px;height:130px">
+    <img src="./assets/img/EmMixFomer.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <td align="left"><p>
+        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">EmMixformer: Mix Transformer for Eye Movement Recognition</a></b></font><br>
+        Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Qun Song, Mounim A. El-Yacoubi, and <i>IEEE Fellow</i> Xinbo Gao 
+        <br><i>TIM, 2025 </i><br>
+        [<a href="https://arxiv.org/abs/2401.04956" target="_blank" style="color:#2a7ce0">PDF</a>]
+        [<a href="https://github.com/zzx734570533/CTBU-EMglasses-database" target="_blank" style="color:#2a7ce0">Database</a>]
+        [<a href="./assets/bibtex/ArXiv_2024_EMMixFomer_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+</p></td></tr>
+</table>
 
 <!-- CGAN-DA: A Cross-Modality Domain Adaptation Model for Hand-Vein Biometric-based Authentication -->
 <table class="imgtable"><tr><td style="width:220px;height:130px">
