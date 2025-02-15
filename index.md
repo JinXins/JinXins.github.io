@@ -15,6 +15,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 <!-- <div style="height:200px;overflow-y:auto;background:#ffffff;"> -->
   <div style="height:200px;overflow-y:auto;">
   <ul>
+    <li><b> <font color="#b80000">[2025.02]</font> </b> Two papers on <i>eye moment identification</i>, <i><a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a></i> and <i><a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a></i> are accepted by <b>IEEE TIM</b>. </li>
     <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on <i>mixup data augmentation</i>, <i><a href="https://arxiv.org/abs/2409.05202"> Survey</a></i>, is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on <i>mixup data augmentation</i>, <i><a href="https://arxiv.org/abs/2407.07805"> SUMix</a></i>, is accepted by <b>ECCV 2024</b>. </li>
     <li><b> <font color="#b80000">[2024.05]</font> </b> Co-author paper on <i>vein identification</i>, <i><a href="https://hsi2024.welcometohsi.org/"> GANet</a></i>, is accepted by <b>HSI 2024</b>, congrats to <font color="#2a7ce0">Hongchao Liao</font>. </li>
