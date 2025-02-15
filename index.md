@@ -15,14 +15,13 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 <!-- <div style="height:200px;overflow-y:auto;background:#ffffff;"> -->
   <div style="height:200px;overflow-y:auto;">
   <ul>
-    <li><b> <font color="#b80000">[2025.02]</font> </b> Two papers on <i>eye moment identification</i>, <i><a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a></i> and <i><a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a></i> are accepted by <b>IEEE TIM</b>. </li>
-    <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on <i>mixup data augmentation</i>, <i><a href="https://arxiv.org/abs/2409.05202"> Survey</a></i>, is released on <b>arXiv</b>. </li>
-    <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on <i>mixup data augmentation</i>, <i><a href="https://arxiv.org/abs/2407.07805"> SUMix</a></i>, is accepted by <b>ECCV 2024</b>. </li>
-    <li><b> <font color="#b80000">[2024.05]</font> </b> Co-author paper on <i>vein identification</i>, <i><a href="https://hsi2024.welcometohsi.org/"> GANet</a></i>, is accepted by <b>HSI 2024</b>, congrats to <font color="#2a7ce0">Hongchao Liao</font>. </li>
-    <li><b> <font color="#b80000">[2024.05]</font> </b> One file about <i><a href="https://github.com/JinXins/JinXins.github.io/blob/master/assets/mixup%20methods%20for%20SL.pdf"> Sample and Label Policies for Mixup in Supervised Learning</a></i>, published. </li>
-    <li><b> <font color="#b80000">[2024.01]</font> </b> One paper on <i>mixup data augmentation</i>, <i><a href="https://arxiv.org/abs/2312.11954"> AdAutoMix</a></i>, is accepted by <b>ICLR 2024 (<font color="#FF0000">Spotlight</font>)</b>. </li>
-    <li><b> <font color="#b80000">[2023.10]</font> </b> Co-author paper on <i>vein identification</i>, <i><a href="https://ieeexplore.ieee.org/abstract/document/10417336/"> AdCL</a></i>, is accepted by <b>AIIIP 2023</b>, congrats to <font color="#2a7ce0">Yiquan Wu</font>. </li>
-    <li><b> <font color="#b80000">[2022.12]</font> </b> Co-author paper on <i>vein identification</i>, <i><a href="https://hal.science/hal-04304430/"> CGAN-DA</a></i>, is accepted by <b>Journal of Cyber-Physical-Social Intelligence 2022</b>, congrats to <font color="#2a7ce0">Shuqiang Yang</font>. </li>
+    <li><b> <font color="#b80000">[2025.02]</font> </b> Two co-author papers on eye moment identification, <a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a> and <a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a> are accepted by <b>IEEE TIM</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
+    <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2409.05202"> Survey</a>, is released on <b>arXiv</b>. </li>
+    <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2407.07805"> SUMix</a>, is accepted by <b>ECCV 2024</b>. </li>
+    <li><b> <font color="#b80000">[2024.05]</font> </b> Co-author paper on vein identification, <a href="https://hsi2024.welcometohsi.org/"> GANet</a>, is accepted by <b>HSI 2024</b>, congrats to <font color="#2a7ce0">Hongchao Liao</font>. </li>
+    <li><b> <font color="#b80000">[2024.01]</font> </b> One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2312.11954"> AdAutoMix</a>, is accepted by <b>ICLR 2024 (<font color="#FF0000">Spotlight</font>)</b>. </li>
+    <li><b> <font color="#b80000">[2023.10]</font> </b> One co-author paper on vein identification, <a href="https://ieeexplore.ieee.org/abstract/document/10417336/"> AdCL</a>, is accepted by <b>AIIIP 2023</b>, congrats to <font color="#2a7ce0">Yiquan Wu</font>. </li>
+    <li><b> <font color="#b80000">[2022.12]</font> </b> One co-author paper on vein identification, <a href="https://hal.science/hal-04304430/"> CGAN-DA</a>, is accepted by <b>Journal of Cyber-Physical-Social Intelligence 2022</b>, congrats to <font color="#2a7ce0">Shuqiang Yang</font>. </li>
   </ul>
 </div>
 
