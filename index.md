@@ -2,7 +2,7 @@
 layout: about 
 ---
 
-# About Me 😁
+## About Me 😁
 I am currently a second-year Master's Degree Candidate at Chongqing Technology and Business University. Supervised by Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN). I obtained B.S. degree in Internet of Things Engineering from Pass Collage of Chongqing Technology and Business University in 2022.
 
 I am interested in **Computer Vision** and **Biometric Identification**. My current work focuses on Mixup Data Augmentation and Vein Identification.  
@@ -11,7 +11,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 
 <i><b><font size=2px>Welcome to contacting me about research. Please drop me emails (jinxin20001118@163.com).</font></b></i>
 
-# News 💬 
+## News 💬 
 <!-- <div style="height:200px;overflow-y:auto;background:#ffffff;"> -->
   <div style="height:200px;overflow-y:auto;">
   <ul>
@@ -25,7 +25,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
   </ul>
 </div>
 
-# Experiences 📝 
+## Experiences 📝 
 <!-- Chongqing Financial Institute -->
 <table class="imgtable"><tr><td>
     <img src="./assets/img/CQFI.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
@@ -52,7 +52,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
         </p></td></tr>
 </table>
 
-# Publications 📖
+## Publications 📖
 ### Selected Preprints:
 <table class="imgtable"><tr><td style="width:220px;height:130px">
     <img src="./assets/img/F4.png" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
@@ -145,7 +145,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 </p></td></tr>
 </table>
 
-# Services 🧸
+## Services 🧸
  - **Conference Reviewer:**  
 2024 - International Conference on Learning Representations (ICLR), 2025  
  - **Journal Reviewer:**  
@@ -154,9 +154,14 @@ Not yet.
 2024 - Student Member of IEEE  
 2024 - Student Member of China Computer Federation (CCF)
 
-# Awards 🏆 
- - Academic Progress Award, CTBU. 2023
+## Awards 🏆 
+ - Academic Progress Award, CTBU, 2023
+ - Challenge Cup of “Qin Chuang Yuan”, National 2nd prize, 2024
+ - The 14th Challenge Cup, Provincial 2nd prize, 2024
+ - China International Student Innovation Competition, Provincial 2nd prize, 2024
+ - The 7th Art Exhibition for College Students in Chongqing, Provincial 1st prize, 2023
 
 
-# Interests 📝 
-Photography.
+## Interests 📝 
+Photography.   
+You could see some photos on <a href="https://500px.com.cn/XinJin">500px website</a> (Long time without update...)
