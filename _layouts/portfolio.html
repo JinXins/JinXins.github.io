@@ -14,22 +14,22 @@ layout: base
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: transparent;
         }
 
         h1 {
             text-align: center;
             padding: 20px;
-            background-color: #333;
-            color: white;
+            background-color: transparent; /* 修改 h1 背景为透明 */
+            color: #333; /* 调整文字颜色，避免在透明背景下看不清 */
         }
 
         .category {
             margin: 20px;
             padding: 20px;
-            background-color: white;
+            background-color: transparent; /* 修改分区背景为透明 */
             border-radius: 4px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: none; /* 移除阴影，因为在透明背景下阴影效果不明显 */
         }
 
         .category h2 {
@@ -120,8 +120,8 @@ layout: base
     <div class="category">
         <h2>Film Photography</h2>
         <div class="gallery">
-            <img src="https://dummyimage.com/300x200/800080/ffffff&text=Film1" alt="Film Photography Work 1"
-                data-title="Film Work 1" data-content="Vintage film texture" data-camera="Leica M6" data-lens="Summicron - M 35mm f/2">
+            <img src="https://github.com/JinXins/JinXins.github.io/blob/master/assets/photos/film/1.2.jpg" alt="Film Photography Work 1"
+                data-title="派斯女神像" data-content="None" data-camera="NikonMat" data-lens="Nikon 135mm f/2">
             <img src="https://dummyimage.com/300x200/800080/ffffff&text=Film2" alt="Film Photography Work 2"
                 data-title="Film Work 2" data-content="Unique film colors" data-camera="Hasselblad 500CM" data-lens="Planar 80mm f/2.8">
             <img src="https://dummyimage.com/300x200/800080/ffffff&text=Film3" alt="Film Photography Work 3"
