@@ -19,7 +19,7 @@ layout: base
         }
 
         h1 {
-            text-align: center;
+            text-align: left;
             padding: 20px;
             background-color: transparent;
             color: #333;
@@ -85,11 +85,38 @@ layout: base
             background-color: rgba(0, 0, 0, 0.5);
             z-index: 999;
         }
+        #self-introduction {
+            margin: 20px;
+            padding: 20px;
+            background-color: transparent;
+            border-radius: 4px;
+            box-shadow: none;
+        }
+
+        #self-introduction h2 {
+            margin-top: 0;
+            text-align: left; /* 修改为居左对齐 */
+            font-weight: normal;
+        }
     </style>
 </head>
 
 <body>
     <h1>WELCOME MY PHOTOGRAPH</h1>
+    <div id="self-introduction">
+        <h2>关于我</h2>
+        <p>
+            Hi, This is Xin Jin (金 鑫), a photography enthusiast. &nbsp;
+            I enjoy shooting landscape scenery, especially astrophotography. &nbsp;
+            I like looking up at the stars and the Milky Way at night, and I also love capturing meteor showers! &nbsp;
+            I once led my friends to chase the "Perseid Meteor Shower". &nbsp;
+            We lay on the road and watched the meteors streaking across the sky one by one. &nbsp;
+            That feeling was truly wonderful! I also do some film photography. &nbsp;
+            I'm fond of that natural touch, where there is no algorithm to process the images, just completely natural and unalterable moments.&nbsp;
+            I've also tried portrait photography, but I still feel like there's something lacking. &nbsp;
+            However, I'm making efforts to take better portraits!  
+        </p>
+    </div>
     <div class="category">
         <h2>Landscape Photography</h2>
         <div class="gallery">
