@@ -94,33 +94,48 @@ layout: base
         <h2>Landscape Photography</h2>
         <div class="gallery">
             <img src="https://dummyimage.com/300x200/008000/ffffff&text=Landscape1" alt="Landscape Photography Work 1"
-                data-title="Landscape Work 1" data-content="Beautiful natural scenery" data-camera="Canon 5D Mark IV" data-lens="EF 24 - 70mm f/2.8L II USM">
+                data-title="Landscape Work 1" data-content="Beautiful natural scenery" data-camera="Canon 5D Mark IV" 
+                data-lens="EF 24 - 70mm f/2.8L II USM" data-location="西湖">
             <img src="https://dummyimage.com/300x200/008000/ffffff&text=Landscape2" alt="Landscape Photography Work 2"
-                data-title="Landscape Work 2" data-content="Spectacular mountain scenery" data-camera="Nikon D850" data-lens="AF - S NIKKOR 24 - 70mm f/2.8E ED VR">
+                data-title="Landscape Work 2" data-content="Spectacular mountain scenery" data-camera="Nikon D850" 
+                data-lens="AF - S NIKKOR 24 - 70mm f/2.8E ED VR" data-location="西湖">
             <img src="https://dummyimage.com/300x200/008000/ffffff&text=Landscape3" alt="Landscape Photography Work 3"
-                data-title="Landscape Work 3" data-content="Quiet lake view" data-camera="Sony A7R IV" data-lens="FE 24 - 70mm F2.8 GM">
+                data-title="Landscape Work 3" data-content="Quiet lake view" data-camera="Sony A7R IV" 
+                data-lens="FE 24 - 70mm F2.8 GM" data-location="西湖">
         </div>
     </div>
     <div class="category">
         <h2>Portrait Photography</h2>
         <div class="gallery">
             <img src="https://dummyimage.com/300x200/000080/ffffff&text=Portrait1" alt="Portrait Photography Work 1"
-                data-title="Portrait Work 1" data-content="Elegant portrait close - up" data-camera="Fujifilm X - T4" data-lens="XF 56mm f/1.2 R APD">
+                data-title="Portrait Work 1" data-content="Elegant portrait close - up" data-camera="Fujifilm X - T4" 
+                data-lens="XF 56mm f/1.2 R APD" data-location="西湖">
             <img src="https://dummyimage.com/300x200/000080/ffffff&text=Portrait2" alt="Portrait Photography Work 2"
-                data-title="Portrait Work 2" data-content="Warm portrait scene" data-camera="Panasonic GH5" data-lens="LUMIX S PRO 85mm f/1.8">
+                data-title="Portrait Work 2" data-content="Warm portrait scene" data-camera="Panasonic GH5" 
+                data-lens="LUMIX S PRO 85mm f/1.8" data-location="西湖">
             <img src="https://dummyimage.com/300x200/000080/ffffff&text=Portrait3" alt="Portrait Photography Work 3"
-                data-title="Portrait Work 3" data-content="Fashionable portrait style" data-camera="Olympus OM - D E - M1 Mark III" data-lens="M.Zuiko Digital ED 45mm f/1.2 PRO">
+                data-title="Portrait Work 3" data-content="Fashionable portrait style" data-camera="Olympus OM - D E - M1 Mark III" 
+                data-lens="M.Zuiko Digital ED 45mm f/1.2 PRO" data-location="西湖">
         </div>
     </div>
     <div class="category">
         <h2>Film Photography</h2>
         <div class="gallery">
             <img src="../assets/photos/film/1.2.jpg"
-                data-title="派斯女神像" data-content="None" data-camera="NikonMat" data-lens="Nikon 135mm f/2">
-            <img src="https://dummyimage.com/300x200/800080/ffffff&text=Film2" alt="Film Photography Work 2"
-                data-title="Film Work 2" data-content="Unique film colors" data-camera="Hasselblad 500CM" data-lens="Planar 80mm f/2.8">
-            <img src="https://dummyimage.com/300x200/800080/ffffff&text=Film3" alt="Film Photography Work 3"
-                data-title="Film Work 3" data-content="Classic film style" data-camera="Canon AE - 1" data-lens="FD 50mm f/1.8">
+                data-title="派斯女神像" data-content="None" data-camera="NikonMat" 
+                data-lens="Nikon 135mm f/2" data-location="重庆-合川(Chongqing, Hechuan)">
+            <img src="../assets/photos/film/1.5.jpg"
+                data-title="国立二中-石狮子" data-content="None" data-camera="NikonMat" 
+                data-lens="Nikon 135mm f/2" data-location="重庆-合川(Chongqing, Hechuan)">
+            <img src="../assets/photos/film/2.jpg"
+                data-title="小咪咪" data-content="None" data-camera="NikonMat" 
+                data-lens="Nikon 35mm f/2.8" data-location="重庆-南岸(Chongqing, Nanan)">
+            <img src="../assets/photos/film/XinJin.jpg"
+                data-title="自己" data-content="None" data-camera="NikonMat" 
+                data-lens="Nikon 35mm f/2.8" data-location="四川-峨眉山(Sichuan, Emeishan)">
+            <img src="../assets/photos/film/Friends.jpg"
+                data-title="朋友们" data-content="None" data-camera="NikonMat" 
+                data-lens="Nikon 35mm f/2.8" data-location="四川-乐山(Sichuan, Leshan)">
         </div>
     </div>
     <div id="photo-details">
@@ -129,6 +144,7 @@ layout: base
         <p id="photo-content"></p>
         <p><strong>Camera:</strong> <span id="photo-camera"></span></p>
         <p><strong>Len:</strong> <span id="photo-lens"></span></p>
+        <p><strong>Location:</strong> <span id="photo-location"></span></p>
         <button id="close-details">Close</button>
     </div>
     <div id="overlay"></div>
@@ -156,12 +172,14 @@ layout: base
                 const content = this.dataset.content;
                 const camera = this.dataset.camera;
                 const lens = this.dataset.lens;
+                const location = this.dataset.location;
                 const imageSrc = this.src;
 
                 document.getElementById('photo-title').textContent = title;
                 document.getElementById('photo-content').textContent = content;
                 document.getElementById('photo-camera').textContent = camera;
                 document.getElementById('photo-lens').textContent = lens;
+                document.getElementById('photo-location').textContent = location;
                 document.getElementById('photo-image').src = imageSrc;
 
                 photoDetails.style.display = 'block';
