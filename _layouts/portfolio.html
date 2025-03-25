@@ -2,9 +2,195 @@
 layout: base 
 ---
 
-<div class="photo">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME MY PHOTOGRAPH</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        .category {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .category h2 {
+            margin-top: 0;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .gallery img {
+            height: 200px;
+            width: auto;
+            object-fit: cover;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+        #photo-details {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            max-width: 80%;
+            max-height: 80%;
+            overflow-y: auto;
+        }
+
+        #photo-details img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>WELCOME MY PHOTOGRAPH</h1>
+    <div class="category">
+        <h2>Landscape Photography</h2>
+        <div class="gallery">
+            <img src="https://dummyimage.com/300x200/008000/ffffff&text=Landscape1" alt="Landscape Photography Work 1"
+                data-title="Landscape Work 1" data-content="Beautiful natural scenery" data-camera="Canon 5D Mark IV" data-lens="EF 24 - 70mm f/2.8L II USM">
+            <img src="https://dummyimage.com/300x200/008000/ffffff&text=Landscape2" alt="Landscape Photography Work 2"
+                data-title="Landscape Work 2" data-content="Spectacular mountain scenery" data-camera="Nikon D850" data-lens="AF - S NIKKOR 24 - 70mm f/2.8E ED VR">
+            <img src="https://dummyimage.com/300x200/008000/ffffff&text=Landscape3" alt="Landscape Photography Work 3"
+                data-title="Landscape Work 3" data-content="Quiet lake view" data-camera="Sony A7R IV" data-lens="FE 24 - 70mm F2.8 GM">
+        </div>
+    </div>
+    <div class="category">
+        <h2>Portrait Photography</h2>
+        <div class="gallery">
+            <img src="https://dummyimage.com/300x200/000080/ffffff&text=Portrait1" alt="Portrait Photography Work 1"
+                data-title="Portrait Work 1" data-content="Elegant portrait close - up" data-camera="Fujifilm X - T4" data-lens="XF 56mm f/1.2 R APD">
+            <img src="https://dummyimage.com/300x200/000080/ffffff&text=Portrait2" alt="Portrait Photography Work 2"
+                data-title="Portrait Work 2" data-content="Warm portrait scene" data-camera="Panasonic GH5" data-lens="LUMIX S PRO 85mm f/1.8">
+            <img src="https://dummyimage.com/300x200/000080/ffffff&text=Portrait3" alt="Portrait Photography Work 3"
+                data-title="Portrait Work 3" data-content="Fashionable portrait style" data-camera="Olympus OM - D E - M1 Mark III" data-lens="M.Zuiko Digital ED 45mm f/1.2 PRO">
+        </div>
+    </div>
+    <div class="category">
+        <h2>Film Photography</h2>
+        <div class="gallery">
+            <img src="https://dummyimage.com/300x200/800080/ffffff&text=Film1" alt="Film Photography Work 1"
+                data-title="Film Work 1" data-content="Vintage film texture" data-camera="Leica M6" data-lens="Summicron - M 35mm f/2">
+            <img src="https://dummyimage.com/300x200/800080/ffffff&text=Film2" alt="Film Photography Work 2"
+                data-title="Film Work 2" data-content="Unique film colors" data-camera="Hasselblad 500CM" data-lens="Planar 80mm f/2.8">
+            <img src="https://dummyimage.com/300x200/800080/ffffff&text=Film3" alt="Film Photography Work 3"
+                data-title="Film Work 3" data-content="Classic film style" data-camera="Canon AE - 1" data-lens="FD 50mm f/1.8">
+        </div>
+    </div>
+    <div id="photo-details">
+        <img id="photo-image" src="" alt="Details">
+        <h2 id="photo-title"></h2>
+        <p id="photo-content"></p>
+        <p><strong>Camera:</strong> <span id="photo-camera"></span></p>
+        <p><strong>Len:</strong> <span id="photo-lens"></span></p>
+        <button id="close-details">Close</button>
+    </div>
+    <div id="overlay"></div>
+    <script>
+        const categoryHeaders = document.querySelectorAll('.category h2');
+        categoryHeaders.forEach(header => {
+            header.addEventListener('click', function () {
+                const gallery = this.nextElementSibling;
+                if (gallery.style.maxHeight) {
+                    gallery.style.maxHeight = null;
+                } else {
+                    gallery.style.maxHeight = gallery.scrollHeight + 'px';
+                }
+            });
+        });
+
+        const photos = document.querySelectorAll('.gallery img');
+        const photoDetails = document.getElementById('photo-details');
+        const overlay = document.getElementById('overlay');
+        const closeButton = document.getElementById('close-details');
+
+        photos.forEach(photo => {
+            photo.addEventListener('click', function () {
+                const title = this.dataset.title;
+                const content = this.dataset.content;
+                const camera = this.dataset.camera;
+                const lens = this.dataset.lens;
+                const imageSrc = this.src;
+
+                document.getElementById('photo-title').textContent = title;
+                document.getElementById('photo-content').textContent = content;
+                document.getElementById('photo-camera').textContent = camera;
+                document.getElementById('photo-lens').textContent = lens;
+                document.getElementById('photo-image').src = imageSrc;
+
+                photoDetails.style.display = 'block';
+                overlay.style.display = 'block';
+            });
+        });
+
+        closeButton.addEventListener('click', function () {
+            photoDetails.style.display = 'none';
+            overlay.style.display = 'none';
+        });
+
+        overlay.addEventListener('click', function () {
+            photoDetails.style.display = 'none';
+            overlay.style.display = 'none';
+        });
+    </script>
+</body>
+
+</html>    
+
+<!-- <div class="photo">
   WELCOME MY PHOTOGRAPH.
-</div>
+</div> -->
 
 <!-- <div class="portfolio">
   WELCOME MY PHOTOGRAPH.
