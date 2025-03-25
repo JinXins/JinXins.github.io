@@ -15,22 +15,43 @@ layout: base
             margin: 0;
             padding: 0;
             background-color: transparent;
-            font-weight: normal; /* 设置 body 内文字为正常粗细 */
+            font-weight: normal;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
         }
 
         h1 {
             text-align: left;
+            color: #333;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        .self-photo {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .category {
+            margin: 20px;
             padding: 20px;
             background-color: transparent;
-            color: #333;
-            font-weight: normal; /* 设置 h1 文字为正常粗细 */
+            border-radius: 4px;
+            box-shadow: none;
         }
 
         .category h2 {
             margin-top: 0;
-            text-align: center;
+            text-align: left;
             cursor: pointer;
-            font-weight: normal; /* 设置分类标题文字为正常粗细 */
+            font-weight: normal;
         }
 
         .gallery {
@@ -85,6 +106,7 @@ layout: base
             background-color: rgba(0, 0, 0, 0.5);
             z-index: 999;
         }
+
         #self-introduction {
             margin: 20px;
             padding: 20px;
@@ -95,14 +117,17 @@ layout: base
 
         #self-introduction h2 {
             margin-top: 0;
-            text-align: left; /* 修改为居左对齐 */
+            text-align: left;
             font-weight: normal;
         }
     </style>
 </head>
 
 <body>
-    <h1>WELCOME MY PHOTOGRAPH</h1>
+    <div class="header-container">
+        <h1>WELCOME MY PHOTOGRAPH</h1>
+        <img class="self-photo" src="../assets/img/Genoa-me.jpg" alt="My Photo">
+    </div>
     <div id="self-introduction">
         <h2>关于我</h2>
         <p>
