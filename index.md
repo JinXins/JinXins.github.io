@@ -3,9 +3,9 @@ layout: about
 ---
 
 ## About Me 😁
-I am currently a second-year Master's Degree Candidate at Chongqing Technology and Business University. Supervised by Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN). I obtained B.S. degree in Internet of Things Engineering from Pass Collage of Chongqing Technology and Business University in 2022.
+I am an incoming research assistant at Westlake University. I got my M.S. degree from Chongqing Technology and Business University this year. Supervised by Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN). I obtained B.S. degree in Internet of Things Engineering from Pass Collage of Chongqing Technology and Business University in 2022.
 
-I am interested in **Computer Vision** and **Biometric Identification**. My current work focuses on Mixup Data Augmentation and Vein Identification.  
+I am interested in **Computer Vision** and **Biometric Identification**. My current work focuses on Large Language Model(LLM) and Multi-modal Large Language Model(LLM).  
 
 I'm also a **photography amateur** and love to take **scenery and starry sky photos**. Of course, I don't only e-camera, I also use **film camera** to take photos.
 
@@ -15,6 +15,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 <!-- <div style="height:200px;overflow-y:auto;background:#ffffff;"> -->
   <div style="height:200px;overflow-y:auto;">
   <ul>
+    <li><b> <font color="#b80000">[2025.02]</font> </b> One paper on (M)LLM optimizers, <a href="https://huggingface.co/papers/2506.01049"> SGG</a> is accepted by <b>ACL 2025 main</b>, congrats to <font color="#2a7ce0">Siyuan Li, Zedong Wang and Juanxi Tian</font>. </li>
     <li><b> <font color="#b80000">[2025.02]</font> </b> Two co-author papers on eye moment identification, <a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a> and <a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a> are accepted by <b>IEEE TIM</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
     <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2409.05202"> Survey</a>, is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2407.07805"> SUMix</a>, is accepted by <b>ECCV 2024</b>. </li>
@@ -48,7 +49,20 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
             Wsetlake University
           </a>
         </font>
-        <br>Time: Mar. 2024 -- Present. Advisor: <a href="https://scholar.google.com/citations?user=Y-nyLGIAAAAJ&hl=zh-CN">  Prof. Stan Z. Li</a>.<br>
+        <br>Time: Mar. 2024 -- July 2025. Advisor: <a href="https://scholar.google.com/citations?user=Y-nyLGIAAAAJ&hl=zh-CN">  Prof. Stan Z. Li</a>.<br>
+        </p></td></tr>
+</table>
+
+<!-- Westlake University -->
+<table class="imgtable"><tr><td>
+    <img src="./assets/img/westlake_logo.png" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
+    <td style="text-align:left; vertical-align:top"><p>
+        <font face="Lato">
+          <b> Research Assistant </b> | <a target="_blank" style="color:#2a7ce0">
+            Wsetlake University
+          </a>
+        </font>
+        <br>Time: July. 2025 -- Present. Advisor: <a href="https://scholar.google.com/citations?user=0-On0y4AAAAJ&hl=en">  Prof. Huan Wang</a>.<br>
         </p></td></tr>
 </table>
 
@@ -78,6 +92,18 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 </table>
 
 ### Conferences (*: Equal Contribution. †: Corresponding Author.):
+
+<!-- Taming LLMs by Scaling Learning Rates with Gradient Grouping -->
+<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
+    <img src="./assets/img/SGG.png" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <td align="left"><p>
+        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Taming LLMs by Scaling Learning Rates with Gradient Grouping</a></b></font><br>
+        Siyuan Li<sup>*,†</sup>, Juanxi Tian<sup>*</sup>, Zedong Wang<sup>*</sup>,<b>Xin Jin</b>, Zicheng Liu<sup>†</sup>, Wentao Zhang, Dan Xu
+        <br><i><b>ACL-main</b>, 2025</i><br>
+        [<a href="https://arxiv.org/abs/2506.01049" target="_blank" style="color:#2a7ce0">arXiv</a>]
+        [<a href="https://huggingface.co/papers/2506.01049" target="_blank" style="color:#2a7ce0">HF DailyPapers Top-4</a>]
+</p></td></tr>
+</table>
 
 <!-- SUMix: Mixup with Semantic and Uncertain Information -->
 <table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
@@ -119,6 +145,17 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 </table>
 
 ### Journals (*: Equal Contribution. †: Corresponding Author.):
+
+<!-- EM-DARTS: Hierarchical Differentiable Architecture Search for Eye Movement Recognition -->
+<table class="imgtable"><tr><td style="width:220px;height:130px">
+    <img src="./assets/img/EM-DARTS.png" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <td align="left"><p>
+        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">EM-DARTS: Hierarchical Differentiable Architecture Search for Eye Movement Recognition</a></b></font><br>
+        Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Xin Yu, Mounim A. El-Yacoubi, and Shuqiang Yang 
+        <br><i>TIM, 2025 </i><br>
+        [<a href="https://ieeexplore.ieee.org/abstract/document/10919128/" target="_blank" style="color:#2a7ce0">PDF</a>]
+</p></td></tr>
+</table>
 
 <!-- EmMixformer: Mix Transformer for Eye Movement Recognition -->
 <table class="imgtable"><tr><td style="width:220px;height:130px">
