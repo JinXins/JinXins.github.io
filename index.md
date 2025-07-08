@@ -3,9 +3,9 @@ layout: about
 ---
 
 ## About Me 😁
-I am an incoming research assistant at Westlake University. I got my M.S. degree from Chongqing Technology and Business University this year. Supervised by Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN). I obtained B.S. degree in Internet of Things Engineering from Pass Collage of Chongqing Technology and Business University in 2022.
+I am a research assistant at Westlake University. Supervised by Prof. [Huan Wang](https://scholar.google.com/citations?hl=zh-CN&user=0-On0y4AAAAJ) I got my M.S. degree from Chongqing Technology and Business University this year. Supervised by Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN). I obtained B.S. degree in Internet of Things Engineering from Pass Collage of Chongqing Technology and Business University in 2022.
 
-I am interested in **Computer Vision** and **Biometric Identification**. My current work focuses on Large Language Model(LLM) and Multi-modal Large Language Model(LLM).  
+I am interested in **Computer Vision** and **Biometric Identification**. My current work focuses on Large Language Model(LLM) and Multi-modal Large Language Model(MLLM).  
 
 I'm also a **photography amateur** and love to take **scenery and starry sky photos**. Of course, I don't only e-camera, I also use **film camera** to take photos.
 
