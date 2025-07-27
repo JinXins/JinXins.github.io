@@ -102,6 +102,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
         <br><i><b>ACL-main</b>, 2025</i><br>
         [<a href="https://arxiv.org/abs/2506.01049" target="_blank" style="color:#2a7ce0">arXiv</a>]
         [<a href="https://huggingface.co/papers/2506.01049" target="_blank" style="color:#2a7ce0">HF DailyPapers Top-4</a>]
+        [<a href="./assets/bibtex/ACL_2025_SGG_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
 </p></td></tr>
 </table>
 
@@ -154,6 +155,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
         Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Xin Yu, Mounim A. El-Yacoubi, and Shuqiang Yang 
         <br><i>TIM, 2025 </i><br>
         [<a href="https://ieeexplore.ieee.org/abstract/document/10919128/" target="_blank" style="color:#2a7ce0">PDF</a>]
+        [<a href="./assets/bibtex/TIM_2025_EM-DARTS_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
 </p></td></tr>
 </table>
 
@@ -166,7 +168,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
         <br><i>TIM, 2025 </i><br>
         [<a href="https://arxiv.org/abs/2401.04956" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="https://github.com/zzx734570533/CTBU-EMglasses-database" target="_blank" style="color:#2a7ce0">Database</a>]
-        [<a href="./assets/bibtex/ArXiv_2024_EMMixFomer_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+        [<a href="./assets/bibtex/TIM_2025_EMMixFomer_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
 </p></td></tr>
 </table>
 
