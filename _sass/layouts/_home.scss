@@ -141,15 +141,6 @@
       }
     }
   }
-
-  &-icon {
-    margin-left: 1.3rem;
-    line-height: 2rem;
-  }
-
-  &-icon-text {
-    margin-left: 0.8rem;
-  }
 }
 
 .social-layer {
@@ -211,4 +202,55 @@
       }
     }
   }
+}
+
+table.imgtable, table.imgtable td {
+    border: none;
+    text-align: left;
+}
+
+table.table-row{
+    display:flex;
+    flex-direction:row;
+}
+
+@media screen and (max-width: 767px){
+  table.table-row{
+    flex-direction:column;
+  }
+}
+
+table {
+    border: none; // 去除表格边框
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    background-color: transparent; // 透明背景
+    box-shadow: none; // 去除阴影
+    border-radius: 0; // 去除圆角
+}
+
+td {
+    padding: 0.8rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+    border: none; // 去除单元格边框
+}
+
+table + table {
+    margin-top: 1em;
+}
+
+tr.heading {
+    font-weight: bold;
+    border-bottom: none; // 去除底部边框
+}
+
+img {
+    border: none;
+}
+
+td {
+  vertical-align: top;
 }

@@ -28,7 +28,7 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
 
 ## Experiences 📝 {#experiences}
 <!-- Chongqing Financial Institute -->
-<table class="imgtable"><tr><td>
+<table class="imgtable"><tr><td style="width:220px;height:130px">
     <img src="./assets/img/CQFI.jpg" alt="" width="220px" />&nbsp;</td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
@@ -41,7 +41,7 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
 </table>
           
 <!-- Westlake University -->
-<table class="imgtable"><tr><td>
+<table class="imgtable"><tr><td style="width:220px;height:130px">
     <img src="./assets/img/westlake_logo.png" alt="" width="220px" />&nbsp;</td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
@@ -54,7 +54,7 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
 </table>
 
 <!-- Westlake University -->
-<table class="imgtable"><tr><td>
+<table class="imgtable"><tr><td style="width:220px;height:130px">
     <img src="./assets/img/westlake_logo.png" alt="" width="220px" />&nbsp;</td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
@@ -95,7 +95,7 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
 **Conferences (*: Equal Contribution. †: Corresponding Author.):**
 
 <!-- Taming LLMs by Scaling Learning Rates with Gradient Grouping -->
-<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
+<table class="imgtable"><tr><td style="width:220px;height:130px">
     <img src="./assets/img/SGG.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Taming LLMs by Scaling Learning Rates with Gradient Grouping</a></b></font><br>
@@ -108,7 +108,7 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
 </table>
 
 <!-- SUMix: Mixup with Semantic and Uncertain Information -->
-<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
+<table class="imgtable"><tr><td style="width:220px;height:130px">
     <img src="./assets/img/SUMix.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">SUMix: Mixup with Semantic and Uncertain Information</a></b></font><br>
@@ -121,7 +121,7 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
 </table>
 
 <!-- Adversarial AutoMixup -->
-<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
+<table class="imgtable"><tr><td style="width:220px;height:130px">
     <img src="./assets/img/AdAutoMix.jpg" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>

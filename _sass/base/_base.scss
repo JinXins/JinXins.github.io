@@ -114,9 +114,9 @@ table.table-row{
     flex-direction:row;
 }
 
-@median screen and (max-width: 767px){
+@media screen and (max-width: 767px){
   table.table-row{
-    flex-direction:colum;
+    flex-direction: column;
   }
 }
 
