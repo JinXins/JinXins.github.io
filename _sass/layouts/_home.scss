@@ -93,18 +93,18 @@
       }
     }
     
-    // 特别调整Experiences和Publications部分
+    // 特别调整Experiences和Publications部分，使其gap一致
     #experiences, #publications {
       table.imgtable {
         td {
-          padding: 0.1rem 0; // 进一步减小间距
+          padding: 0.1rem 0; // 统一减小间距
           
           &:first-child {
-            width: 180px; // 固定图片列宽度
+            width: 200px; // 固定图片列宽度
           }
           
           &:last-child {
-            padding-left: 0.3rem; // 减少文字与图片的间距
+            padding-left: 0.3rem; // 统一文字与图片的间距
           }
         }
       }
@@ -116,7 +116,7 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        gap: 8px; // 减小间距
+        gap: 8px; // 统一间距
         margin-top: 3px;
       }
     }

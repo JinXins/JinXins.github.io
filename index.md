@@ -9,10 +9,10 @@ I am interested in **Computer Vision** and **Biometric Identification**. My curr
 
 I'm also a **photography amateur** and love to take **scenery and starry sky photos**. Of course, I don't only e-camera, I also use **film camera** to take photos.
 
-<i><b><font size=2px>Welcome to contacting me about research. Please drop me emails (jinxin20001118@163.com).</font></b></i>
+Welcome to contacting me about research. Please drop me emails (jinxin86@westlake.edu.cn).
 
 ## News 💬 
-<div style="max-height:250px;overflow-y:auto;padding:15px;background-color:#f9f9f9;border-radius:6px;">
+<div style="max-height:500px;overflow-y:auto;padding:15px;background-color:#f9f9f9;border-radius:6px;">
 
   <ul>
     <li><b> <font color="#b80000">[2025.02]</font> </b> One paper on (M)LLM optimizers, <a href="https://huggingface.co/papers/2506.01049"> SGG</a> is accepted by <b>ACL 2025 main</b>, congrats to <font color="#2a7ce0">Siyuan Li, Zedong Wang and Juanxi Tian</font>. </li>
