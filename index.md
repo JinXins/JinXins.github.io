@@ -73,10 +73,10 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">A Survey on Mixup Augmentations and Beyond</a></b></font><br>
         <b>Xin Jin</b><sup>*</sup>, Hongyu Zhu<sup>*</sup>, Siyuan Li<sup>*</sup>, Zedong Wang, Zicheng Liu, Chang Yu, Huafeng Qin, and <i>IEEE Fellow</i> Stan. Z. Li<sup>†</sup>
-        <br><i>arXiv, 2024 </i><br>
+        <br><span class="pub-info"><i>arXiv, 2024</i> 
         [<a href="https://arxiv.org/abs/2409.05202" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="https://github.com/Westlake-AI/Awesome-Mixup" target="_blank" style="color:#2a7ce0">Awesome</a>]
-        [<a href="./assets/bibtex/ArXiv_2024_MixupSurvey_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+        [<a href="./assets/bibtex/ArXiv_2024_MixupSurvey_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
@@ -85,9 +85,9 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">StarLKNet: Star Mixup with Large Kernel Networks for Palm Vein Identification</a></b></font><br>
         <b>Xin Jin</b><sup>*</sup>, Hongyu Zhu<sup>*</sup>, Mounim A. El-Yacoubi, Hongchao Liao, Huafeng Qin, and Yun Jiang<sup>†</sup>  
-        <br><i>arXiv, 2024 </i><br>
+        <br><span class="pub-info"><i>arXiv, 2024</i> 
         [<a href="https://arxiv.org/abs/2405.12721" target="_blank" style="color:#2a7ce0">PDF</a>]
-        [<a href="./assets/bibtex/ArXiv_2024_StarLKNet_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+        [<a href="./assets/bibtex/ArXiv_2024_StarLKNet_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
@@ -99,10 +99,10 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Taming LLMs by Scaling Learning Rates with Gradient Grouping</a></b></font><br>
         Siyuan Li<sup>*,†</sup>, Juanxi Tian<sup>*</sup>, Zedong Wang<sup>*</sup>,<b>Xin Jin</b>, Zicheng Liu<sup>†</sup>, Wentao Zhang, Dan Xu
-        <br><i><b>ACL-main</b>, 2025</i><br>
+        <br><span class="pub-info"><i><b>ACL-main</b>, 2025</i> 
         [<a href="https://arxiv.org/abs/2506.01049" target="_blank" style="color:#2a7ce0">arXiv</a>]
         [<a href="https://huggingface.co/papers/2506.01049" target="_blank" style="color:#2a7ce0">HF DailyPapers Top-4</a>]
-        [<a href="./assets/bibtex/ACL_2025_SGG_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+        [<a href="./assets/bibtex/ACL_2025_SGG_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
@@ -112,10 +112,10 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">SUMix: Mixup with Semantic and Uncertain Information</a></b></font><br>
         Huafeng Qin<sup>*,†</sup>, <b>Xin Jin</b><sup>*</sup>, Hongyu Zhu<sup>*</sup>, Hongchao Liao, Mounim A. El-Yacoubi, Xinbo Gao
-        <br><i><b>ECCV</b>, 2024</i><br>
+        <br><span class="pub-info"><i><b>ECCV</b>, 2024</i> 
         [<a href="https://arxiv.org/abs/2407.07805" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="https://github.com/JinXins/SUMix" target="_blank" style="color:#2a7ce0">Code</a>]
-        [<a href="./assets/bibtex/ECCV_2024_SUMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+        [<a href="./assets/bibtex/ECCV_2024_SUMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
@@ -125,11 +125,11 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>
         Huafeng Qin<sup>*,†</sup>, <b>Xin Jin</b><sup>*</sup>, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao
-        <br><i><b>ICLR</b>, 2024 <b>(<font color="#FF0000">Spotlight</font>)</b></i><br>
+        <br><span class="pub-info"><i><b>ICLR</b>, 2024 <b>(<font color="#FF0000">Spotlight</font>)</b></i> 
         [<a href="https://arxiv.org/abs/2312.11954" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="https://github.com/JinXins/Adversarial-AutoMixup" target="_blank" style="color:#2a7ce0">Code</a>]
         [<a href="./assets/poster/AdAutoMix_poster_v2.pdf" target="_blank" style="color:#2a7ce0">Poster</a>]
-        [<a href="./assets/bibtex/ICLR_2024_AdAutoMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+        [<a href="./assets/bibtex/ICLR_2024_AdAutoMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
@@ -139,9 +139,9 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Adversarial Contrastive Learning Based on Image Generation for Palm Vein Recognition</a></b></font><br>
         Yiquan Wu, Hongchao Liao, Hongyu Zhu, <b>Xin Jin</b>, Shuqiang Yang, Huafeng Qin
-        <br><i>AIIIP, 2023 </i><br>
+        <br><span class="pub-info"><i>AIIIP, 2023</i> 
         [<a href="https://ieeexplore.ieee.org/abstract/document/10417336/" target="_blank" style="color:#2a7ce0">PDF</a>]
-        [<a href="./assets/bibtex/AIIIP_2023_AdCL_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+        [<a href="./assets/bibtex/AIIIP_2023_AdCL_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
@@ -153,9 +153,9 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">EM-DARTS: Hierarchical Differentiable Architecture Search for Eye Movement Recognition</a></b></font><br>
         Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Xin Yu, Mounim A. El-Yacoubi, and Shuqiang Yang 
-        <br><i>TIM, 2025 </i><br>
+        <br><span class="pub-info"><i>TIM, 2025</i> 
         [<a href="https://ieeexplore.ieee.org/abstract/document/10919128/" target="_blank" style="color:#2a7ce0">PDF</a>]
-        [<a href="./assets/bibtex/TIM_2025_EM-DARTS_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+        [<a href="./assets/bibtex/TIM_2025_EM-DARTS_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
@@ -165,10 +165,10 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">EmMixformer: Mix Transformer for Eye Movement Recognition</a></b></font><br>
         Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Qun Song, Mounim A. El-Yacoubi, and <i>IEEE Fellow</i> Xinbo Gao 
-        <br><i>TIM, 2025 </i><br>
+        <br><span class="pub-info"><i>TIM, 2025</i> 
         [<a href="https://arxiv.org/abs/2401.04956" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="https://github.com/zzx734570533/CTBU-EMglasses-database" target="_blank" style="color:#2a7ce0">Database</a>]
-        [<a href="./assets/bibtex/TIM_2025_EMMixFomer_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+        [<a href="./assets/bibtex/TIM_2025_EMMixFomer_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
@@ -178,9 +178,9 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">CGAN-DA: A Cross-Modality Domain Adaptation Model for Hand-Vein Biometric-based Authentication</a></b></font><br>
         Shuqiang Yang, Yiquan Wu, <b>Xin Jin</b>, Mounim A. El-Yacoubi, Huafeng Qin
-        <br><i>Journal of Cyber-Physical-Social Intelligence, 2022 </i><br>
+        <br><span class="pub-info"><i>Journal of Cyber-Physical-Social Intelligence, 2022</i> 
         [<a href="https://hal.science/hal-04304430/" target="_blank" style="color:#2a7ce0">PDF</a>]
-        [<a href="./assets/bibtex/JCPSI_2022_CGAN-DA_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]
+        [<a href="./assets/bibtex/JCPSI_2022_CGAN-DA_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
