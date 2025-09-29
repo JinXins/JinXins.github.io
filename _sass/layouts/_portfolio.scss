@@ -52,13 +52,13 @@
 #self-introduction {
   margin: 20px 0 30px;
   padding: 25px;
-  background-color: #f9f9f9;
+  background-color: #fff; // 改为白色背景
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  box-shadow: none; // 移除阴影
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 30px; // 增加间距
 }
 
 #self-introduction h2 {
@@ -81,21 +81,21 @@
 }
 
 .self-photo {
-  width: 200px;
+  width: 300px; /* 增大照片尺寸 */
   height: auto;
   object-fit: cover;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 3px solid #f0f0f0;
+  border-radius: 12px;
+  box-shadow: none; /* 移除阴影 */
   cursor: pointer;
 }
 
 .category {
-  margin: 30px 0;
-  padding: 20px;
-  background-color: #f9f9f9;
+  margin: 20px 0; /* 减小边距 */
+  padding: 15px; /* 减小内边距 */
+  background-color: #fff; /* 改为白色背景 */
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  box-shadow: none; /* 移除阴影 */
 }
 
 .category h2 {
@@ -104,7 +104,7 @@
   cursor: pointer;
   font-weight: bold;
   color: #333;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #eee; /* 调整边框颜色 */
   padding-bottom: 10px;
 }
 
@@ -112,31 +112,31 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 20px; /* 增大间距 */
   padding: 15px 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
+  max-height: none; /* 移除高度限制 */
+  overflow: visible; /* 允许内容溢出 */
+  transition: none; /* 移除过渡效果 */
 }
 
 .gallery.expanded {
-  max-height: 2000px;
+  max-height: none; /* 移除高度限制 */
 }
 
 .gallery img {
-  height: 200px;
+  height: 250px; /* 增大照片高度 */
   width: auto;
   object-fit: cover;
   margin: 5px;
   border: 1px solid #ddd;
-  border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: none; /* 移除阴影 */
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 调整过渡效果 */
   
   &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px); /* 调整悬停效果 */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* 调整阴影效果 */
   }
 }
 

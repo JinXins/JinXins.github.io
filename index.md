@@ -66,8 +66,9 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
         </p></td></tr>
 </table>
 
-## Publications 📖 {#publications}
-### Selected Preprints:
+### Publications 📖 {#publications}
+**Selected Preprints:**
+
 <table class="imgtable"><tr><td style="width:220px;height:130px">
     <img src="./assets/img/F4.png" alt="" />&nbsp;</td>
     <td align="left"><p>
@@ -91,7 +92,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 </p></td></tr>
 </table>
 
-### Conferences (*: Equal Contribution. †: Corresponding Author.):
+**Conferences (*: Equal Contribution. †: Corresponding Author.):**
 
 <!-- Taming LLMs by Scaling Learning Rates with Gradient Grouping -->
 <table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
@@ -145,7 +146,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 </p></td></tr>
 </table>
 
-### Journals (*: Equal Contribution. †: Corresponding Author.):
+**Journals (*: Equal Contribution. †: Corresponding Author.):**
 
 <!-- EM-DARTS: Hierarchical Differentiable Architecture Search for Eye Movement Recognition -->
 <table class="imgtable"><tr><td style="width:220px;height:130px">
@@ -184,7 +185,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 </p></td></tr>
 </table>
 
-## Services 🧸
+### Services 🧸
  - **Conference Reviewer:**  
 2024 - International Conference on Learning Representations (ICLR), 2025  
  - **Journal Reviewer:**  
@@ -193,7 +194,7 @@ Not yet.
 2024 - Student Member of IEEE  
 2024 - Student Member of China Computer Federation (CCF)
 
-## Awards 🏆 
+### Awards 🏆 
  - Academic Progress Award, CTBU, 2023
  - Challenge Cup of "Qin Chuang Yuan", National 2nd prize, 2024
  - The 14th Challenge Cup, Provincial 2nd prize, 2024
@@ -201,6 +202,6 @@ Not yet.
  - The 7th Art Exhibition for College Students in Chongqing, Provincial 1st prize, 2023
 
 
-## Interests 📝 
+### Interests 📝 
 Photography.   
 You could see some photos on <a href="https://500px.com.cn/XinJin">500px website</a> (Long time without update...)

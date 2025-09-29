@@ -8,13 +8,13 @@
     padding: 1.5rem;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    box-shadow: none; // 移除阴影
   
     .selfie {
       width: 150px;
       border-radius: 50%;
       border: 3px solid #f0f0f0;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: none; // 移除阴影
       margin-left: 2rem;
     }
   
@@ -74,7 +74,7 @@
       
       td {
         border: none;
-        padding: 0.5rem 0;
+        padding: 0.3rem 0; // 进一步减小间距
         font-size: 0.9rem; // 减小字体
         vertical-align: top;
         
@@ -97,14 +97,14 @@
     #experiences, #publications {
       table.imgtable {
         td {
-          padding: 0.3rem 0; // 进一步减小间距
+          padding: 0.1rem 0; // 进一步减小间距
           
           &:first-child {
             width: 180px; // 固定图片列宽度
           }
           
           &:last-child {
-            padding-left: 1rem; // 增加文字与图片的间距
+            padding-left: 0.3rem; // 减少文字与图片的间距
           }
         }
       }
@@ -116,8 +116,8 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        gap: 10px;
-        margin-top: 5px;
+        gap: 8px; // 减小间距
+        margin-top: 3px;
       }
     }
     
@@ -125,17 +125,17 @@
     .news-list {
       background-color: #f9f9f9;
       border-radius: 6px;
-      padding: 15px;
+      padding: 12px; // 减小内边距
       max-height: 250px;
       overflow-y: auto;
       border: none; // 去除边框
       
       ul {
         margin: 0;
-        padding-left: 1.2rem;
+        padding-left: 1rem; // 减小左内边距
         
         li {
-          margin-bottom: 0.6rem; // 减小间距
+          margin-bottom: 0.4rem; // 减小间距
           font-size: 0.9rem; // 减小字体
         }
       }
