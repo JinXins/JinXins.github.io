@@ -45,7 +45,7 @@ layout: base
         }
 
         .self-photo {
-            width: 300px; /* 增大照片尺寸 */
+            width: 350px; /* 增大照片尺寸 */
             height: auto;
             object-fit: cover;
             border: 3px solid #f0f0f0;
@@ -115,11 +115,11 @@ layout: base
             padding: 0 20px;
             width: 100%;
             max-width: none;
-            display: none;
+            display: none; /* 默认隐藏所有分类 */
         }
 
         .category.active {
-            display: block;
+            display: block; /* 只显示激活的分类 */
         }
 
         .category-title {
@@ -150,7 +150,7 @@ layout: base
         }
 
         .gallery img {
-            height: 250px; /* 增大照片高度 */
+            height: 300px; /* 增大照片高度 */
             width: auto;
             object-fit: cover;
             margin: 5px;
@@ -276,7 +276,7 @@ layout: base
             }
             
             .self-photo {
-                width: 200px; /* 移动端适当减小照片尺寸 */
+                width: 180px; /* 移动端适当减小照片尺寸 */
             }
             
             .category-nav {
@@ -580,31 +580,13 @@ layout: base
         // 初始化图片加载器
         const imageLoader = new ImageLoader();
 
-        // 分类切换功能
+        // 分类切换功能 - 修复叠加问题
         function switchCategory(category) {
-            // 隐藏所有分类
+            // 隐藏所有分类 - 彻底隐藏
             document.querySelectorAll('.category').forEach(cat => {
                 cat.classList.remove('active');
-                cat.style.display = 'none'; // 确保隐藏所有分类
+                cat.style.display = 'none';
             });
-            
-            // 显示选中的分类
-            const selectedCategory = document.getElementById(category + '-category');
-            if (selectedCategory) {
-                selectedCategory.style.display = 'block';
-                selectedCategory.classList.add('active');
-                
-                // 确保分类内容完全显示
-                setTimeout(() => {
-                    // 获取gallery元素并确保其正确显示
-                    const gallery = selectedCategory.querySelector('.gallery');
-                    if (gallery) {
-                        gallery.style.display = 'flex';
-                        gallery.style.flexWrap = 'wrap';
-                        gallery.style.justifyContent = 'center';
-                    }
-                }, 10);
-            }
             
             // 更新按钮状态
             document.querySelectorAll('.category-btn').forEach(btn => {
@@ -613,6 +595,25 @@ layout: base
             const activeButton = document.querySelector(`.category-btn[data-category="${category}"]`);
             if (activeButton) {
                 activeButton.classList.add('active');
+            }
+            
+            // 显示选中的分类 - 确保正确显示
+            const selectedCategory = document.getElementById(category + '-category');
+            if (selectedCategory) {
+                // 先设置为block再添加active类
+                selectedCategory.style.display = 'block';
+                // 使用一个小延迟确保display生效后再添加active类
+                setTimeout(() => {
+                    selectedCategory.classList.add('active');
+                    
+                    // 确保gallery正确显示
+                    const gallery = selectedCategory.querySelector('.gallery');
+                    if (gallery) {
+                        gallery.style.display = 'flex';
+                        gallery.style.flexWrap = 'wrap';
+                        gallery.style.justifyContent = 'center';
+                    }
+                }, 10);
             }
             
             // 触发懒加载
@@ -686,7 +687,10 @@ layout: base
             const defaultCategory = document.getElementById('landscape-category');
             if (defaultCategory) {
                 defaultCategory.style.display = 'block';
-                defaultCategory.classList.add('active');
+                // 使用一个小延迟确保display生效后再添加active类
+                setTimeout(() => {
+                    defaultCategory.classList.add('active');
+                }, 10);
             }
         });
         

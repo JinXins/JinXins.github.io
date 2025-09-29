@@ -96,6 +96,11 @@
   background-color: #fff; /* 改为白色背景 */
   border-radius: 8px;
   box-shadow: none; /* 移除阴影 */
+  display: none; /* 默认隐藏所有分类 */
+}
+
+.category.active {
+  display: block; /* 只显示激活的分类 */
 }
 
 .category h2 {

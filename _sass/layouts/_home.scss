@@ -100,11 +100,11 @@
           padding: 0.1rem 0; // 统一减小间距
           
           &:first-child {
-            width: 200px; // 固定图片列宽度
+            width: 220px; // 固定图片列宽度
           }
           
           &:last-child {
-            padding-left: 0.3rem; // 统一文字与图片的间距
+            padding-left: 0.2rem; // 统一文字与图片的间距
           }
         }
       }
