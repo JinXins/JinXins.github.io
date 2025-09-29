@@ -121,14 +121,13 @@ table.table-row{
 }
 
 table {
-    border: 2px solid #e0e0e0;
+    border: none; // 去除表格边框
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 1.5rem;
-    background-color: #fff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    border-radius: 4px;
-    overflow: hidden;
+    background-color: transparent; // 透明背景
+    box-shadow: none; // 去除阴影
+    border-radius: 0; // 去除圆角
 }
 
 td {
@@ -136,7 +135,7 @@ td {
     padding-left: 0.5em;
     padding-right: 0.5em;
     text-align: center;
-    border: 1px solid #eee;
+    border: none; // 去除单元格边框
 }
 
 table + table {
@@ -145,7 +144,7 @@ table + table {
 
 tr.heading {
     font-weight: bold;
-    border-bottom: 2px solid black;
+    border-bottom: none; // 去除底部边框
 }
 
 img {
@@ -163,6 +162,7 @@ td {
   padding: 15px;
   max-height: 250px;
   overflow-y: auto;
+  border: none; // 去除边框
 }
 
 .news-list ul {
@@ -177,10 +177,10 @@ td {
 
 .publication-table {
   margin-bottom: 2rem;
-  background-color: #fff;
-  border-radius: 6px;
-  overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  background-color: transparent; // 透明背景
+  border-radius: 0; // 去除圆角
+  overflow: visible; // 允许内容溢出
+  box-shadow: none; // 去除阴影
 }
 
 .publication-table td:first-child {
@@ -194,8 +194,8 @@ td {
 
 .experience-table {
   margin-bottom: 1.5rem;
-  background-color: #fff;
-  border-radius: 6px;
-  overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  background-color: transparent; // 透明背景
+  border-radius: 0; // 去除圆角
+  overflow: visible; // 允许内容溢出
+  box-shadow: none; // 去除阴影
 }

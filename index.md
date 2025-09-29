@@ -26,10 +26,10 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
   </ul>
 </div>
 
-## Experiences 📝 
+## Experiences 📝 {#experiences}
 <!-- Chongqing Financial Institute -->
 <table class="imgtable"><tr><td>
-    <img src="./assets/img/CQFI.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
+    <img src="./assets/img/CQFI.jpg" alt="" width="220px" />&nbsp;</td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
           <b> Research Intern </b> | <a target="_blank" style="color:#2a7ce0">
@@ -42,7 +42,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
           
 <!-- Westlake University -->
 <table class="imgtable"><tr><td>
-    <img src="./assets/img/westlake_logo.png" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
+    <img src="./assets/img/westlake_logo.png" alt="" width="220px" />&nbsp;</td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
           <b> Research Intern </b> | <a target="_blank" style="color:#2a7ce0">
@@ -55,7 +55,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 
 <!-- Westlake University -->
 <table class="imgtable"><tr><td>
-    <img src="./assets/img/westlake_logo.png" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" width="220px" />&nbsp;</td>
+    <img src="./assets/img/westlake_logo.png" alt="" width="220px" />&nbsp;</td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
           <b> Research Assistant </b> | <a target="_blank" style="color:#2a7ce0">
@@ -66,10 +66,10 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
         </p></td></tr>
 </table>
 
-## Publications 📖
+## Publications 📖 {#publications}
 ### Selected Preprints:
 <table class="imgtable"><tr><td style="width:220px;height:130px">
-    <img src="./assets/img/F4.png" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <img src="./assets/img/F4.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">A Survey on Mixup Augmentations and Beyond</a></b></font><br>
         <b>Xin Jin</b><sup>*</sup>, Hongyu Zhu<sup>*</sup>, Siyuan Li<sup>*</sup>, Zedong Wang, Zicheng Liu, Chang Yu, Huafeng Qin, and <i>IEEE Fellow</i> Stan. Z. Li<sup>†</sup>
@@ -81,7 +81,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 </table>
 
 <table class="imgtable"><tr><td style="width:220px;height:130px">
-    <img src="./assets/img/StarLKNet.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <img src="./assets/img/StarLKNet.jpg" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">StarLKNet: Star Mixup with Large Kernel Networks for Palm Vein Identification</a></b></font><br>
         <b>Xin Jin</b><sup>*</sup>, Hongyu Zhu<sup>*</sup>, Mounim A. El-Yacoubi, Hongchao Liao, Huafeng Qin, and Yun Jiang<sup>†</sup>  
@@ -95,7 +95,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 
 <!-- Taming LLMs by Scaling Learning Rates with Gradient Grouping -->
 <table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
-    <img src="./assets/img/SGG.png" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <img src="./assets/img/SGG.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Taming LLMs by Scaling Learning Rates with Gradient Grouping</a></b></font><br>
         Siyuan Li<sup>*,†</sup>, Juanxi Tian<sup>*</sup>, Zedong Wang<sup>*</sup>,<b>Xin Jin</b>, Zicheng Liu<sup>†</sup>, Wentao Zhang, Dan Xu
@@ -108,7 +108,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 
 <!-- SUMix: Mixup with Semantic and Uncertain Information -->
 <table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
-    <img src="./assets/img/SUMix.png" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <img src="./assets/img/SUMix.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">SUMix: Mixup with Semantic and Uncertain Information</a></b></font><br>
         Huafeng Qin<sup>*,†</sup>, <b>Xin Jin</b><sup>*</sup>, Hongyu Zhu<sup>*</sup>, Hongchao Liao, Mounim A. El-Yacoubi, Xinbo Gao
@@ -121,7 +121,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 
 <!-- Adversarial AutoMixup -->
 <table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
-    <img src="./assets/img/AdAutoMix.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <img src="./assets/img/AdAutoMix.jpg" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>
         Huafeng Qin<sup>*,†</sup>, <b>Xin Jin</b><sup>*</sup>, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao
@@ -135,7 +135,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 
 <!-- Adversarial Contrastive Learning Based on Image Generation for Palm Vein Recognition -->
 <table class="imgtable"><tr><td style="width:220px;height:130px">
-    <img src="./assets/img/AdCL.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <img src="./assets/img/AdCL.jpg" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Adversarial Contrastive Learning Based on Image Generation for Palm Vein Recognition</a></b></font><br>
         Yiquan Wu, Hongchao Liao, Hongyu Zhu, <b>Xin Jin</b>, Shuqiang Yang, Huafeng Qin
@@ -149,7 +149,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 
 <!-- EM-DARTS: Hierarchical Differentiable Architecture Search for Eye Movement Recognition -->
 <table class="imgtable"><tr><td style="width:220px;height:130px">
-    <img src="./assets/img/EM-DARTS.png" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <img src="./assets/img/EM-DARTS.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">EM-DARTS: Hierarchical Differentiable Architecture Search for Eye Movement Recognition</a></b></font><br>
         Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Xin Yu, Mounim A. El-Yacoubi, and Shuqiang Yang 
@@ -161,7 +161,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 
 <!-- EmMixformer: Mix Transformer for Eye Movement Recognition -->
 <table class="imgtable"><tr><td style="width:220px;height:130px">
-    <img src="./assets/img/EmMixFomer.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt="" />&nbsp;</td>
+    <img src="./assets/img/EmMixFomer.jpg" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">EmMixformer: Mix Transformer for Eye Movement Recognition</a></b></font><br>
         Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Qun Song, Mounim A. El-Yacoubi, and <i>IEEE Fellow</i> Xinbo Gao 
@@ -174,7 +174,7 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 
 <!-- CGAN-DA: A Cross-Modality Domain Adaptation Model for Hand-Vein Biometric-based Authentication -->
 <table class="imgtable"><tr><td style="width:220px;height:130px">
-    <img src="./assets/img/CGAN-DA.jpg" style="border:1.2px solid #464646;padding:5px;border-radius:14px;box-shadow:1.2px 1.2px #bbbbbb" alt=""/>&nbsp;</td>
+    <img src="./assets/img/CGAN-DA.jpg" alt=""/>&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">CGAN-DA: A Cross-Modality Domain Adaptation Model for Hand-Vein Biometric-based Authentication</a></b></font><br>
         Shuqiang Yang, Yiquan Wu, <b>Xin Jin</b>, Mounim A. El-Yacoubi, Huafeng Qin

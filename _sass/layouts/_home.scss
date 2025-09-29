@@ -38,9 +38,78 @@
     
     h2 {
       margin-top: 2rem;
+      border-bottom: none; // 去除标题下划线
+      font-size: 1.4rem; // 减小标题字体
+      font-weight: 600;
+      color: #444;
       
       &:first-child {
         margin-top: 1rem;
+      }
+    }
+    
+    // 调整表格样式，去除边框，减小字体
+    table.imgtable {
+      border: none;
+      box-shadow: none;
+      margin-bottom: 1rem;
+      background: transparent;
+      
+      td {
+        border: none;
+        padding: 0.5rem 0;
+        font-size: 0.9rem; // 减小字体
+        vertical-align: top;
+        
+        img {
+          border: none; // 去除图片边框
+          box-shadow: none;
+          border-radius: 4px;
+          padding: 0;
+          width: 180px;
+        }
+        
+        p {
+          margin: 0;
+          line-height: 1.4;
+        }
+      }
+    }
+    
+    // 特别调整Experiences和Publications部分
+    #experiences, #publications {
+      table.imgtable {
+        td {
+          padding: 0.3rem 0; // 进一步减小间距
+          
+          &:first-child {
+            width: 180px; // 固定图片列宽度
+          }
+          
+          &:last-child {
+            padding-left: 1rem; // 增加文字与图片的间距
+          }
+        }
+      }
+    }
+    
+    // 调整新闻列表样式
+    .news-list {
+      background-color: #f9f9f9;
+      border-radius: 6px;
+      padding: 15px;
+      max-height: 250px;
+      overflow-y: auto;
+      border: none; // 去除边框
+      
+      ul {
+        margin: 0;
+        padding-left: 1.2rem;
+        
+        li {
+          margin-bottom: 0.6rem; // 减小间距
+          font-size: 0.9rem; // 减小字体
+        }
       }
     }
   }
