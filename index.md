@@ -12,8 +12,8 @@ I'm also a **photography amateur** and love to take **scenery and starry sky pho
 <i><b><font size=2px>Welcome to contacting me about research. Please drop me emails (jinxin20001118@163.com).</font></b></i>
 
 ## News 💬 
-<!-- <div style="height:200px;overflow-y:auto;background:#ffffff;"> -->
-  <div style="height:200px;overflow-y:auto;">
+<div style="max-height:250px;overflow-y:auto;padding:15px;background-color:#f9f9f9;border-radius:6px;">
+
   <ul>
     <li><b> <font color="#b80000">[2025.02]</font> </b> One paper on (M)LLM optimizers, <a href="https://huggingface.co/papers/2506.01049"> SGG</a> is accepted by <b>ACL 2025 main</b>, congrats to <font color="#2a7ce0">Siyuan Li, Zedong Wang and Juanxi Tian</font>. </li>
     <li><b> <font color="#b80000">[2025.02]</font> </b> Two co-author papers on eye moment identification, <a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a> and <a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a> are accepted by <b>IEEE TIM</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
@@ -195,7 +195,7 @@ Not yet.
 
 ## Awards 🏆 
  - Academic Progress Award, CTBU, 2023
- - Challenge Cup of “Qin Chuang Yuan”, National 2nd prize, 2024
+ - Challenge Cup of "Qin Chuang Yuan", National 2nd prize, 2024
  - The 14th Challenge Cup, Provincial 2nd prize, 2024
  - China International Student Innovation Competition, Provincial 2nd prize, 2024
  - The 7th Art Exhibition for College Students in Chongqing, Provincial 1st prize, 2023

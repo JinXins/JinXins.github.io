@@ -7,7 +7,7 @@ url: "https://jinxins.github.io"
 # Author
 author:
   name: Xin Jin (金 鑫)
-  desc: M.S | Chongqing, China
+  desc: Research Assistant | HangZhou, China
   email: jinxin20001118@163.com
   selfie: assets/img/you.jpg
 
@@ -23,7 +23,7 @@ social:
   google_scholar: citations?user=v3OwxWIAAAAJ&hl=zh-CN
   instagram:
   keybase:
-  # linkedin: https://www.linkedin.com/in/kssim/ 
+  linkedin: https://www.linkedin.com/in/xin-jin-410a232b6/ 
   pinterest:
   reddit:
   soundcloud:
@@ -58,4 +58,4 @@ exclude:
   - "Gemfile.lock"
   - "*.gem"
   - "LICENSE"
-  - "READE.md"
+  - "README.md"

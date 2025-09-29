@@ -9,66 +9,92 @@ layout: base
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to My Photography Portfolio</title>
+    <!-- 预加载关键资源 -->
+    <link rel="preload" href="./assets/img/Genoa-me.jpg" as="image">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
             margin: 0;
             padding: 0;
-            background-color: transparent;
+            background-color: #fafafa;
             font-weight: normal;
+            line-height: 1.6;
         }
 
-
-        h2 {
-            text-align: left;
+        h1 {
+            text-align: center;
             color: #333;
             font-weight: normal;
-            margin: 0;
+            margin: 1rem 0 2rem;
+            font-size: 2rem;
+        }
+
+        h2 {
+            color: #333;
+            font-weight: bold;
+            margin: 0 0 1rem;
+            text-align: left;
+            cursor: pointer;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
         }
 
         .self-photo {
-            width: 350px;
+            width: 200px;
             height: auto;
             object-fit: cover;
-            border: 1px solid #ddd;
+            border: 2px solid #ddd;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             cursor: pointer;
         }
 
         .category {
-            margin: 20px;
-            padding: 20px;
-            background-color: transparent;
-            border-radius: 4px;
-            box-shadow: none;
-        }
-
-        .category h2 {
-            margin-top: 0;
-            text-align: left;
-            cursor: pointer;
-            font-weight: normal;
+            margin: 30px 0;
+            padding: 25px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
         }
 
         .gallery {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            gap: 15px;
+            padding: 15px 0;
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.3s ease-out;
+        }
+
+        .gallery.expanded {
+            max-height: 2000px;
         }
 
         .gallery img {
             height: 200px;
             width: auto;
             object-fit: cover;
-            margin: 10px;
+            margin: 5px;
             border: 1px solid #ddd;
-            border-radius: 4px;
+            border-radius: 6px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            /* 添加懒加载占位符 */
+            background-color: #f0f0f0;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .gallery img.loaded {
+            opacity: 1;
+        }
+
+        .gallery img:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
 
         #photo-details {
@@ -78,19 +104,36 @@ layout: base
             left: 50%;
             transform: translate(-50%, -50%);
             background-color: white;
-            padding: 20px;
-            border-radius: 4px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
             z-index: 1000;
-            max-width: 80%;
-            max-height: 80%;
+            max-width: 90%;
+            max-height: 90%;
             overflow-y: auto;
         }
 
         #photo-details img {
             max-width: 100%;
             height: auto;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+
+        #photo-details h2 {
+            margin-top: 0;
+            color: #333;
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        #photo-details p {
+            margin: 8px 0;
+            color: #555;
+        }
+
+        #photo-details strong {
+            color: #333;
         }
 
         #overlay {
@@ -100,36 +143,108 @@ layout: base
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.7);
             z-index: 999;
         }
 
         #self-introduction {
-            margin: 20px;
-            padding: 20px;
-            background-color: transparent;
-            border-radius: 4px;
-            box-shadow: none;
+            margin: 20px 0 30px;
+            padding: 25px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
             display: flex;
             align-items: center;
             justify-content: space-between;
+            gap: 20px;
         }
 
         #self-introduction h2 {
             margin-top: 0;
             text-align: left;
-            font-weight: normal;
+            font-weight: bold;
+            color: #333;
+            border-bottom: none;
+            padding-bottom: 0;
         }
 
         #self-introduction-content {
             flex: 1;
-            margin-right: 20px;
+        }
+
+        #self-introduction-content p {
+            margin-top: 0;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        #close-details {
+            display: block;
+            margin: 15px auto 0;
+            padding: 8px 20px;
+            background-color: #2a7ce0;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        #close-details:hover {
+            background-color: #1a5d9e;
+        }
+
+        /* 加载指示器 */
+        .loading-placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            width: 200px;
+            background-color: #f0f0f0;
+            border-radius: 6px;
+            margin: 5px;
+        }
+
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-left-color: #2a7ce0;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            #self-introduction {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .self-photo {
+                width: 150px;
+            }
+            
+            .gallery img {
+                height: 150px;
+                width: 150px;
+            }
+        }
+        
+        /* 性能优化：启用硬件加速 */
+        .gallery img {
+            transform: translateZ(0);
+            backface-visibility: hidden;
         }
     </style>
 </head>
 
 <body>
-    <h1 style="text-align: center;">Welcome to My Photography Portfolio</h1>
+    <h1>Welcome to My Photography Portfolio</h1>
     <div id="self-introduction">
         <div id="self-introduction-content">
             <h2>About Me</h2>
@@ -144,145 +259,145 @@ layout: base
                 I've also tried portrait photography.  
             </p>
         </div>
-        <img class="self-photo" src="../assets/img/Genoa-me.jpg" alt="My Photo">
+        <img class="self-photo" src="./assets/img/Genoa-me.jpg" alt="My Photo">
     </div>
     <div class="category">
-        <h2>Landscape Photography</h2>
+        <h2 onclick="toggleGallery(this)">Landscape Photography ▼</h2>
         <div class="gallery">
-            <img src="../assets/photos/landscape/Star/Star_Trails_1.jpg"
+            <img data-src="./assets/photos/landscape/Star/Star_Trails_1.jpg"
                 data-title="重庆工商大学-启智楼-星轨" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 15-30 f/2.8" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/landscape/Star/Star_Trails_2.jpg"
+            <img data-src="./assets/photos/landscape/Star/Star_Trails_2.jpg"
                 data-title="派斯学院-S教学楼-星轨" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 15-30 f/2.8" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img src="../assets/photos/landscape/Star/Star_Trails_3.jpg"
+            <img data-src="./assets/photos/landscape/Star/Star_Trails_3.jpg"
                 data-title="派斯学院-新行政楼-星轨" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 15-30 f/2.8" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img src="../assets/photos/landscape/Star/Perseid_Meteor_Shower.jpg"
+            <img data-src="./assets/photos/landscape/Star/Perseid_Meteor_Shower.jpg"
                 data-title="四面山-英仙座流星雨" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 15-30 f/2.8" data-location="重庆-南川(Chongqing, Nachuan)">
-            <img src="../assets/photos/landscape/Star/MilkyWay_1.jpg"
+            <img data-src="./assets/photos/landscape/Star/MilkyWay_1.jpg"
                 data-title="綦江花坝-银河拱桥" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 15-30 f/2.8" data-location="重庆-綦江(Chongqing, Qijiang)">
-            <img src="../assets/photos/landscape/Star/MilkyWay_2.png"
+            <img data-src="./assets/photos/landscape/Star/MilkyWay_2.png"
                 data-title="高沟-银河-合照" data-content="None" data-camera="Sony-A7M3" 
                 data-lens="Tamron 24-70 f/2.8" data-location="安徽-无为(Anhui, Wuwei)">
-            <img src="../assets/photos/landscape/CTBU.jpg"
+            <img data-src="./assets/photos/landscape/CTBU.jpg"
                 data-title="重庆工商大学-南区" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/landscape/CTBU_Library_Sundown.jpg"
+            <img data-src="./assets/photos/landscape/CTBU_Library_Sundown.jpg"
                 data-title="重庆工商大学-图书馆" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/landscape/CTBU_Library_Night.jpg"
+            <img data-src="./assets/photos/landscape/CTBU_Library_Night.jpg"
                 data-title="重庆工商大学-图书馆" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/landscape/CTBU_Golden_Hour.jpg"
+            <img data-src="./assets/photos/landscape/CTBU_Golden_Hour.jpg"
                 data-title="重庆工商大学-金色时刻" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 15-30mm f/2.8" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/landscape/CTBU_Blues_Moment.jpg"
+            <img data-src="./assets/photos/landscape/CTBU_Blues_Moment.jpg"
                 data-title="重庆工商大学-蓝调时刻" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 15-30mm f/2.8" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/landscape/BirchTree_Rainy.jpg"
+            <img data-src="./assets/photos/landscape/BirchTree_Rainy.jpg"
                 data-title="雨天白桦树" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 15-30mm f/2.8" data-location="安徽-无为(Anhui, Wuwei)">
-            <img src="../assets/photos/landscape/Fengchui_Ridge.png"
+            <img data-src="./assets/photos/landscape/Fengchui_Ridge.png"
                 data-title="风吹岭" data-content="None" data-camera="Sony-A7M3" 
                 data-lens="Tamron 24-70 f/2.8" data-location="重庆-南川(Chongqing, Nachuan)">
-            <img src="../assets/photos/landscape/Haitangxi.jpg"
+            <img data-src="./assets/photos/landscape/Haitangxi.jpg"
                 data-title="海棠溪" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/landscape/Lianhua_Peak.jpg"
+            <img data-src="./assets/photos/landscape/Lianhua_Peak.jpg"
                 data-title="莲花峰" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 15-30mm f/2.8" data-location="安徽-黄山自然风景区(Anhui, Yellow Mountain)">
-            <img src="../assets/photos/landscape/Longji_Mountain.jpg"
+            <img data-src="./assets/photos/landscape/Longji_Mountain.jpg"
                 data-title="龙脊山-小屋" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/landscape/Longji_Mountain_2.jpg"
+            <img data-src="./assets/photos/landscape/Longji_Mountain_2.jpg"
                 data-title="龙脊山-小屋" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/landscape/Lunar_Eclipse.jpg"
+            <img data-src="./assets/photos/landscape/Lunar_Eclipse.jpg"
                 data-title="月食" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/landscape/Nanhu_Sundown.jpg"
+            <img data-src="./assets/photos/landscape/Nanhu_Sundown.jpg"
                 data-title="高沟南湖-日落" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="安徽-无为(Anhui, Wuwei)">
-            <img src="../assets/photos/landscape/Sangong_Mountain_Sunrise.jpg"
+            <img data-src="./assets/photos/landscape/Sangong_Mountain_Sunrise.jpg"
                 data-title="无为三公山-日出" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 15-30mm f/2.8" data-location="安徽-无为(Anhui, Wuwei)">
-            <img src="../assets/photos/landscape/Wenfeng_Street.jpg"
+            <img data-src="./assets/photos/landscape/Wenfeng_Street.jpg"
                 data-title="合川-文峰古街" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img src="../assets/photos/landscape/Pass_3.jpg"
+            <img data-src="./assets/photos/landscape/Pass_3.jpg"
                 data-title="派斯学院-3教" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 15-30mm f/2.8" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img src="../assets/photos/landscape/Puyan_Temple.jpg"
+            <img data-src="./assets/photos/landscape/Puyan_Temple.jpg"
                 data-title="合川-濮岩寺 (4年一次没去)" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 15-30mm f/2.8" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img src="../assets/photos/landscape/Cadillac_1.jpg"
+            <img data-src="./assets/photos/landscape/Cadillac_1.jpg"
                 data-title="凯迪拉克" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 15-30mm f/2.8" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img src="../assets/photos/landscape/Cadillac_2.jpg"
+            <img data-src="./assets/photos/landscape/Cadillac_2.jpg"
                 data-title="凯迪拉克" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 15-30mm f/2.8" data-location="重庆-合川(Chongqing, Hechuan)">
         </div>
     </div>
     <div class="category">
-        <h2>Portrait Photography</h2>
+        <h2 onclick="toggleGallery(this)">Portrait Photography ▼</h2>
         <div class="gallery">
-            <img src="../assets/photos/portrait/Yuanyuan.jpg"
+            <img data-src="./assets/photos/portrait/Yuanyuan.jpg"
                 data-title="小榨菜" data-content="None" data-camera="Canon EOS M50" 
                 data-lens="Cannon 18-55mm f/3.5-5.6" data-location="山东-青岛(Shandong, Qingdap)">
-            <img src="../assets/photos/portrait/Jing.png"
+            <img data-src="./assets/photos/portrait/Jing.png"
                 data-title="静静子" data-content="None" data-camera="Sony-A7M3" 
                 data-lens="Tamron 24-70 f/2.8" data-location="重庆-渝中(Chongqing, Yuzhong)">
-            <img src="../assets/photos/portrait/Qian.jpg"
+            <img data-src="./assets/photos/portrait/Qian.jpg"
                 data-title="毛同学" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img src="../assets/photos/portrait/Binjiang_Xin.jpg"
+            <img data-src="./assets/photos/portrait/Binjiang_Xin.jpg"
                 data-title="重庆滨江公园（抖音没火之前）" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-渝中(Chongqing, Yuzhong)">
-            <img src="../assets/photos/portrait/2329.jpg"
+            <img data-src="./assets/photos/portrait/2329.jpg"
                 data-title="浩伟学长和陈超学长" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/portrait/2448.jpg"
+            <img data-src="./assets/photos/portrait/2448.jpg"
                 data-title="浩伟学长和陈超学长" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/portrait/2476.jpg"
+            <img data-src="./assets/photos/portrait/2476.jpg"
                 data-title="浩伟学长和陈超学长-背影" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/portrait/2537.jpg"
+            <img data-src="./assets/photos/portrait/2537.jpg"
                 data-title="学长和老师们" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/portrait/sportsground_friends.jpg"
+            <img data-src="./assets/photos/portrait/sportsground_friends.jpg"
                 data-title="操场-同学们（可爱）" data-content="None" data-camera="Nikon-D610" 
                 data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
         </div>
     </div>
     <div class="category">
-        <h2>Film Photography</h2>
+        <h2 onclick="toggleGallery(this)">Film Photography ▼</h2>
         <div class="gallery">
-            <img src="../assets/photos/film/1.2.jpg"
+            <img data-src="./assets/photos/film/1.2.jpg"
                 data-title="派斯女神像" data-content="None" data-camera="NikonMat" 
                 data-lens="Nikon 135mm f/2" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img src="../assets/photos/film/1.5.jpg"
+            <img data-src="./assets/photos/film/1.5.jpg"
                 data-title="国立二中-石狮子" data-content="None" data-camera="NikonMat" 
                 data-lens="Nikon 135mm f/2" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img src="../assets/photos/film/2.jpg"
+            <img data-src="./assets/photos/film/2.jpg"
                 data-title="小咪咪" data-content="None" data-camera="NikonMat" 
                 data-lens="Nikon 35mm f/2.8" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/film/XinJin.jpg"
+            <img data-src="./assets/photos/film/XinJin.jpg"
                 data-title="自己" data-content="None" data-camera="NikonMat" 
                 data-lens="Nikon 35mm f/2.8" data-location="四川-峨眉山(Sichuan, Emeishan)">
-            <img src="../assets/photos/film/Friends.jpg"
+            <img data-src="./assets/photos/film/Friends.jpg"
                 data-title="朋友们" data-content="None" data-camera="NikonMat" 
                 data-lens="Nikon 35mm f/2.8" data-location="四川-乐山(Sichuan, Leshan)">
-            <img src="../assets/photos/film/000026450001.jpg"
+            <img data-src="./assets/photos/film/000026450001.jpg"
                 data-title="重庆工商大学-启智楼" data-content="None" data-camera="海鸥4-A" 
                 data-lens="天赛" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img src="../assets/photos/film/000026160011.jpg"
+            <img data-src="./assets/photos/film/000026160011.jpg"
                 data-title="天柱山-祈愿牌" data-content="None" data-camera="NikonMat" 
                 data-lens="Nikon 17-35mm f/3.5" data-location="安徽-安庆(Anhui, Anqing)">
-            <img src="../assets/photos/film/000026160035.jpg"
+            <img data-src="./assets/photos/film/000026160035.jpg"
                 data-title="石雕-猴" data-content="None" data-camera="NikonMat" 
                 data-lens="Nikon 35mm f/2.8" data-location="四川-峨眉山(Sichuan, Emeishan)">
         </div>
@@ -292,23 +407,114 @@ layout: base
         <h2 id="photo-title"></h2>
         <p id="photo-content"></p>
         <p><strong>Camera:</strong> <span id="photo-camera"></span></p>
-        <p><strong>Len:</strong> <span id="photo-lens"></span></p>
+        <p><strong>Lens:</strong> <span id="photo-lens"></span></p>
         <p><strong>Location:</strong> <span id="photo-location"></span></p>
         <button id="close-details">Close</button>
     </div>
     <div id="overlay"></div>
     <script>
-        const categoryHeaders = document.querySelectorAll('.category h2');
-        categoryHeaders.forEach(header => {
-            header.addEventListener('click', function () {
-                const gallery = this.nextElementSibling;
-                if (gallery.style.maxHeight) {
-                    gallery.style.maxHeight = null;
-                } else {
-                    gallery.style.maxHeight = gallery.scrollHeight + 'px';
+        // 图片懒加载和预加载系统
+        class ImageLoader {
+            constructor() {
+                this.imageCache = new Map();
+                this.loadingQueue = [];
+                this.maxConcurrentLoads = 3;
+                this.currentLoads = 0;
+            }
+
+            // 预加载关键图片
+            preloadCriticalImages() {
+                // 预加载前几张图片
+                const criticalImages = document.querySelectorAll('.gallery img');
+                const firstImages = Array.from(criticalImages).slice(0, 6);
+                
+                firstImages.forEach(img => {
+                    this.preloadImage(img.dataset.src);
+                });
+            }
+
+            // 预加载单个图片
+            preloadImage(src) {
+                if (this.imageCache.has(src)) return;
+                
+                const img = new Image();
+                img.src = src;
+                this.imageCache.set(src, img);
+            }
+
+            // 懒加载图片
+            lazyLoadImages() {
+                const images = document.querySelectorAll('img[data-src]:not(.loaded)');
+                const imageObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            this.loadImage(img);
+                            observer.unobserve(img);
+                        }
+                    });
+                }, {
+                    rootMargin: '50px' // 提前50px开始加载
+                });
+
+                images.forEach(image => {
+                    imageObserver.observe(image);
+                });
+            }
+
+            // 加载单个图片
+            loadImage(imgElement) {
+                const src = imgElement.dataset.src;
+                
+                // 如果已在缓存中，直接使用
+                if (this.imageCache.has(src)) {
+                    const cachedImg = this.imageCache.get(src);
+                    if (cachedImg.complete) {
+                        imgElement.src = src;
+                        imgElement.classList.add('loaded');
+                        return;
+                    }
                 }
-            });
-        });
+                
+                // 设置加载状态
+                imgElement.classList.add('loading');
+                
+                // 创建新的图片对象进行加载
+                const img = new Image();
+                img.onload = () => {
+                    imgElement.src = src;
+                    imgElement.classList.remove('loading');
+                    imgElement.classList.add('loaded');
+                    this.imageCache.set(src, img);
+                };
+                
+                img.onerror = () => {
+                    imgElement.classList.remove('loading');
+                    imgElement.classList.add('loaded'); // 即使出错也标记为已加载
+                };
+                
+                img.src = src;
+            }
+        }
+
+        // 初始化图片加载器
+        const imageLoader = new ImageLoader();
+
+        function toggleGallery(header) {
+            const gallery = header.nextElementSibling;
+            gallery.classList.toggle('expanded');
+            
+            // Toggle arrow icon
+            const arrow = header.textContent.includes('▼') ? '▲' : '▼';
+            header.textContent = header.textContent.replace(/[▼▲]/, arrow);
+            
+            // 如果展开画廊，触发懒加载
+            if (gallery.classList.contains('expanded')) {
+                setTimeout(() => {
+                    imageLoader.lazyLoadImages();
+                }, 100);
+            }
+        }
 
         const photos = document.querySelectorAll('.gallery img');
         const photoDetails = document.getElementById('photo-details');
@@ -322,7 +528,7 @@ layout: base
                 const camera = this.dataset.camera;
                 const lens = this.dataset.lens;
                 const location = this.dataset.location;
-                const imageSrc = this.src;
+                const imageSrc = this.dataset.src || this.src;
 
                 document.getElementById('photo-title').textContent = title;
                 document.getElementById('photo-content').textContent = content;
@@ -333,28 +539,63 @@ layout: base
 
                 photoDetails.style.display = 'block';
                 overlay.style.display = 'block';
+                document.body.style.overflow = 'hidden'; // Prevent background scrolling
             });
         });
 
         closeButton.addEventListener('click', function () {
             photoDetails.style.display = 'none';
             overlay.style.display = 'none';
+            document.body.style.overflow = 'auto'; // Enable scrolling
         });
 
         overlay.addEventListener('click', function () {
             photoDetails.style.display = 'none';
             overlay.style.display = 'none';
+            document.body.style.overflow = 'auto'; // Enable scrolling
         });
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            // 展开第一个画廊
+            const firstGalleryHeader = document.querySelector('.category h2');
+            if (firstGalleryHeader) {
+                toggleGallery(firstGalleryHeader);
+            }
+            
+            // 预加载关键图片
+            imageLoader.preloadCriticalImages();
+            
+            // 初始化懒加载
+            imageLoader.lazyLoadImages();
+        });
+        
+        // 性能优化：防抖函数
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+        
+        // 监听窗口大小变化，优化响应
+        window.addEventListener('resize', debounce(() => {
+            // 重新计算图片布局
+            const expandedGalleries = document.querySelectorAll('.gallery.expanded');
+            expandedGalleries.forEach(gallery => {
+                // 触发重排
+                gallery.style.maxHeight = 'none';
+                setTimeout(() => {
+                    gallery.style.maxHeight = gallery.scrollHeight + 'px';
+                }, 10);
+            });
+        }, 250));
     </script>
 </body>
 
-</html>    
-
-<!-- <div class="photo">
-  WELCOME MY PHOTOGRAPH.
-</div> -->
-
-<!-- <div class="portfolio">
-  WELCOME MY PHOTOGRAPH.
-</div> -->
-
+</html>

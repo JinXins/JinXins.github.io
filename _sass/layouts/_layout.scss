@@ -14,13 +14,16 @@ footer,
 }
 
 .nav {
-  box-shadow: 0 2px 2px -2px $shadow-color;
+  box-shadow: 0 2px 4px -2px $shadow-color;
   overflow: auto;
+  background-color: #fff;
+  border-radius: 0 0 8px 8px;
 
   &-container {
     margin: 1rem auto;
     position: relative;
     text-align: center;
+    padding: 0.8rem 0;
   }
 
   &-title {
@@ -29,6 +32,8 @@ footer,
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
 
     &:hover,
     &:focus {
@@ -47,8 +52,9 @@ footer,
     @include transition(all .2s ease-out);
     color: $default-color;
     display: inline-block;
-    opacity: .6;
-    padding: 0 2rem 0 0;
+    opacity: .8;
+    padding: 0 1.5rem 0 0;
+    font-size: 1rem;
 
     &:last-child {
       padding-right: 0;
@@ -63,6 +69,11 @@ footer,
   a {
     color: $default-color;
     font-family: $sans-serif;
+    border-bottom: none;
+    
+    &:hover {
+      color: #2a7ce0;
+    }
   }
 }
 
@@ -70,23 +81,38 @@ footer,
   .nav {
     &-container {
       text-align: left;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
     ul {
       bottom: 0;
-      position: absolute;
+      position: static;
       right: 0;
+      margin: 0;
     }
   }
+}
+
+main {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 footer {
   font-family: $serif-secondary;
   padding: 2rem 0;
   text-align: center;
+  border-top: 1px solid #eee;
+  margin-top: 2rem;
 
   span {
     color: $default-color;
-    font-size: .8rem;
+    font-size: .9rem;
   }
 }

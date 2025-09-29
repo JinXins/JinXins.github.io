@@ -1,6 +1,6 @@
 * {
   @include box-sizing;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 html,
@@ -21,6 +21,7 @@ html {
 
 body {
   -webkit-text-size-adjust: 100%;
+  background-color: #fafafa;
 }
 
 h1,
@@ -31,7 +32,23 @@ h5,
 h6 {
   color: $default-shade;
   font-family: $sans-serif;
-  line-height: normal;
+  line-height: 1.3;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  border-bottom: 2px solid $grey-2;
+  padding-bottom: 0.3rem;
+}
+
+h3 {
+  font-size: 1.3rem;
 }
 
 li,
@@ -39,7 +56,9 @@ ul,
 p {
   color: $default-shade;
   font-family: $sans-serif;
-  line-height: normal;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 li,
@@ -48,8 +67,15 @@ ul {
 }
 
 a {
-  color: #999;
+  color: #2a7ce0;
   text-decoration: none;
+  border-bottom: 1px dotted #2a7ce0;
+  
+  &:hover,
+  &:focus {
+    color: #1a5d9e;
+    border-bottom: 1px solid #1a5d9e;
+  }
 }
 
 blockquote {
@@ -57,6 +83,8 @@ blockquote {
   color: $grey-1;
   margin: .8rem 0;
   padding: .5rem 1rem;
+  background-color: $grey-3;
+  border-radius: 0 4px 4px 0;
 
   p:last-child {
     margin-bottom: 0;
@@ -73,6 +101,7 @@ img {
   // margin: 0 0 1rem;
   max-width: 100%;
   vertical-align: text-top;
+  border-radius: 4px;
 }
 
 table.imgtable, table.imgtable td {
@@ -92,16 +121,22 @@ table.table-row{
 }
 
 table {
-    border: 2px solid black;
+    border: 2px solid #e0e0e0;
     border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    overflow: hidden;
 }
 
 td {
-    padding: 0px;
+    padding: 0.8rem;
     padding-left: 0.5em;
     padding-right: 0.5em;
     text-align: center;
-    border: 1px solid gray;
+    border: 1px solid #eee;
 }
 
 table + table {
@@ -119,4 +154,48 @@ img {
 
 td {
   vertical-align: top;
+}
+
+/* Custom styles for better content presentation */
+.news-list {
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  padding: 15px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.news-list ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.news-list li {
+  margin-bottom: 0.8rem;
+  padding: 0;
+}
+
+.publication-table {
+  margin-bottom: 2rem;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.publication-table td:first-child {
+  padding: 1rem;
+}
+
+.publication-table td:last-child {
+  padding: 1rem;
+  text-align: left;
+}
+
+.experience-table {
+  margin-bottom: 1.5rem;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
