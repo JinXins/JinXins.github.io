@@ -77,7 +77,7 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
         <b>Xin Jin</b><sup>*</sup>, Siyuan Li<sup>*</sup>, Siyong Jian, Kai Yu, Huan Wang<sup>†</sup>
         <br><span class="pub-info"><i><b>arXiv</b>, 2025</i> 
         [<a href="https://arxiv.org/abs/2510.23479" target="_blank" style="color:#2a7ce0">arXiv</a>]
-        <!-- [<a href="https://huggingface.co/papers/2506.01049" target="_blank" style="color:#2a7ce0">HF DailyPapers Top-4</a>] -->
+        [<a href="https://huggingface.co/papers/2510.23479" target="_blank" style="color:#2a7ce0">HF DailyPapers Top-4</a>]
         [<a href="./assets/bibtex/ArXiv_2025_MergeMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
