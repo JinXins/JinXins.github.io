@@ -15,6 +15,7 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
 <div style="max-height:500px;overflow-y:auto;padding:15px;background-color:#f9f9f9;border-radius:6px;">
 
   <ul>
+    <li><b> <font color="#b80000">[2025.10]</font> </b> One paper on Mixup & MLLM, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[2025.02]</font> </b> One paper on (M)LLM optimizers, <a href="https://huggingface.co/papers/2506.01049"> SGG</a> is accepted by <b>ACL 2025 main</b>, congrats to <font color="#2a7ce0">Siyuan Li, Zedong Wang and Juanxi Tian</font>. </li>
     <li><b> <font color="#b80000">[2025.02]</font> </b> Two co-author papers on eye moment identification, <a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a> and <a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a> are accepted by <b>IEEE TIM</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
     <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2409.05202"> Survey</a>, is released on <b>arXiv</b>. </li>
@@ -28,7 +29,7 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
 
 ## Experiences 📝 {#experiences}
 <!-- Chongqing Financial Institute -->
-<table class="imgtable"><tr><td style="width:220px;height:130px">
+<table class="imgtable"><tr><td>
     <img src="./assets/img/CQFI.jpg" alt="" width="220px" />&nbsp;</td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
@@ -41,7 +42,7 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
 </table>
           
 <!-- Westlake University -->
-<table class="imgtable"><tr><td style="width:220px;height:130px">
+<table class="imgtable"><tr><td>
     <img src="./assets/img/westlake_logo.png" alt="" width="220px" />&nbsp;</td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
@@ -54,7 +55,7 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
 </table>
 
 <!-- Westlake University -->
-<table class="imgtable"><tr><td style="width:220px;height:130px">
+<table class="imgtable"><tr><td>
     <img src="./assets/img/westlake_logo.png" alt="" width="220px" />&nbsp;</td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
@@ -68,6 +69,18 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
 
 ### Publications 📖 {#publications}
 **Selected Preprints:**
+
+<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
+    <img src="./assets/img/MergeMix.png" alt="" />&nbsp;</td>
+    <td align="left"><p>
+        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">MergeMix: A Unified Augmentation Paradigm for Visual and Multi-Modal Understanding</a></b></font><br>
+        <b>Xin Jin</b><sup>*</sup>, Siyuan Li<sup>*</sup>, Siyong Jian, Kai Yu, Huan Wang<sup>†</sup>
+        <br><span class="pub-info"><i><b>arXiv</b>, 2025</i> 
+        [<a href="https://arxiv.org/abs/2510.23479" target="_blank" style="color:#2a7ce0">arXiv</a>]
+        <!-- [<a href="https://huggingface.co/papers/2506.01049" target="_blank" style="color:#2a7ce0">HF DailyPapers Top-4</a>] -->
+        [<a href="./assets/bibtex/ArXiv_2025_MergeMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
+</p></td></tr>
+</table>
 
 <table class="imgtable"><tr><td style="width:220px;height:130px">
     <img src="./assets/img/F4.png" alt="" />&nbsp;</td>
@@ -95,11 +108,11 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
 **Conferences (*: Equal Contribution. †: Corresponding Author.):**
 
 <!-- Taming LLMs by Scaling Learning Rates with Gradient Grouping -->
-<table class="imgtable"><tr><td style="width:220px;height:130px">
+<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
     <img src="./assets/img/SGG.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Taming LLMs by Scaling Learning Rates with Gradient Grouping</a></b></font><br>
-        Siyuan Li<sup>*,†</sup>, Juanxi Tian<sup>*</sup>, Zedong Wang<sup>*</sup>,<b>Xin Jin</b>, Zicheng Liu<sup>†</sup>, Wentao Zhang, Dan Xu
+        Siyuan Li<sup>*</sup>, Juanxi Tian<sup>*</sup>, Zedong Wang<sup>*</sup>,<b>Xin Jin</b>, Zicheng Liu<sup>†</sup>, Wentao Zhang, Dan Xu
         <br><span class="pub-info"><i><b>ACL-main</b>, 2025</i> 
         [<a href="https://arxiv.org/abs/2506.01049" target="_blank" style="color:#2a7ce0">arXiv</a>]
         [<a href="https://huggingface.co/papers/2506.01049" target="_blank" style="color:#2a7ce0">HF DailyPapers Top-4</a>]
@@ -108,7 +121,7 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
 </table>
 
 <!-- SUMix: Mixup with Semantic and Uncertain Information -->
-<table class="imgtable"><tr><td style="width:220px;height:130px">
+<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
     <img src="./assets/img/SUMix.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">SUMix: Mixup with Semantic and Uncertain Information</a></b></font><br>
@@ -121,7 +134,7 @@ Welcome to contacting me about research. Please drop me emails (jinxin86@westlak
 </table>
 
 <!-- Adversarial AutoMixup -->
-<table class="imgtable"><tr><td style="width:220px;height:130px">
+<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
     <img src="./assets/img/AdAutoMix.jpg" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>
