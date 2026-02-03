@@ -17,7 +17,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
 <div style="max-height:500px;overflow-y:auto;padding:15px;background-color:#f9f9f9;border-radius:6px;">
 
   <ul>
-  <li><b> <font color="#b80000">[2026.01]</font> </b> 🎉 One paper on efficient mixup and preference tuning, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is accpted by <b>ICLR 2026</b>. </li>
+    <li><b> <font color="#b80000">[2026.01]</font> </b> 🎉 One paper on efficient mixup and preference tuning, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is accpted by <b>ICLR 2026</b>. </li>
     <li><b> <font color="#b80000">[2025.10]</font> </b> One paper on Mixup & MLLM, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[2025.02]</font> </b> 🎉 One paper on (M)LLM optimizers, <a href="https://huggingface.co/papers/2506.01049"> SGG</a> is accepted by <b>ACL 2025 main</b>, congrats to <font color="#2a7ce0">Siyuan Li, Juanxi Tian and Zedong Wang</font>. </li>
     <li><b> <font color="#b80000">[2025.02]</font> </b> Two co-author papers on eye moment identification, <a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a> and <a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a> are accepted by <b>IEEE TIM</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
@@ -199,5 +199,5 @@ Photography. You could see some photos on <a href="https://500px.com.cn/XinJin">
 
 
 <div style="text-align:center; margin-top: 10px;">
-  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/map_v2.js?d=hE2JchuqjgQG16sein5j0oSFN-cTW3oSbw2SrRd-czo&cl=ffffff&w=a"></script>
+  <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/map_v2.js?d=hE2JchuqjgQG16sein5j0oSFN-cTW3oSbw2SrRd-czo&cl=ffffff&w=a"></script>
 </div>
