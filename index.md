@@ -199,5 +199,7 @@ Photography. You could see some photos on <a href="https://500px.com.cn/XinJin">
 
 
 <div style="text-align:center; margin-top: 10px;">
-  <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/map_v2.js?d=hE2JchuqjgQG16sein5j0oSFN-cTW3oSbw2SrRd-czo&cl=ffffff&w=a"></script>
+  <a href="https://clustrmaps.com/site/1c5jf" title="Visit tracker">
+    <img src="https://clustrmaps.com/map_v2.png?d=hE2JchuqjgQG16sein5j0oSFN-cTW3oSbw2SrRd-czo&cl=ffffff&w=300" alt="Visitor map">
+  </a>
 </div>
