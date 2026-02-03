@@ -19,19 +19,19 @@ layout: base
 
         body {
             font-family: 'Libre Baskerville', 'Georgia', serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%);
-            background-size: 400% 400%;
-            animation: gradientShift 15s ease infinite;
+            background: #ffffff;
             min-height: 100vh;
             padding: 0;
             margin: 0;
             overflow-x: hidden;
+            color: #222;
         }
 
-        @keyframes gradientShift {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
+        main {
+            background: transparent;
+            box-shadow: none;
+            padding: 0;
+            margin-top: 0;
         }
 
         .container {
@@ -50,15 +50,15 @@ layout: base
         .header h1 {
             font-size: 3.5rem;
             font-weight: 300;
-            color: rgba(255, 255, 255, 0.95);
-            text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+            color: #222;
+            text-shadow: none;
             margin-bottom: 20px;
             letter-spacing: 3px;
         }
 
         .header p {
             font-size: 1.2rem;
-            color: rgba(255, 255, 255, 0.85);
+            color: #555;
             max-width: 600px;
             margin: 0 auto;
             line-height: 1.8;
@@ -75,86 +75,30 @@ layout: base
 
         .category-btn {
             padding: 15px 35px;
-            background: rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(10px);
-            border: 2px solid rgba(255, 255, 255, 0.3);
+            background: #ffffff;
+            border: 2px solid #e0e0e0;
             border-radius: 50px;
-            color: rgba(255, 255, 255, 0.9);
+            color: #222;
             font-size: 1rem;
             font-weight: 500;
             cursor: pointer;
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: all 0.3s ease;
             text-transform: uppercase;
             letter-spacing: 1px;
             position: relative;
-            overflow: hidden;
-        }
-
-        .category-btn::before {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 0;
-            height: 0;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.3);
-            transform: translate(-50%, -50%);
-            transition: width 0.6s, height 0.6s;
-        }
-
-        .category-btn:hover::before {
-            width: 300px;
-            height: 300px;
         }
 
         .category-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            border-color: #bdbdbd;
         }
 
         .category-btn.active {
-            background: rgba(255, 255, 255, 0.25);
-            border-color: rgba(255, 255, 255, 0.6);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-        }
-
-        .category-btn span {
-            position: relative;
-            z-index: 10;
-            display: inline-block;
-            pointer-events: none;
-        }
-        
-        .category-label {
-            position: absolute;
-            top: -35px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: rgba(0, 0, 0, 0.8);
-            color: white;
-            padding: 5px 12px;
-            border-radius: 5px;
-            font-size: 0.85rem;
-            white-space: nowrap;
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.3s ease;
-        }
-        
-        .category-btn.active .category-label {
-            opacity: 1;
-        }
-        
-        .category-btn.active::after {
-            content: '✓';
-            position: absolute;
-            right: 10px;
-            top: 50%;
-            transform: translateY(-50%);
-            z-index: 10;
-            font-size: 1.2rem;
+            background: #111;
+            color: #fff;
+            border-color: #111;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
         }
 
         /* Category Container */
@@ -183,11 +127,11 @@ layout: base
             flex-direction: column;
             gap: 40px;
             margin-bottom: 50px;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
+            background: transparent;
+            border: 1px solid #e6e6e6;
+            border-radius: 16px;
             padding: 40px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            box-shadow: none;
         }
 
         .intro-content {
@@ -196,14 +140,14 @@ layout: base
 
         .intro-content h2 {
             font-size: 2rem;
-            color: rgba(255, 255, 255, 0.95);
+            color: #222;
             margin-bottom: 20px;
             font-weight: 300;
         }
 
         .intro-content p {
             font-size: 1.1rem;
-            color: rgba(255, 255, 255, 0.85);
+            color: #555;
             line-height: 1.8;
         }
 
@@ -212,7 +156,7 @@ layout: base
             max-width: 300px;
             height: auto;
             border-radius: 15px;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            box-shadow: none;
         }
 
         @media (min-width: 768px) {
@@ -399,10 +343,6 @@ layout: base
                 font-size: 0.9rem;
             }
             
-            .category-label {
-                display: none;
-            }
-
             .lightbox-close {
                 top: 10px;
                 right: 15px;
@@ -458,15 +398,12 @@ layout: base
 
         <div class="category-nav">
             <button class="category-btn active" data-category="landscape">
-                <span class="category-label">风景摄影</span>
                 <span>Landscape</span>
             </button>
             <button class="category-btn" data-category="portrait">
-                <span class="category-label">人像摄影</span>
                 <span>Portrait</span>
             </button>
             <button class="category-btn" data-category="film">
-                <span class="category-label">胶片摄影</span>
                 <span>Film</span>
             </button>
         </div>

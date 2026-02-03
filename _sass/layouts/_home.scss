@@ -114,16 +114,11 @@
         vertical-align: top;
         
         img {
-          border: 2px solid #e8ecef;
-          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+          border: none;
+          box-shadow: none;
           border-radius: 6px;
           padding: 0;
           width: 200px;
-          transition: transform 0.3s ease;
-          
-          &:hover {
-            transform: scale(1.02);
-          }
         }
         
         p {
