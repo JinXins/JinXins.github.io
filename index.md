@@ -196,3 +196,8 @@ Pattern Recognition.
 
 ### Interests 📝 
 Photography. You could see some photos on <a href="https://500px.com.cn/XinJin">500px website</a> (Long time without update...)
+
+
+<div style="text-align:center; margin-top: 10px;">
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/map_v2.js?d=hE2JchuqjgQG16sein5j0oSFN-cTW3oSbw2SrRd-czo&cl=ffffff&w=a"></script>
+</div>
