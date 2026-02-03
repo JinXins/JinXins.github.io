@@ -8,259 +8,221 @@ layout: base
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Photography Portfolio</title>
-    <!-- 预加载关键资源 -->
+    <title>Photography Portfolio | Xin Jin</title>
     <link rel="preload" href="{{ '/assets/img/Genoa-me.jpg' | relative_url }}" as="image">
     <style>
-        body {
-            font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+        * {
             margin: 0;
             padding: 0;
-            background-color: #fff; /* 改为白色背景 */
-            font-weight: normal;
-            line-height: 1.6;
+            box-sizing: border-box;
         }
 
-        h1 {
+        body {
+            font-family: 'Libre Baskerville', 'Georgia', serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Header Section */
+        .header {
             text-align: center;
-            color: #333;
-            font-weight: normal;
-            margin: 1rem 0 2rem;
-            font-size: 2rem;
+            margin-bottom: 60px;
+            animation: fadeInDown 1s ease;
         }
 
-        /* 优化个人介绍和照片排版 */
-        #self-introduction {
-            margin: 20px auto 30px;
-            padding: 30px;
-            background-color: #fff;
-            border-radius: 12px;
-            box-shadow: none;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 30px;
-            width: 100%;
-            max-width: none;
+        .header h1 {
+            font-size: 3.5rem;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.95);
+            text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+            letter-spacing: 3px;
         }
 
-        .self-photo {
-            width: 350px; /* 增大照片尺寸 */
-            height: auto;
-            object-fit: cover;
-            border: 3px solid #f0f0f0;
-            border-radius: 12px;
-            box-shadow: none;
+        .header p {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.85);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.8;
         }
 
-        #self-introduction-content {
-            flex: 1;
-        }
-
-        #self-introduction h2 {
-            margin-top: 0;
-            text-align: left;
-            font-weight: bold;
-            color: #333;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-            font-size: 1.8rem;
-        }
-
-        #self-introduction-content p {
-            margin-top: 0;
-            line-height: 1.7;
-            color: #555;
-            font-size: 1.1rem;
-        }
-
-        /* 分类导航栏 */
+        /* Category Navigation */
         .category-nav {
             display: flex;
             justify-content: center;
-            gap: 20px;
-            margin: 20px auto;
-            width: 100%;
-            max-width: none;
-            padding: 0 20px;
+            gap: 15px;
+            margin-bottom: 50px;
+            flex-wrap: wrap;
         }
 
         .category-btn {
-            padding: 12px 25px;
-            background-color: #f8f8f8;
-            color: #555;
-            border: none;
-            border-radius: 30px;
-            cursor: pointer;
-            font-size: 1.1rem;
+            padding: 15px 35px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50px;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1rem;
             font-weight: 500;
-            transition: all 0.3s ease;
-            box-shadow: none;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .category-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .category-btn:hover::before {
+            width: 300px;
+            height: 300px;
         }
 
         .category-btn:hover {
-            background-color: #e9e9e9;
-            transform: translateY(-2px);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
         }
 
         .category-btn.active {
-            background-color: #2a7ce0;
-            color: white;
-            box-shadow: none;
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.6);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
         }
 
-        /* 照片分类容器 */
+        .category-btn span {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Category Container */
         .category {
-            margin: 20px auto;
-            padding: 0 20px;
-            width: 100%;
-            max-width: none;
-            display: none; /* 默认隐藏所有分类 */
+            display: none;
+            animation: fadeIn 0.6s ease;
         }
 
         .category.active {
-            display: block; /* 只显示激活的分类 */
-        }
-
-        .category-title {
-            color: #333;
-            font-weight: bold;
-            margin: 0 0 20px;
-            text-align: center;
-            font-size: 1.6rem;
-            position: relative;
-        }
-
-        .category-title::after {
-            content: '';
             display: block;
-            width: 60px;
-            height: 3px;
-            background-color: #2a7ce0;
-            margin: 10px auto 0;
-            border-radius: 2px;
         }
 
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Gallery Grid */
         .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            padding: 15px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+            padding: 20px 0;
         }
 
-        .gallery img {
-            height: 300px; /* 增大照片高度 */
-            width: auto;
-            object-fit: cover;
-            margin: 5px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            box-shadow: none;
+        /* Photo Item */
+        .photo-item {
+            position: relative;
+            aspect-ratio: 4 / 3;
+            border-radius: 20px;
+            overflow: hidden;
             cursor: pointer;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            background-color: #f0f0f0;
-            opacity: 0;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            animation: fadeInUp 0.6s ease backwards;
         }
 
-        .gallery img.loaded {
-            opacity: 1;
+        .photo-item:nth-child(1) { animation-delay: 0.1s; }
+        .photo-item:nth-child(2) { animation-delay: 0.2s; }
+        .photo-item:nth-child(3) { animation-delay: 0.3s; }
+        .photo-item:nth-child(4) { animation-delay: 0.4s; }
+        .photo-item:nth-child(5) { animation-delay: 0.5s; }
+        .photo-item:nth-child(n+6) { animation-delay: 0.6s; }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
-        .gallery img:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        .photo-item:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
         }
 
-        #photo-details {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
-            z-index: 1000;
+        .photo-item .thumbnail {
             width: 100%;
-            max-width: 95%;
-            max-height: 95%;
-            overflow-y: auto;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            filter: blur(3px) brightness(0.7);
+            transform: scale(1.1);
         }
 
-        #photo-details img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        .photo-item.loaded .thumbnail {
+            filter: blur(0) brightness(1);
+            transform: scale(1);
         }
 
-        #photo-details h2 {
-            margin-top: 0;
-            color: #333;
-            border-bottom: none;
-            padding-bottom: 0;
-            font-size: 1.6rem;
-        }
-
-        #photo-details p {
-            margin: 10px 0;
-            color: #555;
-            font-size: 1.1rem;
-        }
-
-        #photo-details strong {
-            color: #333;
-        }
-
-        #overlay {
-            display: none;
-            position: fixed;
+        .photo-item .loading-overlay {
+            position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
-            z-index: 999;
-        }
-
-        #close-details {
-            display: block;
-            margin: 20px auto 0;
-            padding: 10px 25px;
-            background-color: #2a7ce0;
-            color: white;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 1.1rem;
-            transition: background-color 0.3s ease;
-        }
-
-        #close-details:hover {
-            background-color: #1a5d9e;
-        }
-
-        /* 加载指示器 */
-        .loading-placeholder {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.3), rgba(118, 75, 162, 0.3));
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 220px;
-            width: 220px;
-            background-color: #f0f0f0;
-            border-radius: 8px;
-            margin: 5px;
+            opacity: 1;
+            transition: opacity 0.5s ease;
+        }
+
+        .photo-item.loaded .loading-overlay {
+            opacity: 0;
+            pointer-events: none;
         }
 
         .spinner {
-            border: 4px solid rgba(0, 0, 0, 0.1);
-            border-left-color: #2a7ce0;
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top-color: rgba(255, 255, 255, 0.9);
             border-radius: 50%;
-            width: 35px;
-            height: 35px;
             animation: spin 1s linear infinite;
         }
 
@@ -268,459 +230,486 @@ layout: base
             to { transform: rotate(360deg); }
         }
 
+        /* Lightbox Modal */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 10000;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .lightbox.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .lightbox-content {
+            position: relative;
+            max-width: 95%;
+            max-height: 95%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .lightbox-image {
+            max-width: 100%;
+            max-height: 95vh;
+            object-fit: contain;
+            border-radius: 10px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            animation: zoomIn 0.4s ease;
+        }
+
+        @keyframes zoomIn {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .lightbox-close:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: rotate(90deg);
+        }
+
+        /* Responsive Design */
         @media (max-width: 768px) {
-            #self-introduction {
-                flex-direction: column;
-                text-align: center;
-                padding: 20px;
+            .header h1 {
+                font-size: 2.5rem;
             }
-            
-            .self-photo {
-                width: 180px; /* 移动端适当减小照片尺寸 */
+
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 15px;
             }
-            
-            .category-nav {
-                flex-direction: column;
-                align-items: center;
-                gap: 10px;
-            }
-            
+
             .category-btn {
-                width: 80%;
+                padding: 12px 25px;
+                font-size: 0.9rem;
             }
-            
-            .gallery img {
-                height: 180px; /* 移动端适当减小照片尺寸 */
-                width: 180px;
+
+            .lightbox-close {
+                top: 10px;
+                right: 15px;
+                width: 40px;
+                height: 40px;
+                font-size: 20px;
             }
         }
-        
-        /* 性能优化：启用硬件加速 */
-        .gallery img {
-            transform: translateZ(0);
-            backface-visibility: hidden;
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
         }
     </style>
 </head>
 
 <body>
-    <h1>Welcome to My Photography Portfolio</h1>
-    
-    <!-- 优化的个人介绍和照片排版 -->
-    <div id="self-introduction">
-        <div id="self-introduction-content">
-            <h2>About Me</h2>
-            <p>
-                Hi, here is Xin Jin (金 鑫), a photography enthusiast.
-                I enjoy shooting landscape scenery, especially astrophotography.
-                I like looking up at the stars and the Milky Way at night, and I also love capturing meteor showers!
-                I once led my friends to chase the "Perseid Meteor Shower".
-                We lay on the road and watched the meteors streaking across the sky one by one.
-                That feeling was truly wonderful! I also do some film photography.
-                I'm fond of that natural touch, where there is no algorithm to process the images, just completely natural and unalterable moments.
-                I've also tried portrait photography.  
-            </p>
+    <div class="container">
+        <div class="header">
+            <h1>Photography Portfolio</h1>
+            <p>Capturing moments through the lens of life</p>
         </div>
-        <img class="self-photo" src="{{ '/assets/img/Genoa-me.jpg' | relative_url }}" alt="My Photo">
-    </div>
-    
-    <!-- 分类导航栏 -->
-    <div class="category-nav">
-        <button class="category-btn active" data-category="landscape">Landscape Photography</button>
-        <button class="category-btn" data-category="portrait">Portrait Photography</button>
-        <button class="category-btn" data-category="film">Film Photography</button>
-    </div>
-    
-    <!-- Landscape Photography -->
-    <div class="category active" id="landscape-category">
-        <h2 class="category-title">Landscape Photography</h2>
-        <div class="gallery">
-            <img data-src="{{ '/assets/photos/landscape/Star/Star_Trails_1.jpg' | relative_url }}"
-                data-title="重庆工商大学-启智楼-星轨" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 15-30 f/2.8" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/landscape/Star/Star_Trails_2.jpg' | relative_url }}"
-                data-title="派斯学院-S教学楼-星轨" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 15-30 f/2.8" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img data-src="{{ '/assets/photos/landscape/Star/Star_Trails_3.jpg' | relative_url }}"
-                data-title="派斯学院-新行政楼-星轨" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 15-30 f/2.8" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img data-src="{{ '/assets/photos/landscape/Star/Perseid_Meteor_Shower.jpg' | relative_url }}"
-                data-title="四面山-英仙座流星雨" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 15-30 f/2.8" data-location="重庆-南川(Chongqing, Nachuan)">
-            <img data-src="{{ '/assets/photos/landscape/Star/MilkyWay_1.jpg' | relative_url }}"
-                data-title="綦江花坝-银河拱桥" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 15-30 f/2.8" data-location="重庆-綦江(Chongqing, Qijiang)">
-            <img data-src="{{ '/assets/photos/landscape/Star/MilkyWay_2.png' | relative_url }}"
-                data-title="高沟-银河-合照" data-content="None" data-camera="Sony-A7M3" 
-                data-lens="Tamron 24-70 f/2.8" data-location="安徽-无为(Anhui, Wuwei)">
-            <img data-src="{{ '/assets/photos/landscape/CTBU.jpg' | relative_url }}"
-                data-title="重庆工商大学-南区" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/landscape/CTBU_Library_Sundown.jpg' | relative_url }}"
-                data-title="重庆工商大学-图书馆" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/landscape/CTBU_Library_Night.jpg' | relative_url }}"
-                data-title="重庆工商大学-图书馆" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/landscape/CTBU_Golden_Hour.jpg' | relative_url }}"
-                data-title="重庆工商大学-金色时刻" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 15-30mm f/2.8" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/landscape/CTBU_Blues_Moment.jpg' | relative_url }}"
-                data-title="重庆工商大学-蓝调时刻" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 15-30mm f/2.8" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/landscape/BirchTree_Rainy.jpg' | relative_url }}"
-                data-title="雨天白桦树" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 15-30mm f/2.8" data-location="安徽-无为(Anhui, Wuwei)">
-            <img data-src="{{ '/assets/photos/landscape/Fengchui_Ridge.png' | relative_url }}"
-                data-title="风吹岭" data-content="None" data-camera="Sony-A7M3" 
-                data-lens="Tamron 24-70 f/2.8" data-location="重庆-南川(Chongqing, Nachuan)">
-            <img data-src="{{ '/assets/photos/landscape/Haitangxi.jpg' | relative_url }}"
-                data-title="海棠溪" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/landscape/Lianhua_Peak.jpg' | relative_url }}"
-                data-title="莲花峰" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 15-30mm f/2.8" data-location="安徽-黄山自然风景区(Anhui, Yellow Mountain)">
-            <img data-src="{{ '/assets/photos/landscape/Longji_Mountain.jpg' | relative_url }}"
-                data-title="龙脊山-小屋" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/landscape/Longji_Mountain_2.jpg' | relative_url }}"
-                data-title="龙脊山-小屋" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/landscape/Lunar_Eclipse.jpg' | relative_url }}"
-                data-title="月食" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/landscape/Nanhu_Sundown.jpg' | relative_url }}"
-                data-title="高沟南湖-日落" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="安徽-无为(Anhui, Wuwei)">
-            <img data-src="{{ '/assets/photos/landscape/Sangong_Mountain_Sunrise.jpg' | relative_url }}"
-                data-title="无为三公山-日出" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 15-30mm f/2.8" data-location="安徽-无为(Anhui, Wuwei)">
-            <img data-src="{{ '/assets/photos/landscape/Wenfeng_Street.jpg' | relative_url }}"
-                data-title="合川-文峰古街" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img data-src="{{ '/assets/photos/landscape/Pass_3.jpg' | relative_url }}"
-                data-title="派斯学院-3教" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 15-30mm f/2.8" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img data-src="{{ '/assets/photos/landscape/Puyan_Temple.jpg' | relative_url }}"
-                data-title="合川-濮岩寺 (4年一次没去)" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 15-30mm f/2.8" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img data-src="{{ '/assets/photos/landscape/Cadillac_1.jpg' | relative_url }}"
-                data-title="凯迪拉克" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 15-30mm f/2.8" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img data-src="{{ '/assets/photos/landscape/Cadillac_2.jpg' | relative_url }}"
-                data-title="凯迪拉克" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 15-30mm f/2.8" data-location="重庆-合川(Chongqing, Hechuan)">
+
+        <div class="category-nav">
+            <button class="category-btn active" data-category="landscape">
+                <span>Landscape</span>
+            </button>
+            <button class="category-btn" data-category="portrait">
+                <span>Portrait</span>
+            </button>
+            <button class="category-btn" data-category="film">
+                <span>Film</span>
+            </button>
+        </div>
+
+        <!-- Landscape Photography -->
+        <div class="category active" id="landscape-category">
+            <div class="gallery">
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Star/Star_Trails_1.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Star/Star_Trails_1.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Star/Star_Trails_2.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Star/Star_Trails_2.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Star/Star_Trails_3.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Star/Star_Trails_3.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Star/Perseid_Meteor_Shower.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Star/Perseid_Meteor_Shower.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Star/MilkyWay_1.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Star/MilkyWay_1.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Star/MilkyWay_2.png' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Star/MilkyWay_2.png' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/CTBU.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/CTBU.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/CTBU_Library_Sundown.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/CTBU_Library_Sundown.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/CTBU_Library_Night.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/CTBU_Library_Night.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/CTBU_Golden_Hour.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/CTBU_Golden_Hour.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/CTBU_Blues_Moment.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/CTBU_Blues_Moment.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/BirchTree_Rainy.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/BirchTree_Rainy.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Fengchui_Ridge.png' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Fengchui_Ridge.png' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Haitangxi.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Haitangxi.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Lianhua_Peak.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Lianhua_Peak.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Longji_Mountain.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Longji_Mountain.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Longji_Mountain_2.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Longji_Mountain_2.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Lunar_Eclipse.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Lunar_Eclipse.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Nanhu_Sundown.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Nanhu_Sundown.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Sangong_Mountain_Sunrise.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Sangong_Mountain_Sunrise.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Wenfeng_Street.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Wenfeng_Street.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Pass_3.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Pass_3.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Puyan_Temple.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Puyan_Temple.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Cadillac_1.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Cadillac_1.jpg' | relative_url }}" alt="Landscape">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/landscape/Cadillac_2.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/landscape/Cadillac_2.jpg' | relative_url }}" alt="Landscape">
+                </div>
+            </div>
+        </div>
+
+        <!-- Portrait Photography -->
+        <div class="category" id="portrait-category">
+            <div class="gallery">
+                <div class="photo-item" data-full="{{ '/assets/photos/portrait/Yuanyuan.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/portrait/Yuanyuan.jpg' | relative_url }}" alt="Portrait">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/portrait/Jing.png' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/portrait/Jing.png' | relative_url }}" alt="Portrait">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/portrait/Qian.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/portrait/Qian.jpg' | relative_url }}" alt="Portrait">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/portrait/Binjiang_Xin.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/portrait/Binjiang_Xin.jpg' | relative_url }}" alt="Portrait">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/portrait/2329.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/portrait/2329.jpg' | relative_url }}" alt="Portrait">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/portrait/2448.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/portrait/2448.jpg' | relative_url }}" alt="Portrait">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/portrait/2476.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/portrait/2476.jpg' | relative_url }}" alt="Portrait">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/portrait/2537.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/portrait/2537.jpg' | relative_url }}" alt="Portrait">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/portrait/sportsground_friends.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/portrait/sportsground_friends.jpg' | relative_url }}" alt="Portrait">
+                </div>
+            </div>
+        </div>
+
+        <!-- Film Photography -->
+        <div class="category" id="film-category">
+            <div class="gallery">
+                <div class="photo-item" data-full="{{ '/assets/photos/film/1.2.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/film/1.2.jpg' | relative_url }}" alt="Film">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/film/1.5.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/film/1.5.jpg' | relative_url }}" alt="Film">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/film/2.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/film/2.jpg' | relative_url }}" alt="Film">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/film/XinJin.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/film/XinJin.jpg' | relative_url }}" alt="Film">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/film/Friends.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/film/Friends.jpg' | relative_url }}" alt="Film">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/film/000026450001.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/film/000026450001.jpg' | relative_url }}" alt="Film">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/film/000026160011.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/film/000026160011.jpg' | relative_url }}" alt="Film">
+                </div>
+                <div class="photo-item" data-full="{{ '/assets/photos/film/000026160035.jpg' | relative_url }}">
+                    <div class="loading-overlay"><div class="spinner"></div></div>
+                    <img class="thumbnail" data-src="{{ '/assets/photos/film/000026160035.jpg' | relative_url }}" alt="Film">
+                </div>
+            </div>
         </div>
     </div>
-    
-    <!-- Portrait Photography -->
-    <div class="category" id="portrait-category">
-        <h2 class="category-title">Portrait Photography</h2>
-        <div class="gallery">
-            <img data-src="{{ '/assets/photos/portrait/Yuanyuan.jpg' | relative_url }}"
-                data-title="小榨菜" data-content="None" data-camera="Canon EOS M50" 
-                data-lens="Cannon 18-55mm f/3.5-5.6" data-location="山东-青岛(Shandong, Qingdap)">
-            <img data-src="{{ '/assets/photos/portrait/Jing.png' | relative_url }}"
-                data-title="静静子" data-content="None" data-camera="Sony-A7M3" 
-                data-lens="Tamron 24-70 f/2.8" data-location="重庆-渝中(Chongqing, Yuzhong)">
-            <img data-src="{{ '/assets/photos/portrait/Qian.jpg' | relative_url }}"
-                data-title="毛同学" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img data-src="{{ '/assets/photos/portrait/Binjiang_Xin.jpg' | relative_url }}"
-                data-title="重庆滨江公园（抖音没火之前）" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-渝中(Chongqing, Yuzhong)">
-            <img data-src="{{ '/assets/photos/portrait/2329.jpg' | relative_url }}"
-                data-title="浩伟学长和陈超学长" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/portrait/2448.jpg' | relative_url }}"
-                data-title="浩伟学长和陈超学长" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/portrait/2476.jpg' | relative_url }}"
-                data-title="浩伟学长和陈超学长-背影" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/portrait/2537.jpg' | relative_url }}"
-                data-title="学长和老师们" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/portrait/sportsground_friends.jpg' | relative_url }}"
-                data-title="操场-同学们（可爱）" data-content="None" data-camera="Nikon-D610" 
-                data-lens="Tamron 70-300mm f/4-5.6" data-location="重庆-南岸(Chongqing, Nanan)">
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close">×</button>
+            <img class="lightbox-image" id="lightbox-image" src="" alt="Full size">
         </div>
     </div>
-    
-    <!-- Film Photography -->
-    <div class="category" id="film-category">
-        <h2 class="category-title">Film Photography</h2>
-        <div class="gallery">
-            <img data-src="{{ '/assets/photos/film/1.2.jpg' | relative_url }}"
-                data-title="派斯女神像" data-content="None" data-camera="NikonMat" 
-                data-lens="Nikon 135mm f/2" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img data-src="{{ '/assets/photos/film/1.5.jpg' | relative_url }}"
-                data-title="国立二中-石狮子" data-content="None" data-camera="NikonMat" 
-                data-lens="Nikon 135mm f/2" data-location="重庆-合川(Chongqing, Hechuan)">
-            <img data-src="{{ '/assets/photos/film/2.jpg' | relative_url }}"
-                data-title="小咪咪" data-content="None" data-camera="NikonMat" 
-                data-lens="Nikon 35mm f/2.8" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/film/XinJin.jpg' | relative_url }}"
-                data-title="自己" data-content="None" data-camera="NikonMat" 
-                data-lens="Nikon 35mm f/2.8" data-location="四川-峨眉山(Sichuan, Emeishan)">
-            <img data-src="{{ '/assets/photos/film/Friends.jpg' | relative_url }}"
-                data-title="朋友们" data-content="None" data-camera="NikonMat" 
-                data-lens="Nikon 35mm f/2.8" data-location="四川-乐山(Sichuan, Leshan)">
-            <img data-src="{{ '/assets/photos/film/000026450001.jpg' | relative_url }}"
-                data-title="重庆工商大学-启智楼" data-content="None" data-camera="海鸥4-A" 
-                data-lens="天赛" data-location="重庆-南岸(Chongqing, Nanan)">
-            <img data-src="{{ '/assets/photos/film/000026160011.jpg' | relative_url }}"
-                data-title="天柱山-祈愿牌" data-content="None" data-camera="NikonMat" 
-                data-lens="Nikon 17-35mm f/3.5" data-location="安徽-安庆(Anhui, Anqing)">
-            <img data-src="{{ '/assets/photos/film/000026160035.jpg' | relative_url }}"
-                data-title="石雕-猴" data-content="None" data-camera="NikonMat" 
-                data-lens="Nikon 35mm f/2.8" data-location="四川-峨眉山(Sichuan, Emeishan)">
-        </div>
-    </div>
-    
-    <div id="photo-details">
-        <img id="photo-image" src="" alt="Details">
-        <h2 id="photo-title"></h2>
-        <p id="photo-content"></p>
-        <p><strong>Camera:</strong> <span id="photo-camera"></span></p>
-        <p><strong>Lens:</strong> <span id="photo-lens"></span></p>
-        <p><strong>Location:</strong> <span id="photo-location"></span></p>
-        <button id="close-details">Close</button>
-    </div>
-    <div id="overlay"></div>
-    
+
     <script>
-        // 图片懒加载和预加载系统
+        // Thumbnail and Full Image Loader
         class ImageLoader {
             constructor() {
                 this.imageCache = new Map();
                 this.loadingQueue = [];
-                this.maxConcurrentLoads = 3;
-                this.currentLoads = 0;
             }
 
-            // 预加载关键图片
-            preloadCriticalImages() {
-                // 预加载前几张图片
-                const criticalImages = document.querySelectorAll('#landscape-category .gallery img');
-                const firstImages = Array.from(criticalImages).slice(0, 6);
-                
-                firstImages.forEach(img => {
-                    this.preloadImage(img.dataset.src);
-                });
-            }
-
-            // 预加载单个图片
-            preloadImage(src) {
-                if (this.imageCache.has(src)) return;
-                
-                const img = new Image();
-                img.src = src;
-                this.imageCache.set(src, img);
-            }
-
-            // 懒加载图片
-            lazyLoadImages(categoryId) {
-                const categoryElement = document.getElementById(categoryId);
-                if (!categoryElement) return;
-                
-                const images = categoryElement.querySelectorAll('.gallery img[data-src]:not(.loaded)');
-                const imageObserver = new IntersectionObserver((entries, observer) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            const img = entry.target;
-                            this.loadImage(img);
-                            observer.unobserve(img);
-                        }
-                    });
-                }, {
-                    rootMargin: '50px' // 提前50px开始加载
-                });
-
-                images.forEach(image => {
-                    imageObserver.observe(image);
-                });
-            }
-
-            // 加载单个图片
-            loadImage(imgElement) {
+            // Load thumbnail (blurred, low quality initially)
+            loadThumbnail(imgElement) {
                 const src = imgElement.dataset.src;
+                const photoItem = imgElement.closest('.photo-item');
                 
-                // 如果已在缓存中，直接使用
                 if (this.imageCache.has(src)) {
-                    const cachedImg = this.imageCache.get(src);
-                    if (cachedImg.complete) {
-                        imgElement.src = src;
-                        imgElement.classList.add('loaded');
-                        return;
-                    }
+                    imgElement.src = src;
+                    photoItem.classList.add('loaded');
+                    return;
                 }
-                
-                // 设置加载状态
-                imgElement.classList.add('loading');
-                
-                // 创建新的图片对象进行加载
+
                 const img = new Image();
                 img.onload = () => {
                     imgElement.src = src;
-                    imgElement.classList.remove('loading');
-                    imgElement.classList.add('loaded');
-                    this.imageCache.set(src, img);
+                    // Remove blur after a short delay for smooth transition
+                    setTimeout(() => {
+                        photoItem.classList.add('loaded');
+                    }, 100);
                 };
-                
                 img.onerror = () => {
-                    imgElement.classList.remove('loading');
-                    imgElement.classList.add('loaded'); // 即使出错也标记为已加载
+                    photoItem.classList.add('loaded');
                 };
-                
                 img.src = src;
+            }
+
+            // Load full resolution image for lightbox
+            loadFullImage(src, callback) {
+                if (this.imageCache.has(src + '_full')) {
+                    callback(this.imageCache.get(src + '_full'));
+                    return;
+                }
+
+                const img = new Image();
+                img.onload = () => {
+                    this.imageCache.set(src + '_full', img);
+                    callback(img);
+                };
+                img.onerror = () => {
+                    callback(null);
+                };
+                img.src = src;
+            }
+
+            // Lazy load thumbnails
+            lazyLoadThumbnails() {
+                const photoItems = document.querySelectorAll('.category.active .photo-item:not(.loaded)');
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const thumbnail = entry.target.querySelector('.thumbnail');
+                            if (thumbnail) {
+                                this.loadThumbnail(thumbnail);
+                            }
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    rootMargin: '100px'
+                });
+
+                photoItems.forEach(item => observer.observe(item));
             }
         }
 
-        // 初始化图片加载器
         const imageLoader = new ImageLoader();
 
-        // 分类切换功能 - 修复叠加问题
+        // Category switching
         function switchCategory(category) {
-            // 隐藏所有分类 - 彻底隐藏
-            document.querySelectorAll('.category').forEach(cat => {
-                cat.classList.remove('active');
-                cat.style.display = 'none';
-            });
-            
-            // 更新按钮状态
+            // Update buttons
             document.querySelectorAll('.category-btn').forEach(btn => {
                 btn.classList.remove('active');
             });
-            const activeButton = document.querySelector(`.category-btn[data-category="${category}"]`);
-            if (activeButton) {
-                activeButton.classList.add('active');
-            }
-            
-            // 显示选中的分类 - 确保正确显示
+            document.querySelector(`.category-btn[data-category="${category}"]`).classList.add('active');
+
+            // Update categories
+            document.querySelectorAll('.category').forEach(cat => {
+                cat.classList.remove('active');
+            });
             const selectedCategory = document.getElementById(category + '-category');
             if (selectedCategory) {
-                // 先设置为block再添加active类
-                selectedCategory.style.display = 'block';
-                // 使用一个小延迟确保display生效后再添加active类
+                selectedCategory.classList.add('active');
+                // Lazy load thumbnails for new category
                 setTimeout(() => {
-                    selectedCategory.classList.add('active');
-                    
-                    // 确保gallery正确显示
-                    const gallery = selectedCategory.querySelector('.gallery');
-                    if (gallery) {
-                        gallery.style.display = 'flex';
-                        gallery.style.flexWrap = 'wrap';
-                        gallery.style.justifyContent = 'center';
-                    }
-                }, 10);
+                    imageLoader.lazyLoadThumbnails();
+                }, 100);
             }
-            
-            // 触发懒加载
-            setTimeout(() => {
-                imageLoader.lazyLoadImages(category + '-category');
-            }, 100);
         }
 
-        // 为分类按钮添加点击事件
-        document.querySelectorAll('.category-btn').forEach(button => {
-            button.addEventListener('click', function() {
-                const category = this.dataset.category;
-                switchCategory(category);
+        // Category button events
+        document.querySelectorAll('.category-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                switchCategory(btn.dataset.category);
             });
         });
 
-        // 照片点击事件
-        function attachPhotoClickEvents() {
-            const photos = document.querySelectorAll('.gallery img');
-            const photoDetails = document.getElementById('photo-details');
-            const overlay = document.getElementById('overlay');
-            const closeButton = document.getElementById('close-details');
+        // Lightbox functionality
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImage = document.getElementById('lightbox-image');
+        const lightboxClose = document.getElementById('lightbox-close');
 
-            photos.forEach(photo => {
-                photo.addEventListener('click', function () {
-                    const title = this.dataset.title;
-                    const content = this.dataset.content;
-                    const camera = this.dataset.camera;
-                    const lens = this.dataset.lens;
-                    const location = this.dataset.location;
-                    const imageSrc = this.dataset.src || this.src;
+        function openLightbox(fullImageSrc) {
+            lightboxImage.src = '';
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
 
-                    document.getElementById('photo-title').textContent = title;
-                    document.getElementById('photo-content').textContent = content;
-                    document.getElementById('photo-camera').textContent = camera;
-                    document.getElementById('photo-lens').textContent = lens;
-                    document.getElementById('photo-location').textContent = location;
-                    document.getElementById('photo-image').src = imageSrc;
-
-                    photoDetails.style.display = 'block';
-                    overlay.style.display = 'block';
-                    document.body.style.overflow = 'hidden'; // Prevent background scrolling
-                });
-            });
-
-            closeButton.addEventListener('click', function () {
-                photoDetails.style.display = 'none';
-                overlay.style.display = 'none';
-                document.body.style.overflow = 'auto'; // Enable scrolling
-            });
-
-            overlay.addEventListener('click', function () {
-                photoDetails.style.display = 'none';
-                overlay.style.display = 'none';
-                document.body.style.overflow = 'auto'; // Enable scrolling
+            // Load full resolution image
+            imageLoader.loadFullImage(fullImageSrc, (img) => {
+                if (img) {
+                    lightboxImage.src = img.src;
+                } else {
+                    lightboxImage.src = fullImageSrc;
+                }
             });
         }
 
-        // 页面加载完成后初始化
-        document.addEventListener('DOMContentLoaded', function() {
-            // 预加载关键图片
-            imageLoader.preloadCriticalImages();
-            
-            // 初始化懒加载（默认加载landscape分类）
-            imageLoader.lazyLoadImages('landscape-category');
-            
-            // 绑定照片点击事件
-            attachPhotoClickEvents();
-            
-            // 确保默认分类正确显示
-            const defaultCategory = document.getElementById('landscape-category');
-            if (defaultCategory) {
-                defaultCategory.style.display = 'block';
-                // 使用一个小延迟确保display生效后再添加active类
-                setTimeout(() => {
-                    defaultCategory.classList.add('active');
-                }, 10);
-            }
-        });
-        
-        // 性能优化：防抖函数
-        function debounce(func, wait) {
-            let timeout;
-            return function executedFunction(...args) {
-                const later = () => {
-                    clearTimeout(timeout);
-                    func(...args);
-                };
-                clearTimeout(timeout);
-                timeout = setTimeout(later, wait);
-            };
+        function closeLightbox() {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = '';
         }
-        
-        // 监听窗口大小变化，优化响应
-        window.addEventListener('resize', debounce(() => {
-            // 重新计算图片布局
-            const activeCategory = document.querySelector('.category.active');
-            if (activeCategory) {
-                const gallery = activeCategory.querySelector('.gallery');
-                if (gallery) {
-                    // 强制重排
-                    gallery.style.display = 'flex';
-                    gallery.style.flexWrap = 'wrap';
-                    gallery.style.justifyContent = 'center';
+
+        // Photo click events
+        document.addEventListener('click', (e) => {
+            const photoItem = e.target.closest('.photo-item');
+            if (photoItem) {
+                const fullImageSrc = photoItem.dataset.full;
+                if (fullImageSrc) {
+                    openLightbox(fullImageSrc);
                 }
             }
-        }, 250));
+        });
+
+        // Close lightbox events
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                closeLightbox();
+            }
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (lightbox.classList.contains('active')) {
+                if (e.key === 'Escape') {
+                    closeLightbox();
+                }
+            }
+        });
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            // Load thumbnails for initial category
+            imageLoader.lazyLoadThumbnails();
+        });
     </script>
 </body>
 
