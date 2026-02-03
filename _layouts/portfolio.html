@@ -122,7 +122,39 @@ layout: base
 
         .category-btn span {
             position: relative;
-            z-index: 1;
+            z-index: 10;
+            display: inline-block;
+            pointer-events: none;
+        }
+        
+        .category-label {
+            position: absolute;
+            top: -35px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 5px;
+            font-size: 0.85rem;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+        
+        .category-btn.active .category-label {
+            opacity: 1;
+        }
+        
+        .category-btn.active::after {
+            content: '✓';
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 10;
+            font-size: 1.2rem;
         }
 
         /* Category Container */
@@ -145,11 +177,65 @@ layout: base
             to { opacity: 1; transform: translateY(0); }
         }
 
-        /* Gallery Grid */
+        /* Personal Introduction Section */
+        .intro-section {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            margin-bottom: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+        }
+
+        .intro-content {
+            flex: 1;
+        }
+
+        .intro-content h2 {
+            font-size: 2rem;
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+
+        .intro-content p {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.85);
+            line-height: 1.8;
+        }
+
+        .intro-photo {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        @media (min-width: 768px) {
+            .intro-section {
+                flex-direction: row;
+                align-items: center;
+            }
+            
+            .intro-content {
+                flex: 2;
+            }
+            
+            .intro-photo-wrapper {
+                flex: 1;
+                text-align: center;
+            }
+        }
+
+        /* Gallery Grid - 5-6 columns for thumbnails */
         .gallery {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 25px;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 15px;
             padding: 20px 0;
         }
 
@@ -304,13 +390,17 @@ layout: base
             }
 
             .gallery {
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-                gap: 15px;
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+                gap: 10px;
             }
 
             .category-btn {
                 padding: 12px 25px;
                 font-size: 0.9rem;
+            }
+            
+            .category-label {
+                display: none;
             }
 
             .lightbox-close {
@@ -320,6 +410,10 @@ layout: base
                 height: 40px;
                 font-size: 20px;
             }
+            
+            .intro-section {
+                padding: 25px;
+            }
         }
 
         @media (max-width: 480px) {
@@ -328,8 +422,8 @@ layout: base
             }
 
             .gallery {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 10px;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 8px;
             }
         }
     </style>
@@ -342,14 +436,37 @@ layout: base
             <p>Capturing moments through the lens of life</p>
         </div>
 
+        <!-- Personal Introduction Section -->
+        <div class="intro-section">
+            <div class="intro-content">
+                <h2>About Me</h2>
+                <p>
+                    Hi, here is Xin Jin (金 鑫), a photography enthusiast.
+                    I enjoy shooting landscape scenery, especially astrophotography.
+                    I like looking up at the stars and the Milky Way at night, and I also love capturing meteor showers!
+                    I once led my friends to chase the "Perseid Meteor Shower".
+                    We lay on the road and watched the meteors streaking across the sky one by one.
+                    That feeling was truly wonderful! I also do some film photography.
+                    I'm fond of that natural touch, where there is no algorithm to process the images, just completely natural and unalterable moments.
+                    I've also tried portrait photography.
+                </p>
+            </div>
+            <div class="intro-photo-wrapper">
+                <img class="intro-photo" src="{{ '/assets/img/Genoa-me.jpg' | relative_url }}" alt="Xin Jin">
+            </div>
+        </div>
+
         <div class="category-nav">
             <button class="category-btn active" data-category="landscape">
+                <span class="category-label">风景摄影</span>
                 <span>Landscape</span>
             </button>
             <button class="category-btn" data-category="portrait">
+                <span class="category-label">人像摄影</span>
                 <span>Portrait</span>
             </button>
             <button class="category-btn" data-category="film">
+                <span class="category-label">胶片摄影</span>
                 <span>Film</span>
             </button>
         </div>

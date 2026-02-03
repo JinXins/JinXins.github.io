@@ -23,7 +23,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
     <li><b> <font color="#b80000">[2025.02]</font> </b> Two co-author papers on eye moment identification, <a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a> and <a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a> are accepted by <b>IEEE TIM</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
     <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2409.05202"> Survey</a>, is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[2024.07]</font> </b> 🎉 One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2407.07805"> SUMix</a>, is accepted by <b>ECCV 2024</b>. </li>
-    <li><b> <font color="#b80000">[2024.05]</font> </b> Co-author paper on vein identification, <a href="https://hsi2024.welcometohsi.org/"> GANet</a>, is accepted by <b>HSI 2024</b>, congrats to <font color="#2a7ce0">Hongchao Liao</font>. </li>
+    <li><b> <font color="#b80000">[2024.05]</font> </b> Co-author paper on vein identification, <a href="https://hsi2024.welcometohsi.org/"> GANet</a>, is accepted by <b>HSI 2024 (<font color="#FF0000">Oral</font>)</b>, congrats to <font color="#2a7ce0">Hongchao Liao</font>. </li>
     <li><b> <font color="#b80000">[2024.01]</font> </b> 🎉 One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2312.11954"> AdAutoMix</a>, is accepted by <b>ICLR 2024 (<font color="#FF0000">Spotlight</font>)</b>. </li>
   </ul>
 </div>
@@ -184,7 +184,7 @@ ICLR (2025-2026), CVPR (2026), ICML (2026), ECCV (2026)
 Pattern Recognition.
  - **Membership**  
 2024 - 2025 Student Member of IEEE  
-2024 - 2025  Member of China Computer Federation (CCF)
+2024 - 2025 Member of China Computer Federation (CCF)
 
 ### Awards 🏆 
  - Academic Progress Award, CTBU, 2023
