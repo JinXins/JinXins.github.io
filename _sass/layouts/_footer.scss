@@ -1,16 +1,45 @@
-  .social-layer {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    color: lighten(gray, 30%);
-    font-size: 0.9em;
-  
-    .social-icons {
-      ul {
-       list-style: none;
-        li {
-          display: inline;
-        }
-      }
+.social-layer {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  color: #666;
+  font-size: 0.9em;
+
+  .social-icons {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      text-decoration: none;
+    }
+
+    .fa-stack {
+      line-height: 1;
+    }
+
+    .fa-circle {
+      color: #d0d0d0;
+    }
+
+    .fa-inverse {
+      color: #6b6b6b;
     }
   }
+}
