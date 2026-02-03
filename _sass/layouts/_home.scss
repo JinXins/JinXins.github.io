@@ -181,14 +181,14 @@
           font-size: 0.95rem;
           line-height: 1.7;
           padding-left: 1.5rem;
-          color: #22ad84;
+          color: #1e916e;
           position: relative;
           
           &::before {
-            content: '·';
+            content: '🌟';
             position: absolute;
             left: 0;
-            color: #2ae0a9;
+            color: #1e916e;
             font-weight: bold;
           }
           
