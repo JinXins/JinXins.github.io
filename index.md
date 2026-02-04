@@ -3,11 +3,11 @@ layout: about
 ---
 
 ### About Me 😁
-I am a research assistant at Westlake University, supervised by Prof. [Huan Wang](https://scholar.google.com/citations?hl=zh-CN&user=0-On0y4AAAAJ). I received my M.S. degree in Computer Science from Chongqing Technology and Business University in 2025, under the supervision of Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN). In 2022, I obtained my B.S. degree in Internet of Things Engineering from Pass Collage of Chongqing Technology and Business University.
+I am a research assistant at Westlake University, supervised by Prof. [Huan Wang](https://scholar.google.com/citations?hl=zh-CN&user=0-On0y4AAAAJ). I received my M.S. degree in Computer Science from Chongqing Technology and Business University in 2025, under the supervision of Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN). In 2022, I obtained my B.E. degree in Internet of Things Engineering from Pass Collage of Chongqing Technology and Business University.
 
-Currently, my research work centers on **Efficient AI**, **Multi-modal Large Language Models** and **Large Language Models**. Previously, my research focused on **Data Augmentation** and **Biometric Identification**.
+**Research:** Currently, my research centers on **Efficient AI**, **Large Language Models**, and **Multi-modal Large Language Models**. Previously, my research focused on Data Augmentation and Biometric Identification.
 
-In my spare time, I am an amateur photographer with a passion for capturing scenery and starry sky shots🌌. I use both digital cameras📷 and film cameras🎞 for my photography projects.
+**Interests:** In my spare time, I am an amateur photographer with a passion for capturing scenery and starry sky shots 🌌. I use both digital cameras 📷 and film cameras 🎞️ for my photography.
 
 Feel free to contact me for academic and research discussions. Please drop me an email at ``jinxin86@westlake.edu.cn``.
 
