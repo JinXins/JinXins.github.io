@@ -2,7 +2,7 @@
 layout: about 
 ---
 
-## About Me 😁
+### About Me 😁
 I am a research assistant at Westlake University, supervised by Prof. [Huan Wang](https://scholar.google.com/citations?hl=zh-CN&user=0-On0y4AAAAJ). I received my M.S. degree in Computer Science from Chongqing Technology and Business University in 2025, under the supervision of Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN). In 2022, I obtained my B.S. degree in Internet of Things Engineering from Pass Collage of Chongqing Technology and Business University.
 
 Currently, my research work centers on **Efficient AI**, **Multi-modal Large Language Models** and **Large Language Models**. Previously, my research focused on **Data Augmentation** and **Biometric Identification**.
@@ -13,7 +13,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
 
 **<font color="#FF0000">I am actively seeking 26 Fall or 27 Spring PhD opportunities!</font>**
 
-## News 💬 
+### News 💬 
 <div style="max-height:500px;overflow-y:auto;padding:15px;background-color:#f9f9f9;border-radius:6px;">
 
   <ul>
@@ -28,7 +28,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
   </ul>
 </div>
 
-## Experiences 📝 {#experiences}
+### Experiences 📝
 <!-- Chongqing Financial Institute -->
 <table class="imgtable"><tr><td>
     <img src="./assets/img/CQFI.jpg" alt="" width="220px" />&nbsp;</td>
@@ -68,7 +68,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
         </p></td></tr>
 </table>
 
-### Publications 📖 {#publications}
+### Publications 📖
 **Selected Preprints:**
 
 <table class="imgtable"><tr><td style="width:220px;height:130px">
@@ -198,7 +198,7 @@ Pattern Recognition.
 Photography. You could see some photos on <a href="https://500px.com.cn/XinJin">500px website</a> (Long time without update...)
 
 
-<div style="text-align:center; margin-top: 10px;">
+<div style="display:flex; justify-content:center; margin-top: 10px;">
   <a href="https://clustrmaps.com/site/1c5jf" title="Visit tracker">
     <img src="https://clustrmaps.com/map_v2.png?d=hE2JchuqjgQG16sein5j0oSFN-cTW3oSbw2SrRd-czo&cl=ffffff&w=300" alt="Visitor map">
   </a>

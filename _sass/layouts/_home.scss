@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: space-between;
     text-align: left;
-    margin: 2rem 0 3rem;
-    padding: 2rem;
+    // margin: 2rem 0 3rem;
+    padding: 1rem;
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -67,7 +67,7 @@
   }
 
   .content {
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     
     h2 {
       margin-top: 1.6rem;
