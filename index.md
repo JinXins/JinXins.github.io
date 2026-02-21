@@ -17,13 +17,14 @@ Feel free to contact me for academic and research discussions. Please drop me an
 <div style="max-height:500px;overflow-y:auto;padding:15px;background-color:#f9f9f9;border-radius:6px;">
 
   <ul>
+    <li><b> <font color="#b80000">[2026.02]</font> </b> 🎉 One co-first author paper on efficient video understanding <a href="https://arxiv.org/abs/2510.23479"> EarlyTom</a> is accpted by <b>CVPR 2026</b>, congrats to <font color="#2a7ce0">Hesong Wang</font>. </li>
     <li><b> <font color="#b80000">[2026.01]</font> </b> 🎉 One paper on efficient mixup and preference tuning, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is accpted by <b>ICLR 2026</b>. </li>
     <li><b> <font color="#b80000">[2025.10]</font> </b> One paper on Mixup & MLLM, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[2025.02]</font> </b> 🎉 One paper on (M)LLM optimizers, <a href="https://huggingface.co/papers/2506.01049"> SGG</a> is accepted by <b>ACL 2025 main</b>, congrats to <font color="#2a7ce0">Siyuan Li, Juanxi Tian and Zedong Wang</font>. </li>
     <li><b> <font color="#b80000">[2025.02]</font> </b> Two co-author papers on eye moment identification, <a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a> and <a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a> are accepted by <b>IEEE TIM</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
     <li><b> <font color="#b80000">[2024.07]</font> </b> One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2409.05202"> Survey</a>, is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[2024.07]</font> </b> 🎉 One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2407.07805"> SUMix</a>, is accepted by <b>ECCV 2024</b>. </li>
-    <li><b> <font color="#b80000">[2024.05]</font> </b> Co-author paper on vein identification, <a href="https://hsi2024.welcometohsi.org/"> GANet</a>, is accepted by <b>HSI 2024 (<font color="#FF0000">Oral</font>)</b>, congrats to <font color="#2a7ce0">Hongchao Liao</font>. </li>
+    <li><b> <font color="#b80000">[2024.05]</font> </b> 🎉 One co-first author paper on vein identification, <a href="https://hsi2024.welcometohsi.org/"> GANet</a>, is accepted by <b>HSI 2024 (<font color="#FF0000">Oral</font>)</b>, congrats to <font color="#2a7ce0">Hongchao Liao</font>. </li>
     <li><b> <font color="#b80000">[2024.01]</font> </b> 🎉 One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2312.11954"> AdAutoMix</a>, is accepted by <b>ICLR 2024 (<font color="#FF0000">Spotlight</font>)</b>. </li>
   </ul>
 </div>
@@ -95,6 +96,17 @@ Feel free to contact me for academic and research discussions. Please drop me an
 </table>
 
 **Conferences (*: Equal Contribution. †: Corresponding Author.):**
+
+<!-- EarlyTom: Early Token Compression Completes Fast Video Understanding -->
+<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
+    <img src="./assets/img/EarlyTom.png" alt="" />&nbsp;</td>
+    <td align="left"><p>
+        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">EarlyTom: Early Token Compression Completes Fast Video Understanding</a></b></font><br>
+        Hesong Wang<sup>*</sup>, <b>Xin Jin</b><sup>*</sup>, Lu Lu, Chenhaowen Li, Jian Chenm Qiang Liu, Huan Wang<sup>†</sup>
+        <br><span class="pub-info"><i><b>CVPR</b>, 2026</i> 
+        </span>
+</p></td></tr>
+</table>
 
 <!-- MergeMix: A Unified Augmentation Paradigm for Visual and Multi-Modal Understanding -->
 <table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
