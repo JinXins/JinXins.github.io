@@ -3,7 +3,7 @@ layout: about
 ---
 
 ### About Me 😁
-I am a research assistant at Westlake University, supervised by Prof. [Huan Wang](https://scholar.google.com/citations?hl=zh-CN&user=0-On0y4AAAAJ). I received my M.S. degree in Computer Science from Chongqing Technology and Business University in 2025, under the supervision of Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN). In 2022, I obtained my B.E. degree in Internet of Things Engineering from Pass Collage of Chongqing Technology and Business University.
+I am a research assistant at Westlake University, supervised by Prof. [Huan Wang](https://scholar.google.com/citations?hl=zh-CN&user=0-On0y4AAAAJ). I received my M.S. degree in Computer Science from Chongqing Technology and Business University in 2025, under the supervision of Prof. Huafeng Qin. In 2022, I obtained my B.E. degree in Internet of Things Engineering from Pass Collage of Chongqing Technology and Business University.
 
 **Research:** Currently, my research centers on **Efficient AI**, **Large Language Models**, and **Multi-modal Large Language Models**. Previously, my research focused on Data Augmentation and Biometric Identification.
 
@@ -17,8 +17,8 @@ Feel free to contact me for academic and research discussions. Please drop me an
 <div style="max-height:500px;overflow-y:auto;padding:15px;background-color:#f9f9f9;border-radius:6px;">
 
   <ul>
-    <li><b> <font color="#b80000">[2026.02]</font> </b> 🎉 One co-first author paper on efficient video understanding EarlyTom is accpted by <b>CVPR 2026</b>, congrats to <font color="#2a7ce0">Hesong Wang</font>. </li>
-    <li><b> <font color="#b80000">[2026.01]</font> </b> 🎉 One paper on efficient mixup and preference tuning, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is accpted by <b>ICLR 2026</b>. </li>
+    <li><b> <font color="#b80000">[2026.02]</font> </b> 🎉 One co-first author paper on efficient video understanding, EarlyTom is accpted by <b>CVPR 2026</b>, congrats to <font color="#2a7ce0">Hesong Wang</font>. </li>
+    <li><b> <font color="#b80000">[2026.01]</font> </b> 🎉 One paper on efficient mixup augmentation and preference tuning, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is accpted by <b>ICLR 2026</b>. </li>
     <li><b> <font color="#b80000">[2025.10]</font> </b> One paper on Mixup & MLLM, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[2025.02]</font> </b> 🎉 One co-author paper on (M)LLM optimizers, <a href="https://huggingface.co/papers/2506.01049"> SGG</a> is accepted by <b>ACL 2025 main</b>, congrats to <font color="#2a7ce0">Siyuan Li, Juanxi Tian and Zedong Wang</font>. </li>
     <li><b> <font color="#b80000">[2025.02]</font> </b> Two co-author papers on eye moment identification, <a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a> and <a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a> are accepted by <b>IEEE TIM</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
@@ -77,7 +77,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
     <img src="./assets/img/F4.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">A Survey on Mixup Augmentations and Beyond</a></b></font><br>
-        <b>Xin Jin</b><sup>*</sup>, Hongyu Zhu<sup>*</sup>, Siyuan Li<sup>*</sup>, Zedong Wang, Zicheng Liu, Juanxi Tian, Chang Yu, Huafeng Qin, and <i>IEEE Fellow</i> Stan. Z. Li<sup>†</sup>
+        <b>Xin Jin</b><sup>🌟</sup>, Hongyu Zhu<sup>🌟</sup>, Siyuan Li<sup>🌟</sup>, Zedong Wang, Zicheng Liu, Juanxi Tian, Chang Yu, Huafeng Qin, and <i>IEEE Fellow</i> Stan. Z. Li<sup>✉️</sup>
         <br><span class="pub-info"><i>arXiv, 2024</i> 
         [<a href="https://arxiv.org/abs/2409.05202" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="https://github.com/Westlake-AI/Awesome-Mixup" target="_blank" style="color:#2a7ce0">Awesome</a>]
@@ -89,21 +89,21 @@ Feel free to contact me for academic and research discussions. Please drop me an
     <img src="./assets/img/StarLKNet.jpg" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">StarLKNet: Star Mixup with Large Kernel Networks for Palm Vein Identification</a></b></font><br>
-        <b>Xin Jin</b><sup>*</sup>, Hongyu Zhu<sup>*</sup>, Mounim A. El-Yacoubi, Hongchao Liao, Huafeng Qin, and Yun Jiang<sup>†</sup>  
+        <b>Xin Jin</b><sup>🌟</sup>, Hongyu Zhu<sup>🌟</sup>, Mounim A. El-Yacoubi, Hongchao Liao, Huafeng Qin, and Yun Jiang<sup>✉️</sup>  
         <br><span class="pub-info"><i>arXiv, 2024</i> 
         [<a href="https://arxiv.org/abs/2405.12721" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="./assets/bibtex/ArXiv_2024_StarLKNet_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
-**Conferences (*: Equal Contribution. †: Corresponding Author.):**
+**Conferences (🌟: Equal Contribution. ✉️: Corresponding Author.):**
 
 <!-- EarlyTom: Early Token Compression Completes Fast Video Understanding -->
 <table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
     <img src="./assets/img/EarlyTom.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">EarlyTom: Early Token Compression Completes Fast Video Understanding</a></b></font><br>
-        Hesong Wang<sup>*</sup>, <b>Xin Jin</b><sup>*</sup>, Lu Lu, Chenhaowen Li, Jian Chenm Qiang Liu, Huan Wang<sup>†</sup>
+        Hesong Wang<sup>🌟</sup>, <b>Xin Jin</b><sup>🌟</sup>, Lu Lu, Chenhaowen Li, Jian Chenm Qiang Liu, Huan Wang<sup>✉️</sup>
         <br><span class="pub-info"><i><b>CVPR</b>, 2026</i> 
         </span>
 </p></td></tr>
@@ -114,7 +114,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
     <img src="./assets/img/MergeMix.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">MergeMix: A Unified Augmentation Paradigm for Visual and Multi-Modal Understanding</a></b></font><br>
-        <b>Xin Jin</b><sup>*</sup>, Siyuan Li<sup>*</sup>, Siyong Jian, Kai Yu, Huan Wang<sup>†</sup>
+        <b>Xin Jin</b><sup>🌟</sup>, Siyuan Li<sup>🌟</sup>, Siyong Jian, Kai Yu, Huan Wang<sup>✉️</sup>
         <br><span class="pub-info"><i><b>ICLR</b>, 2026</i> 
         [<a href="https://arxiv.org/abs/2510.23479" target="_blank" style="color:#2a7ce0">arXiv</a>]
         [<a href="https://huggingface.co/papers/2510.23479" target="_blank" style="color:#2a7ce0">HF DailyPapers</a>]
@@ -127,7 +127,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
     <img src="./assets/img/SGG.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Taming LLMs by Scaling Learning Rates with Gradient Grouping</a></b></font><br>
-        Siyuan Li<sup>*</sup>, Juanxi Tian<sup>*</sup>, Zedong Wang<sup>*</sup>,<b>Xin Jin</b>, Zicheng Liu<sup>†</sup>, Wentao Zhang, Dan Xu
+        Siyuan Li<sup>🌟</sup>, Juanxi Tian<sup>🌟</sup>, Zedong Wang<sup>🌟</sup>,<b>Xin Jin</b>, Zicheng Liu<sup>✉️</sup>, Wentao Zhang, Dan Xu
         <br><span class="pub-info"><i><b>ACL-main</b>, 2025</i> 
         [<a href="https://arxiv.org/abs/2506.01049" target="_blank" style="color:#2a7ce0">arXiv</a>]
         [<a href="https://huggingface.co/papers/2506.01049" target="_blank" style="color:#2a7ce0">HF DailyPapers Top-4</a>]
@@ -140,7 +140,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
     <img src="./assets/img/SUMix.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">SUMix: Mixup with Semantic and Uncertain Information</a></b></font><br>
-        Huafeng Qin<sup>*,†</sup>, <b>Xin Jin</b><sup>*</sup>, Hongyu Zhu<sup>*</sup>, Hongchao Liao, Mounim A. El-Yacoubi, Xinbo Gao
+        Huafeng Qin<sup>🌟,✉️</sup>, <b>Xin Jin</b><sup>🌟</sup>, Hongyu Zhu<sup>🌟</sup>, Hongchao Liao, Mounim A. El-Yacoubi, Xinbo Gao
         <br><span class="pub-info"><i><b>ECCV</b>, 2024</i> 
         [<a href="https://arxiv.org/abs/2407.07805" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="https://github.com/JinXins/SUMix" target="_blank" style="color:#2a7ce0">Code</a>]
@@ -154,7 +154,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
     <img src="./assets/img/AdAutoMix.jpg" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Adversarial AutoMixup</a></b></font><br>
-        Huafeng Qin<sup>*,†</sup>, <b>Xin Jin</b><sup>*</sup>, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao
+        Huafeng Qin<sup>🌟,✉️</sup>, <b>Xin Jin</b><sup>🌟</sup>, Yun Jiang, Mounim A. El-Yacoubi, Xinbo Gao
         <br><span class="pub-info"><i><b>ICLR</b>, 2024 <b>(<font color="#FF0000">Spotlight</font>)</b></i> 
         [<a href="https://arxiv.org/abs/2312.11954" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="https://github.com/JinXins/Adversarial-AutoMixup" target="_blank" style="color:#2a7ce0">Code</a>]
@@ -171,7 +171,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">EM-DARTS: Hierarchical Differentiable Architecture Search for Eye Movement Recognition</a></b></font><br>
         Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Xin Yu, Mounim A. El-Yacoubi, and Shuqiang Yang 
-        <br><span class="pub-info"><i>IEEE TIM, 2025</i> 
+        <br><span class="pub-info"><i><b>IEEE TIM, 2025</b></i> 
         [<a href="https://ieeexplore.ieee.org/abstract/document/10919128/" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="./assets/bibtex/TIM_2025_EM-DARTS_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
@@ -183,7 +183,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">EmMixformer: Mix Transformer for Eye Movement Recognition</a></b></font><br>
         Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Qun Song, Mounim A. El-Yacoubi, and <i>IEEE Fellow</i> Xinbo Gao 
-        <br><span class="pub-info"><i>IEEE TIM, 2025</i> 
+        <br><span class="pub-info"><i><b>IEEE TIM, 2025</b></i> 
         [<a href="https://arxiv.org/abs/2401.04956" target="_blank" style="color:#2a7ce0">PDF</a>]
         [<a href="https://github.com/zzx734570533/CTBU-EMglasses-database" target="_blank" style="color:#2a7ce0">Database</a>]
         [<a href="./assets/bibtex/TIM_2025_EMMixFomer_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
