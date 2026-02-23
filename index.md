@@ -163,7 +163,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
 </p></td></tr>
 </table>
 
-**Journals (*: Equal Contribution. †: Corresponding Author.):**
+**Journals:**
 
 <!-- EM-DARTS: Hierarchical Differentiable Architecture Search for Eye Movement Recognition -->
 <table class="imgtable"><tr><td style="width:220px;height:130px">
