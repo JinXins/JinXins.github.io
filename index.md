@@ -116,6 +116,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">MergeMix: A Unified Augmentation Paradigm for Visual and Multi-Modal Understanding</a></b></font><br>
         <b>Xin Jin</b><sup>🌟</sup>, Siyuan Li<sup>🌟</sup>, Siyong Jian, Kai Yu, Huan Wang<sup>✉️</sup>
         <br><span class="pub-info"><i><b>ICLR</b>, 2026</i> 
+        [<a href="https://jinxins.github.io/MergeMix_Web/" target="_blank" style="color:#2a7ce0">Website</a>]
         [<a href="https://arxiv.org/abs/2510.23479" target="_blank" style="color:#2a7ce0">arXiv</a>]
         [<a href="https://huggingface.co/papers/2510.23479" target="_blank" style="color:#2a7ce0">HF DailyPapers</a>]
         [<a href="./assets/bibtex/ArXiv_2025_MergeMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
