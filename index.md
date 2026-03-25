@@ -207,7 +207,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
 
 ### Services 🧸
  - **Conference Reviewer:**  
-ICLR (2025-2026), CVPR (2026), ICML (2026), ECCV (2026)
+ICLR (2025-2026), CVPR (2026), ICML (2026), ECCV (2026), NeurIPS (2026)
  - **Journal Reviewer:**  
 Pattern Recognition.
  - **Membership**  
@@ -215,11 +215,11 @@ Pattern Recognition.
 2024 - 2025 Member of China Computer Federation (CCF)
 
 ### Awards 🏆 
- - Academic Progress Award, CTBU, 2023
  - Challenge Cup of "Qin Chuang Yuan", National 2nd prize, 2024
  - The 14th Challenge Cup, Provincial 2nd prize, 2024
  - China International Student Innovation Competition, Provincial 2nd prize, 2024
  - The 7th Art Exhibition for College Students in Chongqing, Provincial 1st prize, 2023
+ - Academic Progress Award, CTBU, 2023-2025
 
 
 ### Interests 📝 
