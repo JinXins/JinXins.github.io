@@ -207,7 +207,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
 
 ### Services 🧸
  - **Conference Reviewer:**  
-ICLR (2025-2026), CVPR (2026), ICML (2026), ECCV (2026), NeurIPS (2026)
+ICLR (2025-2026), CVPR (2026), ICML (2026), ECCV (2026), ~~NeurIPS (2026)~~
  - **Journal Reviewer:**  
 Pattern Recognition.
  - **Membership**  
