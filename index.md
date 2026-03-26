@@ -17,7 +17,8 @@ Feel free to contact me for academic and research discussions. Please drop me an
 <div style="max-height:500px;overflow-y:auto;padding:15px;background-color:#f9f9f9;border-radius:6px;">
 
   <ul>
-    <li><b> <font color="#b80000">[Feb, 2026]</font> </b> 📕 [Preprint] Our co-author paper on omini understanding benchmark <a href="https://arxiv.org/abs/2603.19217"> LVOmniBench</a>, is released on <b>arXiv</b>. </li>
+    <li><b> <font color="#b80000">[March, 2026]</font> </b> 📕 [Preprint] One first-author paper on palm vein identification <a href="./assets/StarLKNet.pdf"> StarLKNet</a>, is released. </li>
+    <li><b> <font color="#b80000">[March, 2026]</font> </b> 📕 [Preprint] Our co-author paper on omini understanding benchmark <a href="https://arxiv.org/abs/2603.19217"> LVOmniBench</a>, is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[Feb, 2026]</font> </b> 🎉 [CVPR2026] One co-first author paper on efficient video understanding, EarlyTom is accpted by <b>CVPR 2026</b>, congrats to <font color="#2a7ce0">Hesong Wang</font>. </li>
     <li><b> <font color="#b80000">[Jan, 2026]</font> </b> 🎉 One paper on efficient mixup augmentation and preference tuning, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is accpted by <b>ICLR 2026</b>. </li>
     <li><b> <font color="#b80000">[Oct, 2025]</font> </b> 📕 [ICLR2026] One paper on Mixup & MLLM, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is released on <b>arXiv</b>. </li>
@@ -102,11 +103,10 @@ Feel free to contact me for academic and research discussions. Please drop me an
 <table class="imgtable"><tr><td style="width:220px;height:130px">
     <img src="./assets/img/StarLKNet.jpg" alt="" />&nbsp;</td>
     <td align="left"><p>
-        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">StarLKNet: Star Mixup with Large Kernel Networks for Palm Vein Identification</a></b></font><br>
-        <b>Xin Jin</b><sup>🌟</sup>, Hongyu Zhu<sup>🌟</sup>, Mounim A. El-Yacoubi, Hongchao Liao, Huafeng Qin, and Yun Jiang<sup>✉️</sup>  
+        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Unleashing Palm Vein Recognition via Smooth Mask Mixup and Large Kernel-based Network</a></b></font><br>
+        <b>Xin Jin</b><sup>🌟</sup>, Hongyu Zhu<sup>🌟</sup>, Mounim A. El-Yacoubi, Haiyang Li, Xingrong Fan, Lin Chen, Yun Jiang<sup>✉️</sup>, and Qun Song<sup>✉️</sup>  
         <br><span class="pub-info"><i>arXiv, 2024</i> 
-        [<a href="https://arxiv.org/abs/2405.12721" target="_blank" style="color:#2a7ce0">arXiv</a>]
-        [<a href="./assets/bibtex/ArXiv_2024_StarLKNet_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
+        [<a href="./assets/StarLKNet.pdf" target="_blank" style="color:#2a7ce0">PDF</a>]
 </p></td></tr>
 </table>
 
