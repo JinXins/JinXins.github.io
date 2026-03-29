@@ -104,9 +104,10 @@ Feel free to contact me for academic and research discussions. Please drop me an
     <img src="./assets/img/StarLKNet.jpg" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Unleashing Palm Vein Recognition via Smooth Mask Mixup and Large Kernel-based Network</a></b></font><br>
-        <b>Xin Jin</b><sup>🌟</sup>, Hongyu Zhu<sup>🌟</sup>, Mounim A. El-Yacoubi, Haiyang Li, Xingrong Fan, Lin Chen, Yun Jiang<sup>✉️</sup>, and Qun Song<sup>✉️</sup>  
+        <b>Xin Jin</b><sup>🌟</sup>, Hongyu Zhu<sup>🌟</sup>, Mounim A. El-Yacoubi, Haiyang Li, Xingrong Fan, Lin Chen, Yun Jiang<sup>✉️</sup>, and Qun Song<sup>✉️</sup>
         <br><span class="pub-info"><i>arXiv, 2024</i> 
         [<a href="./assets/StarLKNet.pdf" target="_blank" style="color:#2a7ce0">PDF</a>]
+        </span>
 </p></td></tr>
 </table>
 
