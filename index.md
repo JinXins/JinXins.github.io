@@ -23,7 +23,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
     <li><b> <font color="#b80000">[Jan, 2026]</font> </b> 🎉 One paper on efficient mixup augmentation and preference tuning, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is accpted by <b>ICLR 2026</b>. </li>
     <li><b> <font color="#b80000">[Oct, 2025]</font> </b> 📕 [ICLR2026] One paper on Mixup & MLLM, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[Feb, 2025]</font> </b> 🎉 [ACL2025] One co-author paper on (M)LLM optimizers, <a href="https://huggingface.co/papers/2506.01049"> SGG</a> is accepted by <b>ACL 2025 main</b>, congrats to <font color="#2a7ce0">Siyuan Li, Juanxi Tian and Zedong Wang</font>. </li>
-    <li><b> <font color="#b80000">[Feb, 025]</font> </b> 🎉 [IEEE TIM] Two co-author papers on eye moment identification, <a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a> and <a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a> are accepted by <b>IEEE TIM</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
+    <li><b> <font color="#b80000">[Feb, 2025]</font> </b> 🎉 [IEEE TIM] Two co-author papers on eye moment identification, <a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a> and <a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a> are accepted by <b>IEEE TIM</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
     <li><b> <font color="#b80000">[Nov, 2024]</font> </b> 🎉 [CCBR2024] One co-first author paper on eye moment identification, <a href="https://link.springer.com/chapter/10.1007/978-981-96-1071-6_11"> Relax DARTS</a>, is accepted by <b>CCBR 2024 (<font color="#FF0000">Oral</font>)</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
     <li><b> <font color="#b80000">[Jul, 2024]</font> </b> 📕 [Preprint] One survey on mixup data augmentation, <a href="https://arxiv.org/abs/2409.05202"> Survey</a>, is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[Jul, 2024]</font> </b> 🎉 [ECCV2024] One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2407.07805"> SUMix</a>, is accepted by <b>ECCV 2024</b>. </li>
@@ -79,7 +79,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
     <img src="./assets/img/LVOmniBench.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">LVOmniBench: Pioneering Long Audio-Video Understanding Evaluation for Omnimodal LLMs</a></b></font><br>
-        <b>Keda Tao</b><sup>🌟</sup>, Yuhua Zhen<sup>🌟</sup>, Jia Xu, Wenjie Du, Kele Shao, Hesong Wang, Xueyi Chen, Xin Jin, Junhan Zhu, Bohan Yu, Weiqiang Wang, Jian Liu, Can Qin, Yulun Zhang, Ming-Hsuan Yang, and Huan Wang<sup>✉️</sup>  
+        Keda Tao<sup>🌟</sup>, Yuhua Zhen<sup>🌟</sup>, Jia Xu, Wenjie Du, Kele Shao, Hesong Wang, Xueyi Chen, <b>Xin Jin</b>, Junhan Zhu, Bohan Yu, Weiqiang Wang, Jian Liu, Can Qin, Yulun Zhang, Ming-Hsuan Yang, and Huan Wang<sup>✉️</sup>  
         <br><span class="pub-info"><i>arXiv, 2026</i> 
         [<a href="https://arxiv.org/abs/2603.19217" target="_blank" style="color:#2a7ce0">arXiv</a>]
         [<a href="https://huggingface.co/papers/2603.19217" target="_blank" style="color:#2a7ce0">PDF</a>]
