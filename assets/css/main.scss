@@ -1,5 +1,382 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import 'main';
+/*
+ *    Minimal Mistakes Jekyll Theme
+ *
+ *  - Michael Rose
+ *  - mademistakes.com
+ *  - https://twitter.com/mmistakes
+ *
+*/
+
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
+
+@import "forms";
+
+@import "page";
+@import "archive";
+@import "sidebar";
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
+
+.paper-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px #efefef solid;
+    padding: 2em 0 2em 0;
+    
+
+    .paper-box-image{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+        img {
+            max-width: 400px;
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
+    }
+    
+    .paper-box-text{
+        max-width: 100%;
+        order: 1;
+    }
+    
+    @include breakpoint($medium) {
+        .paper-box-image{
+            justify-content: left;
+            min-width: 200px;
+            max-width: 40%;
+            order: 1;
+        }
+        
+        .paper-box-text{
+            justify-content: left;
+            padding-left: 2em;
+            max-width: 60%;
+            order: 2;
+        }
+
+    }
+
+
+}
+
+$scroll_offset : 2em;
+h1:before, .anchor:before { 
+    content: ''; 
+    display: block; 
+    position: relative; 
+    width: 0; 
+    height: $scroll_offset; 
+    margin-top: -$scroll_offset;
+}
+
+.badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: -.5em;
+    color: white;
+    background-color: #00369f;
+    font-size: .8em;
+}
+
+.imgtable {
+    width: 100%;
+    margin: 1.25em 0;
+    border-collapse: collapse;
+
+    td {
+        padding: 0.4em 0.8em 0.4em 0;
+        border: 0;
+        vertical-align: top;
+    }
+
+    img {
+        width: 220px;
+        max-width: 220px;
+        height: auto;
+        border-radius: 4px;
+        object-fit: cover;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.imgtable img.experience-logo--small {
+    width: 150px;
+    max-width: 150px;
+}
+
+.experience-table,
+.experience-table tbody {
+    display: block;
+    width: 100%;
+}
+
+.experience-table tr {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    column-gap: 0.8em;
+    align-items: start;
+}
+
+.experience-table td {
+    display: block;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+.experience-table td:first-child {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 220px;
+    min-width: 220px;
+    padding-right: 0;
+}
+
+.experience-table td:first-child img {
+    display: block;
+    margin: 0;
+}
+
+.pub-info {
+    display: inline-block;
+    margin-top: 0.25em;
+}
+
+.photography-page {
+    #main {
+        width: min(90vw, 1500px);
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .page {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.photo-page {
+    padding-bottom: 2rem;
+}
+
+.photo-page__header {
+    margin-bottom: 1rem;
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: 0.35rem;
+        font-size: 2em;
+    }
+}
+
+.photo-page__eyebrow {
+    margin-bottom: 0.25rem;
+    color: #6f7782;
+    font-size: 0.85em;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.photo-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: 1rem 0 1.25rem;
+}
+
+.photo-filter {
+    border: 1px solid #d8dde3;
+    border-radius: 999px;
+    padding: 0.35rem 0.75rem;
+    background: #fff;
+    color: #3d4652;
+    font-size: 0.85em;
+    line-height: 1.2;
+    cursor: pointer;
+
+    &:hover,
+    &.is-active {
+        border-color: #2a7ce0;
+        background: #2a7ce0;
+        color: #fff;
+    }
+}
+
+.photo-grid {
+    column-count: 3;
+    column-gap: 0.75rem;
+}
+
+.photo-card {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 0.75rem;
+    overflow: hidden;
+    background: #f2f4f7;
+    color: inherit;
+    text-decoration: none;
+    break-inside: avoid;
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        transition: transform 0.25s ease;
+    }
+
+    &:hover {
+        text-decoration: none;
+
+        img {
+            transform: scale(1.025);
+        }
+
+        .photo-card__caption {
+            opacity: 1;
+        }
+    }
+}
+
+.photo-card[hidden] {
+    display: none;
+}
+
+.photo-card__caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.2rem 0.75rem 0.55rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0));
+    color: #fff;
+    font-size: 0.82em;
+    line-height: 1.2;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.photo-lightbox {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: rgba(8, 11, 16, 0.86);
+    z-index: 10000;
+
+    &.is-open {
+        display: flex;
+    }
+
+    img {
+        max-width: min(96vw, 1400px);
+        max-height: 86vh;
+        width: auto;
+        height: auto;
+        box-shadow: 0 18px 55px rgba(0, 0, 0, 0.35);
+    }
+
+    p {
+        position: fixed;
+        left: 2rem;
+        bottom: 1.25rem;
+        margin: 0;
+        color: rgba(255, 255, 255, 0.86);
+        font-size: 0.9em;
+    }
+}
+
+.photo-lightbox__close {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+@include breakpoint(max-width $medium) {
+    .photo-grid {
+        column-count: 2;
+    }
+}
+
+@include breakpoint(max-width $small) {
+    .photo-grid {
+        column-count: 1;
+    }
+
+    .photo-lightbox {
+        padding: 1rem;
+
+        p {
+            left: 1rem;
+            right: 1rem;
+        }
+    }
+}
+
+@include breakpoint(max-width $small) {
+    .imgtable,
+    .imgtable tbody,
+    .imgtable tr,
+    .imgtable td {
+        display: block;
+        width: 100% !important;
+    }
+
+    .imgtable img {
+        width: 100%;
+        max-width: 320px;
+        margin-bottom: 0.5em;
+    }
+}

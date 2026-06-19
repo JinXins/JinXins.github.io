@@ -1,0 +1,28 @@
+# Main navigation links
+main:
+  - title: "About Me"
+    url: "/#about-me"
+
+  - title: "News"
+    url: "/#news"
+
+  - title: "Experiences"
+    url: "/#experiences"
+
+  - title: "Publications"
+    url: "/#publications"
+
+  - title: "Services"
+    url: "/#services"
+
+  - title: "Awards"
+    url: "/#awards"
+
+  - title: "Interests"
+    url: "/#interests"
+
+  - title: "Photography"
+    url: "/photography/index.html"
+
+  - title: "Resume"
+    url: "/assets/Xin_Jin_Resume.pdf"

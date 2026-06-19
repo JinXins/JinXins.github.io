@@ -1,9 +1,15 @@
 ---
-layout: about 
+layout: default
+permalink: /
+title: ""
+excerpt: ""
+author_profile: true
 ---
 
-### About Me 😁
-I am a research assistant at Westlake University, supervised by Prof. [Huan Wang](https://scholar.google.com/citations?hl=zh-CN&user=0-On0y4AAAAJ). I received my M.S. degree in Computer Science from Chongqing Technology and Business University in 2025, under the supervision of Prof. Huafeng Qin. In 2022, I obtained my B.E. degree in Internet of Things Engineering from Pass Collage of Chongqing Technology and Business University.
+<span class='anchor' id='about-me'></span>
+
+# About Me 😄
+I am a research assistant at Westlake University, supervised by Prof. [Huan Wang](https://scholar.google.com/citations?hl=zh-CN&user=0-On0y4AAAAJ). I received my M.S. degree in Computer Science from Chongqing Technology and Business University in 2025, under the supervision of Prof. Huafeng Qin. In 2022, I obtained my B.E. degree in Internet of Things Engineering from Pass College of Chongqing Technology and Business University.
 
 **Research:** Currently, my research centers on **Efficient AI**, **Large Language Models**, and **Multi-modal Large Language Models**. Previously, my research focused on Data Augmentation and Biometric Identification.
 
@@ -13,14 +19,16 @@ Feel free to contact me for academic and research discussions. Please drop me an
 
 **<font color="#FF0000">I am actively seeking 26 Fall or 27 Spring PhD opportunities!</font>**
 
-### News 💬 
+<span class='anchor' id='news'></span>
+
+# News 📰
 <div style="max-height:500px;overflow-y:auto;padding:15px;background-color:#f9f9f9;border-radius:6px;">
 
   <ul>
     <li><b> <font color="#b80000">[March, 2026]</font> </b> 📕 [Preprint] One first-author paper on palm vein identification <a href="./assets/StarLKNet.pdf"> StarLKNet</a>, is released. </li>
-    <li><b> <font color="#b80000">[March, 2026]</font> </b> 📕 [Preprint] Our co-author paper on omini understanding benchmark <a href="https://arxiv.org/abs/2603.19217"> LVOmniBench</a>, is released on <b>arXiv</b>. </li>
-    <li><b> <font color="#b80000">[Feb, 2026]</font> </b> 🎉 [CVPR2026] One co-first author paper on efficient video understanding, EarlyTom is accpted by <b>CVPR 2026</b>, congrats to <font color="#2a7ce0">Hesong Wang</font>. </li>
-    <li><b> <font color="#b80000">[Jan, 2026]</font> </b> 🎉 One paper on efficient mixup augmentation and preference tuning, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is accpted by <b>ICLR 2026</b>. </li>
+    <li><b> <font color="#b80000">[March, 2026]</font> </b> 📕 [Preprint] Our co-author paper on omni understanding benchmark <a href="https://arxiv.org/abs/2603.19217"> LVOmniBench</a>, is released on <b>arXiv</b>. </li>
+    <li><b> <font color="#b80000">[Feb, 2026]</font> </b> 🎉 [CVPR2026] One co-first author paper on efficient video understanding, EarlyTom is accepted by <b>CVPR 2026</b>, congrats to <font color="#2a7ce0">Hesong Wang</font>. </li>
+    <li><b> <font color="#b80000">[Jan, 2026]</font> </b> 🎉 One paper on efficient mixup augmentation and preference tuning, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is accepted by <b>ICLR 2026</b>. </li>
     <li><b> <font color="#b80000">[Oct, 2025]</font> </b> 📕 [ICLR2026] One paper on Mixup & MLLM, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[Feb, 2025]</font> </b> 🎉 [ACL2025] One co-author paper on (M)LLM optimizers, <a href="https://huggingface.co/papers/2506.01049"> SGG</a> is accepted by <b>ACL 2025 main</b>, congrats to <font color="#2a7ce0">Siyuan Li, Juanxi Tian and Zedong Wang</font>. </li>
     <li><b> <font color="#b80000">[Feb, 2025]</font> </b> 🎉 [IEEE TIM] Two co-author papers on eye moment identification, <a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a> and <a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a> are accepted by <b>IEEE TIM</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
@@ -32,10 +40,12 @@ Feel free to contact me for academic and research discussions. Please drop me an
   </ul>
 </div>
 
-### Experiences 📝
+<span class='anchor' id='experiences'></span>
+
+# Experiences 📝
 <!-- Chongqing Financial Institute -->
-<table class="imgtable"><tr><td>
-    <img src="./assets/img/CQFI.jpg" alt="" width="220px" />&nbsp;</td>
+<table class="imgtable experience-table"><tr><td>
+    <img src="./assets/img/CQFI.jpg" alt="" width="220px" /></td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
           <b> Research Intern </b> | <a target="_blank" style="color:#2a7ce0">
@@ -47,8 +57,8 @@ Feel free to contact me for academic and research discussions. Please drop me an
 </table>
           
 <!-- Westlake University -->
-<table class="imgtable"><tr><td>
-    <img src="./assets/img/westlake_logo.png" alt="" width="220px" />&nbsp;</td>
+<table class="imgtable experience-table"><tr><td>
+    <img class="experience-logo--small" src="./assets/img/westlake_logo.png" alt="" width="150px" /></td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
           <b> Research Intern </b> | <a target="_blank" style="color:#2a7ce0">
@@ -60,8 +70,8 @@ Feel free to contact me for academic and research discussions. Please drop me an
 </table>
 
 <!-- Westlake University -->
-<table class="imgtable"><tr><td>
-    <img src="./assets/img/westlake_logo.png" alt="" width="220px" />&nbsp;</td>
+<table class="imgtable experience-table"><tr><td>
+    <img class="experience-logo--small" src="./assets/img/westlake_logo.png" alt="" width="150px" /></td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
           <b> Research Assistant </b> | <a target="_blank" style="color:#2a7ce0">
@@ -72,7 +82,9 @@ Feel free to contact me for academic and research discussions. Please drop me an
         </p></td></tr>
 </table>
 
-### Publications 📖
+<span class='anchor' id='publications'></span>
+
+# Publications 📖
 **Selected Preprints:**
 
 <table class="imgtable"><tr><td style="width:220px;height:130px">
@@ -96,7 +108,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
         <br><span class="pub-info"><i>arXiv, 2024</i> 
         [<a href="https://arxiv.org/abs/2409.05202" target="_blank" style="color:#2a7ce0">arXiv</a>]
         [<a href="https://github.com/Westlake-AI/Awesome-Mixup" target="_blank" style="color:#2a7ce0">Awesome</a>]
-        [<a href="./assets/bibtex/ArXiv_2024_MixupSurvey_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
+        [<a href="./assets/bibtex/ArXiv_2024_MixupSurvey_bibtex.html" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
@@ -118,8 +130,13 @@ Feel free to contact me for academic and research discussions. Please drop me an
     <img src="./assets/img/EarlyTom.png" alt="" />&nbsp;</td>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">EarlyTom: Early Token Compression Completes Fast Video Understanding</a></b></font><br>
-        Hesong Wang<sup>🌟</sup>, <b>Xin Jin</b><sup>🌟</sup>, Lu Lu, Chenhaowen Li, Jian Chenm Qiang Liu, Huan Wang<sup>✉️</sup>
-        <br><span class="pub-info"><i><b>CVPR</b>, 2026</i> 
+        Hesong Wang<sup>🌟</sup>, <b>Xin Jin</b><sup>🌟</sup>, Lu Lu, Chenhaowen Li, Jian Chen, Qiang Liu, Huan Wang<sup>✉️</sup>
+        <br><span class="pub-info"><i><b>CVPR</b>, 2026</i>
+        [<a href="https://viridisgreen.github.io/EarlyTom/" target="_blank" style="color:#2a7ce0">Website</a>]
+        [<a href="https://arxiv.org/abs/2605.30010" target="_blank" style="color:#2a7ce0">arXiv</a>]
+        [<a href="https://huggingface.co/papers/2605.30010" target="_blank" style="color:#2a7ce0">HF DailyPapers</a>]
+        [<a href="./assets/poster/EarlyTom_poster.pdf" target="_blank" style="color:#2a7ce0">Poster</a>]
+        [<a href="./assets/bibtex/CVPR_2026_EarlyTom_bibtex.html" target="_blank" style="color:#2a7ce0">BibTeX</a>]
         </span>
 </p></td></tr>
 </table>
@@ -134,7 +151,8 @@ Feel free to contact me for academic and research discussions. Please drop me an
         [<a href="https://jinxins.github.io/MergeMix_Web/" target="_blank" style="color:#2a7ce0">Website</a>]
         [<a href="https://arxiv.org/abs/2510.23479" target="_blank" style="color:#2a7ce0">arXiv</a>]
         [<a href="https://huggingface.co/papers/2510.23479" target="_blank" style="color:#2a7ce0">HF DailyPapers</a>]
-        [<a href="./assets/bibtex/ArXiv_2025_MergeMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
+        [<a href="./assets/poster/MergeMix_poster.pdf" target="_blank" style="color:#2a7ce0">Poster</a>]
+        [<a href="./assets/bibtex/ICLR_2026_MergeMix_bibtex.html" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
@@ -147,7 +165,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
         <br><span class="pub-info"><i><b>ACL-main</b>, 2025</i> 
         [<a href="https://arxiv.org/abs/2506.01049" target="_blank" style="color:#2a7ce0">arXiv</a>]
         [<a href="https://huggingface.co/papers/2506.01049" target="_blank" style="color:#2a7ce0">HF DailyPapers Top-4</a>]
-        [<a href="./assets/bibtex/ACL_2025_SGG_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
+        [<a href="./assets/bibtex/ACL_2025_SGG_bibtex.html" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
@@ -161,7 +179,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
         [<a href="https://arxiv.org/abs/2407.07805" target="_blank" style="color:#2a7ce0">arXiv</a>]
         [<a href="https://github.com/JinXins/SUMix" target="_blank" style="color:#2a7ce0">Code</a>]
         [<a href="./assets/poster/SUMix_poster.pdf" target="_blank" style="color:#2a7ce0">Poster</a>]
-        [<a href="./assets/bibtex/ECCV_2024_SUMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
+        [<a href="./assets/bibtex/ECCV_2024_SUMix_bibtex.html" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
@@ -174,8 +192,8 @@ Feel free to contact me for academic and research discussions. Please drop me an
         <br><span class="pub-info"><i><b>ICLR</b>, 2024 <b>(<font color="#FF0000">Spotlight</font>)</b></i> 
         [<a href="https://arxiv.org/abs/2312.11954" target="_blank" style="color:#2a7ce0">arXiv</a>]
         [<a href="https://github.com/JinXins/Adversarial-AutoMixup" target="_blank" style="color:#2a7ce0">Code</a>]
-        [<a href="./assets/poster/AdAutoMix_poster_v2.pdf" target="_blank" style="color:#2a7ce0">Poster</a>]
-        [<a href="./assets/bibtex/ICLR_2024_AdAutoMix_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
+        [<a href="./assets/poster/AdAutoMix_poster.pdf" target="_blank" style="color:#2a7ce0">Poster</a>]
+        [<a href="./assets/bibtex/ICLR_2024_AdAutoMix_bibtex.html" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
@@ -189,7 +207,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
         Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Xin Yu, Mounim A. El-Yacoubi, and Shuqiang Yang 
         <br><span class="pub-info"><i><b>IEEE TIM, 2025</b></i> 
         [<a href="https://ieeexplore.ieee.org/abstract/document/10919128/" target="_blank" style="color:#2a7ce0">IEEE</a>]
-        [<a href="./assets/bibtex/TIM_2025_EM-DARTS_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
+        [<a href="./assets/bibtex/TIM_2025_EM-DARTS_bibtex.html" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
@@ -202,20 +220,24 @@ Feel free to contact me for academic and research discussions. Please drop me an
         <br><span class="pub-info"><i><b>IEEE TIM, 2025</b></i> 
         [<a href="https://arxiv.org/abs/2401.04956" target="_blank" style="color:#2a7ce0">IEEE</a>]
         [<a href="https://github.com/zzx734570533/CTBU-EMglasses-database" target="_blank" style="color:#2a7ce0">Database</a>]
-        [<a href="./assets/bibtex/TIM_2025_EMMixFomer_bibtex" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
+        [<a href="./assets/bibtex/TIM_2025_EMMixFomer_bibtex.html" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
 </p></td></tr>
 </table>
 
-### Services 🧸
+<span class='anchor' id='services'></span>
+
+# Services 🧸
  - **Conference Reviewer:**  
-ICLR (2025-2026), CVPR (2026), ICML (2026), ECCV (2026), ~~NeurIPS (2026)~~
+ICLR (2025-2026), CVPR (2026), ICML (2026), ECCV (2026), ~~NeurIPS (2026)~~, ACMMM (2026)
  - **Journal Reviewer:**  
 Pattern Recognition.
  - **Membership**  
 2024 - 2025 Student Member of IEEE  
 2024 - 2025 Member of China Computer Federation (CCF)
 
-### Awards 🏆 
+<span class='anchor' id='awards'></span>
+
+# Awards 🏆
  - Challenge Cup of "Qin Chuang Yuan", National 2nd prize, 2024
  - The 14th Challenge Cup, Provincial 2nd prize, 2024
  - China International Student Innovation Competition, Provincial 2nd prize, 2024
@@ -223,12 +245,17 @@ Pattern Recognition.
  - Academic Progress Award, CTBU, 2023-2025
 
 
-### Interests 📝 
+<span class='anchor' id='interests'></span>
+
+# Interests 🎣
 Photography. You could see some photos on <a href="https://500px.com.cn/XinJin">500px website</a> (Long time without update...)
 
 
 <div style="display:flex; justify-content:center; margin-top: 10px;">
-  <a href="https://clustrmaps.com/site/1c5jf" title="Visit tracker">
+  <!-- <a href="https://clustrmaps.com/site/1c5jf" title="Visit tracker">
     <img src="https://clustrmaps.com/map_v2.png?d=hE2JchuqjgQG16sein5j0oSFN-cTW3oSbw2SrRd-czo&cl=ffffff&w=300" alt="Visitor map">
+  </a> -->
+  <a href="https://mapmyvisitors.com/web/1c5o2"  title="Visit tracker">
+    <img src="https://mapmyvisitors.com/map.png?d=yrMHsn39goBD7aGc01s9BO-XQZlNWSZ1u0ogJlehoV0&cl=ffffff" />
   </a>
 </div>

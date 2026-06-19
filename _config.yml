@@ -1,61 +1,148 @@
-# Site settings
-title: Homepage
-# baseurl:
-url: "https://jinxins.github.io"
-# google_analytics: # Tracking ID, e.g. "UA-000000-01"
+# Site Settings
+title                    : "Xin Jin"
+description              : "Always on the Road."
+repository               : "JinXins/JinXins.github.io"
+url                      : "https://jinxins.github.io"
+google_scholar_stats_use_cdn : false
+google_scholar_stats_enabled : false
 
-# Author
+# Google analytics
+google_analytics_id      :
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+baidu_site_verification  :
+
+# Site Author
 author:
-  name: Xin Jin (金 鑫)
-  desc: Research Assistant | HangZhou, China
-  email: jinxin86@westlake.edu.cn
-  selfie: assets/img/you.jpg
+  name             : "Xin Jin (金 鑫)"
+  avatar           : "assets/img/me.jpg"
+  bio              : "RA at Westlake"
+  location         : "Hangzhou, China"
+  employer         : "Westlake University"
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=v3OwxWIAAAAJ&hl=zh-CN"
+  email            : "jinxin86@westlake.edu.cn"
+  researchgate     :
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "JinXins"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      :
+  lastfm           :
+  linkedin         : "xin-jin-410a232b6"
+  dblp             :
+  orcid            :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    :
+  steam            :
+  tumblr           :
+  twitter          : "Xander_K1ng"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
 
-# social
-social:
-  email: true
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  github: JinXins
-  google_scholar: citations?user=v3OwxWIAAAAJ&hl=zh-CN
-  instagram:
-  keybase:
-  linkedin: https://www.linkedin.com/in/xin-jin-410a232b6/ 
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:
-  steam:
-  tumblr:
-  gitlab:
-  twitter: Xander_K1ng
-  vimeo:
-  wordpress:
-  youtube:
-  default_txt: "Follow On"
+# Reading Files
+include:
+  - .htaccess
+  - files
+exclude:
+  - docs
+  - google_scholar_crawler
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Build settings
+# Conversion
 markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-# Assets
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+
+# Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed
 
-# Gems
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Shanghai
+
+# Plugins
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
 
-# Permalinks
-permalink: /:year-:month-:day/:title
-paginate_path: "/portfolio/page:num/"
-paginate: 5
-exclude:
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "*.gem"
-  - "LICENSE"
-  - "README.md"
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
