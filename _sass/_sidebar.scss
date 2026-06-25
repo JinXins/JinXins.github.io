@@ -142,6 +142,15 @@
   }
 }
 
+.author__tagline {
+  margin: 0;
+
+  @include breakpoint($large) {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+
 .author__urls-wrapper {
   position: relative;
   display: block;

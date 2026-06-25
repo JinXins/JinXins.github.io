@@ -3502,6 +3502,16 @@ select:focus {
   }
 }
 
+.author__tagline {
+  margin: 0;
+}
+@media (min-width: 57.8125em) {
+  .author__tagline {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+
 .author__urls-wrapper {
   position: relative;
   display: block;

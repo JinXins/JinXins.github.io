@@ -205,12 +205,11 @@ Feel free to contact me for academic and research discussions. Please drop me an
 <!-- $ S^{2} $-FracMix: Self-Saliency Fractal Mixup -->
 <table class="imgtable"><tr>
     <td align="left"><p>
-        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">$ S^{2} $-FracMix: Self-Saliency Fractal Mixup</a></b></font><br>
+        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">S<sup>2</sup>-FracMix: Self-Saliency Fractal Mixup</a></b></font><br>
         Khawar Islam, Arif Mahmood, <b>Xin Jin</b>, NAVEED AKHTAR
         <br><span class="pub-info"><i><b>ECCV</b>, 2026</i> 
 </p></td></tr>
 </table>
-
 
 **Journals:**
 
