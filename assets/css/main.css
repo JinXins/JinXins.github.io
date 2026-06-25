@@ -3498,7 +3498,7 @@ select:focus {
 @media (min-width: 57.8125em) {
   .author__bio {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
   }
 }
 
@@ -3508,7 +3508,7 @@ select:focus {
 @media (min-width: 57.8125em) {
   .author__tagline {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
   }
 }
 
