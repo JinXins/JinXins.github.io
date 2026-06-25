@@ -25,17 +25,17 @@ Feel free to contact me for academic and research discussions. Please drop me an
 <div style="max-height:500px;overflow-y:auto;padding:15px;background-color:#f9f9f9;border-radius:6px;">
 
   <ul>
+    <li><b> <font color="#b80000">[June, 2026]</font> </b> 🎉 [ECCV2026] One co-author paper on mixup augmentation, S<sup>2</sup>-FracMix is accepted by <b>ECCV 2026</b>, congrats to <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=SFClxNEAAAAJ&hl=zh-CN&oi=ao">Khawar Islam</a></font>. </li>
     <li><b> <font color="#b80000">[March, 2026]</font> </b> 📕 [Preprint] One first-author paper on palm vein identification <a href="./assets/StarLKNet.pdf"> StarLKNet</a>, is released. </li>
     <li><b> <font color="#b80000">[March, 2026]</font> </b> 📕 [Preprint] Our co-author paper on omni understanding benchmark <a href="https://arxiv.org/abs/2603.19217"> LVOmniBench</a>, is released on <b>arXiv</b>. </li>
-    <li><b> <font color="#b80000">[Feb, 2026]</font> </b> 🎉 [CVPR2026] One co-first author paper on efficient video understanding, EarlyTom is accepted by <b>CVPR 2026</b>, congrats to <font color="#2a7ce0">Hesong Wang</font>. </li>
-    <li><b> <font color="#b80000">[Jan, 2026]</font> </b> 🎉 One paper on efficient mixup augmentation and preference tuning, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is accepted by <b>ICLR 2026</b>. </li>
-    <li><b> <font color="#b80000">[Oct, 2025]</font> </b> 📕 [ICLR2026] One paper on Mixup & MLLM, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is released on <b>arXiv</b>. </li>
-    <li><b> <font color="#b80000">[Feb, 2025]</font> </b> 🎉 [ACL2025] One co-author paper on (M)LLM optimizers, <a href="https://huggingface.co/papers/2506.01049"> SGG</a> is accepted by <b>ACL 2025 main</b>, congrats to <font color="#2a7ce0">Siyuan Li, Juanxi Tian and Zedong Wang</font>. </li>
+    <li><b> <font color="#b80000">[Feb, 2026]</font> </b> 🎉 [CVPR2026] One co-first author paper on efficient video understanding, EarlyTom is accepted by <b>CVPR 2026</b>, congrats to <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=Cz6w2swAAAAJ&hl=zh-CN">Hesong Wang</a></font>. </li>
+    <li><b> <font color="#b80000">[Jan, 2026]</font> </b> 🎉 [ICLR2026] One paper on efficient mixup augmentation and preference tuning, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is accepted by <b>ICLR 2026</b>. </li>
+    <li><b> <font color="#b80000">[Oct, 2025]</font> </b> 📕 [Preprint] One paper on Mixup & MLLM, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is released on <b>arXiv</b>. </li>
+    <li><b> <font color="#b80000">[Feb, 2025]</font> </b> 🎉 [ACL2025] One co-author paper on (M)LLM optimizers, <a href="https://huggingface.co/papers/2506.01049"> SGG</a> is accepted by <b>ACL 2025 main</b>, congrats to <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=SKTQTXwAAAAJ&hl=zh-CN">Siyuan Li</a>, Juanxi Tian and Zedong Wang</font>. </li>
     <li><b> <font color="#b80000">[Feb, 2025]</font> </b> 🎉 [IEEE TIM] Two co-author papers on eye moment identification, <a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a> and <a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a> are accepted by <b>IEEE TIM</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
     <li><b> <font color="#b80000">[Nov, 2024]</font> </b> 🎉 [CCBR2024] One co-first author paper on eye moment identification, <a href="https://link.springer.com/chapter/10.1007/978-981-96-1071-6_11"> Relax DARTS</a>, is accepted by <b>CCBR 2024 (<font color="#FF0000">Oral</font>)</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
     <li><b> <font color="#b80000">[Jul, 2024]</font> </b> 📕 [Preprint] One survey on mixup data augmentation, <a href="https://arxiv.org/abs/2409.05202"> Survey</a>, is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[Jul, 2024]</font> </b> 🎉 [ECCV2024] One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2407.07805"> SUMix</a>, is accepted by <b>ECCV 2024</b>. </li>
-    <li><b> <font color="#b80000">[May, 2024]</font> </b> 🎉 [HSI2024] One co-first author paper on vein identification, <a href="https://hsi2024.welcometohsi.org/"> GANet</a>, is accepted by <b>HSI 2024 (<font color="#FF0000">Oral</font>)</b>, congrats to <font color="#2a7ce0">Hongchao Liao</font>. </li>
     <li><b> <font color="#b80000">[Jan, 2024]</font> </b> 🎉 [ICLR2024] One paper on mixup data augmentation, <a href="https://arxiv.org/abs/2312.11954"> AdAutoMix</a>, is accepted by <b>ICLR 2024 (<font color="#FF0000">Spotlight</font>)</b>. </li>
   </ul>
 </div>
@@ -85,6 +85,8 @@ Feel free to contact me for academic and research discussions. Please drop me an
 <span class='anchor' id='publications'></span>
 
 # Publications 📖
+(🌟: Equal Contribution. ✉️: Corresponding Author.)
+
 **Selected Preprints:**
 
 <table class="imgtable"><tr><td style="width:220px;height:130px">
@@ -123,7 +125,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
 </p></td></tr>
 </table>
 
-**Conferences (🌟: Equal Contribution. ✉️: Corresponding Author.):**
+**Conferences (As First Author):**
 
 <!-- EarlyTom: Early Token Compression Completes Fast Video Understanding -->
 <table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
@@ -156,19 +158,6 @@ Feel free to contact me for academic and research discussions. Please drop me an
 </p></td></tr>
 </table>
 
-<!-- Taming LLMs by Scaling Learning Rates with Gradient Grouping -->
-<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
-    <img src="./assets/img/SGG.png" alt="" />&nbsp;</td>
-    <td align="left"><p>
-        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Taming LLMs by Scaling Learning Rates with Gradient Grouping</a></b></font><br>
-        Siyuan Li<sup>🌟</sup>, Juanxi Tian<sup>🌟</sup>, Zedong Wang<sup>🌟</sup>,<b>Xin Jin</b>, Zicheng Liu<sup>✉️</sup>, Wentao Zhang, Dan Xu
-        <br><span class="pub-info"><i><b>ACL-main</b>, 2025</i> 
-        [<a href="https://arxiv.org/abs/2506.01049" target="_blank" style="color:#2a7ce0">arXiv</a>]
-        [<a href="https://huggingface.co/papers/2506.01049" target="_blank" style="color:#2a7ce0">HF DailyPapers Top-4</a>]
-        [<a href="./assets/bibtex/ACL_2025_SGG_bibtex.html" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
-</p></td></tr>
-</table>
-
 <!-- SUMix: Mixup with Semantic and Uncertain Information -->
 <table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
     <img src="./assets/img/SUMix.png" alt="" />&nbsp;</td>
@@ -197,11 +186,35 @@ Feel free to contact me for academic and research discussions. Please drop me an
 </p></td></tr>
 </table>
 
+**Conferences (As Co-author):**
+*To the papers I co-authored (as the first author other than the first author), this indicates that I contributed to a portion of the work (including some experiments, writing, drawing figures, and the discussion).*
+
+<!-- Taming LLMs by Scaling Learning Rates with Gradient Grouping -->
+<table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
+    <img src="./assets/img/SGG.png" alt="" />&nbsp;</td>
+    <td align="left"><p>
+        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">Taming LLMs by Scaling Learning Rates with Gradient Grouping</a></b></font><br>
+        Siyuan Li<sup>🌟</sup>, Juanxi Tian<sup>🌟</sup>, Zedong Wang<sup>🌟</sup>,<b>Xin Jin</b>, Zicheng Liu<sup>✉️</sup>, Wentao Zhang, Dan Xu
+        <br><span class="pub-info"><i><b>ACL-main</b>, 2025</i> 
+        [<a href="https://arxiv.org/abs/2506.01049" target="_blank" style="color:#2a7ce0">arXiv</a>]
+        [<a href="https://huggingface.co/papers/2506.01049" target="_blank" style="color:#2a7ce0">HF DailyPapers Top-4</a>]
+        [<a href="./assets/bibtex/ACL_2025_SGG_bibtex.html" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
+</p></td></tr>
+</table>
+
+<!-- $ S^{2} $-FracMix: Self-Saliency Fractal Mixup -->
+<table class="imgtable"><tr>
+    <td align="left"><p>
+        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">$ S^{2} $-FracMix: Self-Saliency Fractal Mixup</a></b></font><br>
+        Khawar Islam, Arif Mahmood, <b>Xin Jin</b>, NAVEED AKHTAR
+        <br><span class="pub-info"><i><b>ECCV</b>, 2026</i> 
+</p></td></tr>
+</table>
+
 **Journals:**
 
 <!-- EM-DARTS: Hierarchical Differentiable Architecture Search for Eye Movement Recognition -->
-<table class="imgtable"><tr><td style="width:220px;height:130px">
-    <img src="./assets/img/EM-DARTS.png" alt="" />&nbsp;</td>
+<table class="imgtable"><tr>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">EM-DARTS: Hierarchical Differentiable Architecture Search for Eye Movement Recognition</a></b></font><br>
         Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Xin Yu, Mounim A. El-Yacoubi, and Shuqiang Yang 
@@ -212,8 +225,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
 </table>
 
 <!-- EmMixformer: Mix Transformer for Eye Movement Recognition -->
-<table class="imgtable"><tr><td style="width:220px;height:130px">
-    <img src="./assets/img/EmMixFomer.jpg" alt="" />&nbsp;</td>
+<table class="imgtable"><tr>
     <td align="left"><p>
         <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">EmMixformer: Mix Transformer for Eye Movement Recognition</a></b></font><br>
         Huafeng Qin, Hongyu Zhu, <b>Xin Jin</b>, Qun Song, Mounim A. El-Yacoubi, and <i>IEEE Fellow</i> Xinbo Gao 
@@ -230,7 +242,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
  - **Conference Reviewer:**  
 ICLR (2025-2026), CVPR (2026), ICML (2026), ECCV (2026), ~~NeurIPS (2026)~~, ACMMM (2026)
  - **Journal Reviewer:**  
-Pattern Recognition.
+Pattern Recognition,  Frontiers in Computer Science.
  - **Membership**  
 2024 - 2025 Student Member of IEEE  
 2024 - 2025 Member of China Computer Federation (CCF)
