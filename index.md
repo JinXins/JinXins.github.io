@@ -188,7 +188,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
 
 ### **Conferences (As Co-author):**
 
-*To the papers I co-authored (as the first author other than the first author), this indicates that I contributed to a portion of the work (including some experiments, writing, drawing figures, and the discussion).*
+*To the papers I co-authored (as the second author), this indicates that I contributed to a portion of the work (including some experiments, writing, drawing figures, and the discussion).*
 
 <!-- Taming LLMs by Scaling Learning Rates with Gradient Grouping -->
 <table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
