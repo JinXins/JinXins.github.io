@@ -137,8 +137,8 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 8px;
+    margin-top: 2px;
+    margin-bottom: 4px;
   }
 }
 
@@ -147,7 +147,7 @@
 
   @include breakpoint($large) {
     margin-top: 0;
-    margin-bottom: 4px;
+    margin-bottom: 0px;
   }
 }
 

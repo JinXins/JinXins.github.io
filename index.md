@@ -87,7 +87,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
 # Publications 📖
 (🌟: Equal Contribution. ✉️: Corresponding Author.)
 
-**Selected Preprints:**
+### **Selected Preprints:**
 
 <table class="imgtable"><tr><td style="width:220px;height:130px">
     <img src="./assets/img/LVOmniBench.png" alt="" />&nbsp;</td>
@@ -125,7 +125,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
 </p></td></tr>
 </table>
 
-**Conferences (As First Author):**
+### **Conferences (As First Author):**
 
 <!-- EarlyTom: Early Token Compression Completes Fast Video Understanding -->
 <table class="imgtable"><tr><td class="table-row" style="width:220px;height:130px">
@@ -186,7 +186,8 @@ Feel free to contact me for academic and research discussions. Please drop me an
 </p></td></tr>
 </table>
 
-**Conferences (As Co-author):**
+### **Conferences (As Co-author):**
+
 *To the papers I co-authored (as the first author other than the first author), this indicates that I contributed to a portion of the work (including some experiments, writing, drawing figures, and the discussion).*
 
 <!-- Taming LLMs by Scaling Learning Rates with Gradient Grouping -->
@@ -211,7 +212,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
 </p></td></tr>
 </table>
 
-**Journals:**
+### **Journals:**
 
 <!-- EM-DARTS: Hierarchical Differentiable Architecture Search for Eye Movement Recognition -->
 <table class="imgtable"><tr>
