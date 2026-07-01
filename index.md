@@ -43,19 +43,20 @@ Feel free to contact me for academic and research discussions. Please drop me an
 <span class='anchor' id='experiences'></span>
 
 # Experiences 📝
-<!-- Chongqing Financial Institute -->
+
+<!-- Westlake University -->
 <table class="imgtable experience-table"><tr><td>
-    <img src="./assets/img/CQFI.jpg" alt="" width="220px" /></td>
+    <img class="experience-logo--small" src="./assets/img/westlake_logo.png" alt="" width="150px" /></td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
-          <b> Research Intern </b> | <a target="_blank" style="color:#2a7ce0">
-            Chongqing Financial Institute
+          <b> Research Assistant </b> | <a target="_blank" style="color:#2a7ce0">
+            Westlake University
           </a>
         </font>
-        <br>Time: July 2023 - Sept 2023. Advisor: <a href="https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN">  Prof. Huafeng Qin</a>.<br>
+        <br>Time: July. 2025 -- Present. Advisor: <a href="https://scholar.google.com/citations?user=0-On0y4AAAAJ&hl=en">  Prof. Huan Wang</a>.<br>
         </p></td></tr>
 </table>
-          
+
 <!-- Westlake University -->
 <table class="imgtable experience-table"><tr><td>
     <img class="experience-logo--small" src="./assets/img/westlake_logo.png" alt="" width="150px" /></td>
@@ -69,16 +70,16 @@ Feel free to contact me for academic and research discussions. Please drop me an
         </p></td></tr>
 </table>
 
-<!-- Westlake University -->
+<!-- Chongqing Financial Institute -->
 <table class="imgtable experience-table"><tr><td>
-    <img class="experience-logo--small" src="./assets/img/westlake_logo.png" alt="" width="150px" /></td>
+    <img src="./assets/img/CQFI.jpg" alt="" width="220px" /></td>
     <td style="text-align:left; vertical-align:top"><p>
         <font face="Lato">
-          <b> Research Assistant </b> | <a target="_blank" style="color:#2a7ce0">
-            Westlake University
+          <b> Research Intern </b> | <a target="_blank" style="color:#2a7ce0">
+            Chongqing Financial Institute
           </a>
         </font>
-        <br>Time: July. 2025 -- Present. Advisor: <a href="https://scholar.google.com/citations?user=0-On0y4AAAAJ&hl=en">  Prof. Huan Wang</a>.<br>
+        <br>Time: July 2023 - Sept 2023. Advisor: <a href="https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN">  Prof. Huafeng Qin</a>.<br>
         </p></td></tr>
 </table>
 
