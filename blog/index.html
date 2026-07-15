@@ -1,23 +1,65 @@
 ---
-layout: default
-title: Blog
-permalink: /blog/
-excerpt: ""
-author_profile: false
 ---
-
-<section class="blog-page">
-  <header class="blog-page__header">
-    <p class="blog-page__eyebrow">Notes / Blog</p>
-    <h1>Blog</h1>
-  </header>
-
-  <div class="blog-grid" role="list" aria-label="Blog entries">
-    {% for block in site.data.blog_blocks %}
-      <a class="blog-card" role="listitem" href="{{ block.url }}"{% if block.target %} target="{{ block.target }}"{% if block.target == '_blank' %} rel="noopener noreferrer"{% endif %}{% endif %}>
-        <span class="blog-card__title">{{ block.title }}</span>
-        <span class="blog-card__date">{{ block.date }}</span>
-      </a>
-    {% endfor %}
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title>Blog | Xin Jin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/jpeg" href="../assets/icon.jpg">
+  <link rel="apple-touch-icon" href="../assets/icon.jpg">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';</script>
+</head>
+<body class="blog-page-layout">
+  <div class="masthead">
+    <div class="masthead__inner-wrap">
+      <div class="masthead__menu">
+        <nav id="site-nav" class="greedy-nav">
+          <button><div class="navicon"></div></button>
+          <ul class="visible-links">
+            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="../#about-me">Homepage</a></li>
+            <li class="masthead__menu-item"><a href="../#about-me">About Me</a></li>
+            <li class="masthead__menu-item"><a href="../#news">News</a></li>
+            <li class="masthead__menu-item"><a href="../#experiences">Experiences</a></li>
+            <li class="masthead__menu-item"><a href="../#publications">Publications</a></li>
+            <li class="masthead__menu-item"><a href="../#services">Services</a></li>
+            <li class="masthead__menu-item"><a href="../#awards">Awards</a></li>
+            <li class="masthead__menu-item"><a href="../#interests">Interests</a></li>
+            <li class="masthead__menu-item"><a href="../photography/index.html">Photography</a></li>
+            <li class="masthead__menu-item"><a href="./index.html">Blog</a></li>
+            <li class="masthead__menu-item"><a href="../assets/Xin_Jin_Resume.pdf">Resume</a></li>
+          </ul>
+          <ul class="hidden-links hidden"></ul>
+        </nav>
+      </div>
+    </div>
   </div>
-</section>
+
+  <div id="main" role="main">
+    <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+      <div class="page__inner-wrap">
+        <section class="page__content" itemprop="text">
+          <section class="blog-page">
+            <header class="blog-page__header">
+              <p class="blog-page__eyebrow">Notes / Blog</p>
+              <h1>Blog</h1>
+            </header>
+
+            <div class="blog-grid" role="list" aria-label="Blog entries">
+              {% for block in site.data.blog_blocks %}
+                <a class="blog-card" role="listitem" href="{{ block.url }}"{% if block.target %} target="{{ block.target }}"{% if block.target == '_blank' %} rel="noopener noreferrer"{% endif %}{% endif %}>
+                  <span class="blog-card__title">{{ block.title }}</span>
+                  <span class="blog-card__date">{{ block.date }}</span>
+                </a>
+              {% endfor %}
+            </div>
+          </section>
+        </section>
+      </div>
+    </article>
+  </div>
+
+  <script src="../assets/js/main.min.js"></script>
+</body>
+</html>
