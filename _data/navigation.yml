@@ -24,5 +24,8 @@ main:
   - title: "Photography"
     url: "/photography/index.html"
 
+  - title: "Blog"
+    url: "/blog/"
+
   - title: "Resume"
     url: "/assets/Xin_Jin_Resume.pdf"

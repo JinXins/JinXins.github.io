@@ -1,0 +1,24 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+excerpt: ""
+author_profile: false
+---
+
+<section class="blog-page">
+  <header class="blog-page__header">
+    <p class="blog-page__eyebrow">Notes / Blog</p>
+    <h1>Blog</h1>
+    <p class="blog-page__lead">A modular record of short updates, links, and notes.</p>
+  </header>
+
+  <div class="blog-grid" role="list" aria-label="Blog entries">
+    {% for block in site.data.blog_blocks %}
+      <a class="blog-card" role="listitem" href="{{ block.url }}"{% if block.target %} target="{{ block.target }}"{% if block.target == '_blank' %} rel="noopener noreferrer"{% endif %}{% endif %}>
+        <span class="blog-card__title">{{ block.title }}</span>
+        <span class="blog-card__date">{{ block.date }}</span>
+      </a>
+    {% endfor %}
+  </div>
+</section>
