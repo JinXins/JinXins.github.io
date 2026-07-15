@@ -9727,15 +9727,16 @@ h1:before, .anchor:before {
 }
 
 .blog-page {
-  max-width: 1320px;
-  margin: 0 auto;
+  width: 100%;
+  min-height: calc(100vh - 7rem);
+  box-sizing: border-box;
   padding: clamp(1.5rem, 3vw, 3rem);
-  border: 1px solid rgba(143, 186, 143, 0.35);
-  border-radius: 28px;
   background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0) 35%), linear-gradient(180deg, #effaf0 0%, #e7f5e6 100%);
-  box-shadow: 0 18px 40px rgba(70, 110, 70, 0.08);
 }
 
+.blog-page-layout {
+  background: #e7f5e6;
+}
 .blog-page-layout #main {
   width: min(90vw, 1500px);
   max-width: none;
@@ -9764,14 +9765,6 @@ h1:before, .anchor:before {
   font-size: clamp(2rem, 4vw, 3.2rem);
   line-height: 1.1;
   letter-spacing: 0.02em;
-}
-
-.blog-page__eyebrow {
-  margin: 0 0 0.45rem;
-  color: #6b8a6c;
-  font-size: 0.82rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
 }
 
 .blog-grid {
