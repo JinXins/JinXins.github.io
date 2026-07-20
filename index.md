@@ -9,13 +9,13 @@ author_profile: true
 <span class='anchor' id='about-me'></span>
 
 # About Me 😄
-Hi, I'm Xin Jin (金 鑫). I worked as a research assistant at Westlake University, advised by Prof. [Huan Wang](https://scholar.google.com/citations?hl=zh-CN&user=0-On0y4AAAAJ). I received my M.S. degree in Computer Science from Chongqing Technology and Business University in 2025, under the supervision of Prof. Huafeng Qin. In 2022, I obtained my B.E. degree in Internet of Things Engineering from Pass College of Chongqing Technology and Business University.
+Hi, I'm Xin Jin (金 鑫). I worked as a research assistant at Westlake University, advised by Prof. [Huan Wang](https://scholar.google.com/citations?hl=zh-CN&user=0-On0y4AAAAJ) from 2025-2026. I received my M.S. degree in Computer Science from Chongqing Technology and Business University in 2025, under the supervision of Prof. Huafeng Qin. In 2022, I obtained my B.E. degree in Internet of Things Engineering from Pass College of Chongqing Technology and Business University.
 
 **Research:** Currently, my research centers on **Efficient AI**, **Large Language Models**, and **Multi-modal Large Language Models**. Previously, my research focused on Data Augmentation and Biometric Identification.
 
 **Interests:** In my spare time, I am an amateur photographer with a passion for capturing scenery and starry sky shots 🌌. I use both digital cameras 📷 and film cameras 🎞️ for my photography.
 
-Feel free to contact me for academic and research discussions. Please drop me an email at ``jinxin86@westlake.edu.cn``.
+Feel free to contact me for academic and research discussions. Please drop me an email at ``jinxin86@westlake.edu.cn``(will terminate in Jan. 2027) or ``Xin.Jin@monash.edu``.
 
 **<font color="#FF0000">I am actively seeking 26 Fall or 27 Spring PhD opportunities!</font>**
 
