@@ -9,7 +9,7 @@ author_profile: true
 <span class='anchor' id='about-me'></span>
 
 # About Me 😄
-Hi, I'm Xin Jin (金 鑫). I worked as a research assistant at Westlake University, advised by Prof. [Huan Wang](https://scholar.google.com/citations?hl=zh-CN&user=0-On0y4AAAAJ) from 2025-2026. I received my M.S. degree in Computer Science from Chongqing Technology and Business University in 2025, under the supervision of Prof. Huafeng Qin. In 2022, I obtained my B.E. degree in Internet of Things Engineering from Pass College of Chongqing Technology and Business University.
+Hi, I'm Xin Jin (金 鑫). I am a Research Assistant at Monash University, advised by Prof. [Zongyuan Ge](https://scholar.google.com/citations?user=Q0gUrcIAAAAJ&hl=zh-CN&oi=ao) and [Cunjian Chen](https://scholar.google.com/citations?user=f26cvh8AAAAJ&hl=en). I worked as a Research Assistant at Westlake University, advised by Prof. [Huan Wang](https://scholar.google.com/citations?hl=zh-CN&user=0-On0y4AAAAJ) from 2025-2026. I received my M.S. degree in Computer Science from Chongqing Technology and Business University in 2025, under the supervision of Prof. Huafeng Qin. In 2022, I obtained my B.E. degree in Internet of Things Engineering from Pass College of Chongqing Technology and Business University.
 
 **Research:** Currently, my research centers on **Efficient AI**, **Large Language Models**, and **Multi-modal Large Language Models**. Previously, my research focused on Data Augmentation and Biometric Identification.
 
@@ -25,6 +25,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
 <div style="max-height:500px;overflow-y:auto;padding:15px;background-color:#f9f9f9;border-radius:6px;">
 
   <ul>
+    <li><b> <font color="#b80000">[Aug., 2026]</font> </b> 🌟 [New Start] Join the Monash University as a Research Assistant, supervised by <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=Q0gUrcIAAAAJ&hl=zh-CN&oi=ao">Prof. Zongyuan Ge</a> and <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=f26cvh8AAAAJ&hl=en">Prof. Cunjian Chen.
     <li><b> <font color="#b80000">[Jul., 2026]</font> </b> 📕 [Preprint] One co-first author paper on morden optimizer benchmak & survey <a href="https://arxiv.org/abs/2607.04033"> OmniOpt</a>, is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[Jul., 2026]</font> </b> 📕 [Preprint] One corresponding author paper on vein recognition benchmark <a href="https://arxiv.org/abs/2607.02271"> AGVBench</a>, is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[Jun., 2026]</font> </b> 🎉 [ECCV2026] One co-author paper on mixup augmentation, S<sup>2</sup>-FracMix is accepted by <b>ECCV 2026</b>, congrats to <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=SFClxNEAAAAJ&hl=zh-CN&oi=ao">Khawar Islam</a></font>. </li>
@@ -33,6 +34,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
     <li><b> <font color="#b80000">[Feb., 2026]</font> </b> 🎉 [CVPR2026] One co-first author paper on efficient video understanding, EarlyTom is accepted by <b>CVPR 2026</b>, congrats to <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=Cz6w2swAAAAJ&hl=zh-CN">Hesong Wang</a></font>. </li>
     <li><b> <font color="#b80000">[Jan., 2026]</font> </b> 🎉 [ICLR2026] One paper on efficient mixup augmentation and preference tuning, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is accepted by <b>ICLR 2026</b>. </li>
     <li><b> <font color="#b80000">[Oct., 2025]</font> </b> 📕 [Preprint] One paper on Mixup & MLLM, <a href="https://arxiv.org/abs/2510.23479"> MergeMix</a> is released on <b>arXiv</b>. </li>
+    <li><b> <font color="#b80000">[Jun., 2025]</font> </b> 🌟 [New Start] Join the Westlake University as a Research Assistant, supervised by <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=0-On0y4AAAAJ&hl=zh-CN">Prof. Huan Wang</a>.
     <li><b> <font color="#b80000">[Feb., 2025]</font> </b> 🎉 [ACL2025] One co-author paper on (M)LLM optimizers, <a href="https://huggingface.co/papers/2506.01049"> SGG</a> is accepted by <b>ACL 2025 main</b>, congrats to <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=SKTQTXwAAAAJ&hl=zh-CN">Siyuan Li</a>, Juanxi Tian and Zedong Wang</font>. </li>
     <li><b> <font color="#b80000">[Feb., 2025]</font> </b> 🎉 [IEEE TIM] Two co-author papers on eye moment identification, <a href="https://arxiv.org/abs/2401.04956"> EMMixFormer</a> and <a href="https://arxiv.org/abs/2409.14432"> EM-DARTS</a> are accepted by <b>IEEE TIM</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
     <li><b> <font color="#b80000">[Nov., 2024]</font> </b> 🎉 [CCBR2024] One co-first author paper on eye moment identification, <a href="https://link.springer.com/chapter/10.1007/978-981-96-1071-6_11"> Relax DARTS</a>, is accepted by <b>CCBR 2024 (<font color="#FF0000">Oral</font>)</b>, congrats to <font color="#2a7ce0">Hongyu Zhu</font>. </li>
@@ -45,6 +47,19 @@ Feel free to contact me for academic and research discussions. Please drop me an
 <span class='anchor' id='experiences'></span>
 
 # Experiences 📝
+
+<!-- Westlake University -->
+<table class="imgtable experience-table"><tr><td>
+    <img class="experience-logo--small" src="./assets/img/Monash_Black_RGB.png" alt="" width="150px" /></td>
+    <td style="text-align:left; vertical-align:top"><p>
+        <font face="Lato">
+          <b> Research Assistant </b> | <a target="_blank" style="color:#2a7ce0">
+            Monash University
+          </a>
+        </font>
+        <br>Time: Aug.-2026 -- Jun. 2027. Advisor: <a href="https://scholar.google.com/citations?user=Q0gUrcIAAAAJ&hl=zh-CN&oi=ao"> Prof. Zongyuan Ge</a>, <a href="https://scholar.google.com/citations?user=f26cvh8AAAAJ&hl=en"> Prof. Cunjian Chen</a>,.<br>
+        </p></td></tr>
+</table>
 
 <!-- Westlake University -->
 <table class="imgtable experience-table"><tr><td>
