@@ -25,7 +25,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
 <div style="max-height:500px;overflow-y:auto;padding:15px;background-color:#f9f9f9;border-radius:6px;">
 
   <ul>
-    <li><b> <font color="#b80000">[Aug., 2026]</font> </b> 🌟 [New Start] Join the Monash University as a Research Assistant, supervised by <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=Q0gUrcIAAAAJ&hl=zh-CN&oi=ao">Prof. Zongyuan Ge</a></font> and <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=f26cvh8AAAAJ&hl=en">Prof. Cunjian Chen</font>.
+    <li><b> <font color="#b80000">[Aug., 2026]</font> </b> 🌟 [New Start] Join the Monash University as a Research Assistant, supervised by <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=Q0gUrcIAAAAJ&hl=zh-CN&oi=ao">Prof. Zongyuan Ge</a></font> and <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=f26cvh8AAAAJ&hl=en">Prof. Cunjian Chen</a></font>.
     <li><b> <font color="#b80000">[Jul., 2026]</font> </b> 📕 [Preprint] One co-first author paper on morden optimizer benchmak & survey <a href="https://arxiv.org/abs/2607.04033"> OmniOpt</a>, is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[Jul., 2026]</font> </b> 📕 [Preprint] One corresponding author paper on vein recognition benchmark <a href="https://arxiv.org/abs/2607.02271"> AGVBench</a>, is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[Jun., 2026]</font> </b> 🎉 [ECCV2026] One co-author paper on mixup augmentation, S<sup>2</sup>-FracMix is accepted by <b>ECCV 2026</b>, congrats to <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=SFClxNEAAAAJ&hl=zh-CN&oi=ao">Khawar Islam</a></font>. </li>
