@@ -24,6 +24,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
 # News 📰
 <div style="max-height:500px;overflow-y:auto;padding:15px;background-color:#f9f9f9;border-radius:6px;">
   <ul>
+    <li><b> <font color="#b80000">[Sept., 2026]</font> </b> 🎉 [NeurIPS2026] One co-author paper on image generation, RanKE is accepted by <b>NeurIPS 2026</b>, congrats to <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=BodnjL0AAAAJ&hl=zh-CN&oi=ao">Siyong Jian</a></font>. </li>
     <li><b> <font color="#b80000">[Aug., 2026]</font> </b> 🌟 [New Start] Join the Monash University as a Research Assistant, supervised by <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=Q0gUrcIAAAAJ&hl=zh-CN&oi=ao">Prof. Zongyuan Ge</a></font> and <font color="#2a7ce0"><a href="https://scholar.google.com/citations?user=f26cvh8AAAAJ&hl=en">Prof. Cunjian Chen</a></font>.  </li>
     <li><b> <font color="#b80000">[Jul., 2026]</font> </b> 📕 [Preprint] One co-first author paper on morden optimizer benchmak & survey <a href="https://arxiv.org/abs/2607.04033"> OmniOpt</a>, is released on <b>arXiv</b>. </li>
     <li><b> <font color="#b80000">[Jul., 2026]</font> </b> 📕 [Preprint] One corresponding author paper on vein recognition benchmark <a href="https://arxiv.org/abs/2607.02271"> AGVBench</a>, is released on <b>arXiv</b>. </li>
@@ -250,6 +251,15 @@ Feel free to contact me for academic and research discussions. Please drop me an
         [<a href="https://arxiv.org/abs/2506.01049" target="_blank" style="color:#2a7ce0">arXiv</a>]
         [<a href="https://huggingface.co/papers/2506.01049" target="_blank" style="color:#2a7ce0">HF DailyPapers Top-4</a>]
         [<a href="./assets/bibtex/ACL_2025_SGG_bibtex.html" target="_blank" style="color:#2a7ce0">BibTeX</a>]</span>
+</p></td></tr>
+</table>
+
+<!-- RankE: End-to-End Post-Training for Discrete Text-to-Image Generation with Decoder Co-Evolution -->
+<table class="imgtable"><tr>
+    <td align="left"><p>
+        <font face="Lato"><b><a target="_blank" style="color:#2a7ce0">RankE: End-to-End Post-Training for Discrete Text-to-Image Generation with Decoder Co-Evolution</a></b></font><br>
+        Siyong Jian<sup>🌟</sup>, Siyuan Li<sup>🌟</sup>, Luyuan Zhang<sup>🌟</sup>, Zedong Wang, <b>Xin Jin</b>, Ying Li, Cheng Tan<sup>✉️</sup>, Huan Wang<sup>✉️</sup>
+        <br><span class="pub-info"><i><b>NeurIPS</b>, 2026</i></span>
 </p></td></tr>
 </table>
 
