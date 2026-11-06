@@ -9,7 +9,7 @@ author_profile: true
 <span class='anchor' id='about-me'></span>
 
 # About Me 😄
-Hi, I'm Xin Jin (金 鑫). I am a Research Assistant at Monash University, advised by Prof. [Zongyuan Ge](https://scholar.google.com/citations?user=Q0gUrcIAAAAJ&hl=zh-CN&oi=ao) and [Cunjian Chen](https://scholar.google.com/citations?user=f26cvh8AAAAJ&hl=en). I worked as a Research Assistant at Westlake University, advised by Prof. [Huan Wang](https://scholar.google.com/citations?hl=zh-CN&user=0-On0y4AAAAJ) from 2025-2026. I received my M.S. degree in Computer Science from Chongqing Technology and Business University in 2025, under the supervision of Prof. Huafeng Qin. In 2022, I obtained my B.E. degree in Internet of Things Engineering from Pass College of Chongqing Technology and Business University.
+Hi, I'm Xin Jin (金 鑫). I am a Research Assistant at Monash University, advised by Prof. [Zongyuan Ge](https://scholar.google.com/citations?user=Q0gUrcIAAAAJ&hl=zh-CN&oi=ao) and [Cunjian Chen](https://scholar.google.com/citations?user=f26cvh8AAAAJ&hl=en). I worked as a Research Assistant at Westlake University, advised by Prof. [Huan Wang](https://scholar.google.com/citations?hl=zh-CN&user=0-On0y4AAAAJ) from 2025-2026. I received my M.S. degree in Computer Science from Chongqing Technology and Business University in 2025. In 2022, I obtained my B.E. degree in Internet of Things Engineering from Pass College of Chongqing Technology and Business University.
 
 **Research:** Currently, my research centers on **Efficient AI**, **Large Language Models**, and **Multi-modal Large Language Models**. Previously, my research focused on Data Augmentation and Biometric Identification.
 
@@ -96,7 +96,7 @@ Feel free to contact me for academic and research discussions. Please drop me an
             Chongqing Financial Institute
           </a>
         </font>
-        <br>Time: Jul.-2023 -- Sept.-2023. Advisor: <a href="https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN">  Prof. Huafeng Qin</a>.<br>
+        <br>Time: Jul.-2023 -- Sept.-2023.<br>
         </p></td></tr>
 </table>
 
